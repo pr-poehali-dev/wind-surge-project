@@ -3,6 +3,50 @@ import { ArrowRight, Menu } from "lucide-react"
 import { LineShadowText } from "@/components/line-shadow-text"
 import { ShimmerButton } from "@/components/shimmer-button"
 import { useState } from "react"
+import Icon from "@/components/ui/icon"
+
+const services = [
+  {
+    icon: "Zap",
+    title: "Кастомные фары",
+    description: "Светодиодная оптика, ангельские глазки, лазерная графика — превратим свет в искусство.",
+  },
+  {
+    icon: "Shield",
+    title: "Кастомные бампера",
+    description: "Агрессивный дизайн, встроенные воздухозаборники — мощь с первого взгляда.",
+  },
+  {
+    icon: "Grid",
+    title: "Решётки радиатора",
+    description: "Уникальный паттерн, подсветка, логотипы — лицо вашего автомобиля.",
+  },
+  {
+    icon: "Triangle",
+    title: "Кастомные спойлеры",
+    description: "Крышки багажника, антикрылья, задние диффузоры — аэродинамика и стиль.",
+  },
+  {
+    icon: "Car",
+    title: "Кастомные кузова",
+    description: "Расширение арок, переработка линий, body kit — полная трансформация.",
+  },
+  {
+    icon: "PenTool",
+    title: "Обвес под заказ",
+    description: "От эскиза до готового изделия — эксклюзивный обвес под вашу идею.",
+  },
+  {
+    icon: "Box",
+    title: "3D-проектирование",
+    description: "3D-моделирование и прототипирование пластиковых обвесов любой сложности.",
+  },
+  {
+    icon: "Layers",
+    title: "Эксклюзивные детали",
+    description: "Накладки, пороги, вставки, навесные элементы — каждая деталь под вас.",
+  },
+]
 
 export default function Index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -691,20 +735,20 @@ export default function Index() {
       {/* Header Navigation */}
       <header className="relative z-10 flex items-center justify-between px-4 sm:px-6 py-4 lg:px-12">
         <div className="flex items-center space-x-2 pl-3 sm:pl-6 lg:pl-12">
-          <span className="text-white font-bold text-lg sm:text-xl lg:text-2xl">NeonForge</span>
+          <span className="text-white font-bold text-lg sm:text-xl lg:text-2xl tracking-wider">NAMAKS <span className="text-orange-400">CUSTOM</span></span>
         </div>
 
         <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
-          <a href="#" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
-            Возможности
+          <a href="#services" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
+            Услуги
           </a>
-          <a href="#" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
-            Тарифы
+          <a href="#works" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
+            Работы
           </a>
-          <a href="#" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
+          <a href="#about" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
             О нас
           </a>
-          <a href="#" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
+          <a href="#contacts" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
             Контакты
           </a>
         </nav>
@@ -715,27 +759,27 @@ export default function Index() {
         </button>
 
         <ShimmerButton className="hidden md:flex bg-orange-500 hover:bg-orange-600 text-white px-4 lg:px-6 py-2 rounded-xl text-sm lg:text-base font-medium shadow-lg">
-          Начать
+          Заказать
         </ShimmerButton>
       </header>
 
       {mobileMenuOpen && (
         <div className="md:hidden absolute top-16 left-0 right-0 bg-black/95 backdrop-blur-sm border-b border-white/10 z-20">
           <nav className="flex flex-col space-y-4 px-6 py-6">
-            <a href="#" className="text-white/80 hover:text-white transition-colors">
-              Возможности
+            <a href="#services" className="text-white/80 hover:text-white transition-colors">
+              Услуги
             </a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors">
-              Тарифы
+            <a href="#works" className="text-white/80 hover:text-white transition-colors">
+              Работы
             </a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors">
+            <a href="#about" className="text-white/80 hover:text-white transition-colors">
               О нас
             </a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors">
+            <a href="#contacts" className="text-white/80 hover:text-white transition-colors">
               Контакты
             </a>
             <ShimmerButton className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-xl text-sm font-medium shadow-lg w-fit">
-              Начать
+              Заказать
             </ShimmerButton>
           </nav>
         </div>
@@ -743,35 +787,85 @@ export default function Index() {
 
       {/* Main Content */}
       <main className="relative z-10 flex flex-col items-start justify-start sm:justify-center min-h-[calc(100vh-80px)] px-4 sm:px-6 lg:px-12 max-w-6xl pt-4 sm:-mt-12 lg:-mt-24 pl-6 sm:pl-12 lg:pl-20">
-        {/* Trial Badge */}
+        {/* Badge */}
         <div className="mb-4 sm:mb-8">
           <div className="inline-flex items-center bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-3 sm:px-4 py-2">
-            <span className="text-white text-xs md:text-xs">14 дней бесплатно</span>
+            <span className="text-orange-400 text-xs md:text-xs font-semibold tracking-widest uppercase">Кастомизация авто</span>
           </div>
         </div>
 
         <h1 className="text-white text-4xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold leading-tight mb-4 sm:mb-6 text-balance">
-          Собери портфолио
+          Твой автомобиль —
           <br />
-          за{" "}
+          твоё{" "}
           <LineShadowText className="italic font-light" shadowColor="white">
-            минуты
+            правило
           </LineShadowText>
         </h1>
 
         <p className="text-white/70 text-sm sm:text-base md:text-sm lg:text-2xl mb-6 sm:mb-8 max-w-2xl text-pretty">
-          Присоединяйся к сообществу цифровых художников,
+          Кастомные фары, бампера, обвесы и кузова —
           <br className="hidden sm:block" />
           <span className="sm:hidden"> </span>
-          создающих захватывающие работы.
+          от идеи до готового изделия под ваш стиль.
         </p>
 
         <Button className="group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base md:text-xs lg:text-lg font-semibold flex items-center gap-2 backdrop-blur-sm border border-orange-400/30 shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105 hover:-translate-y-0.5">
-          Начать сейчас
+          Обсудить проект
           <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-rotate-12 transition-transform duration-300" />
           <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-white/0 via-white/10 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </Button>
       </main>
+
+      {/* Services Section */}
+      <section id="services" className="relative z-10 px-4 sm:px-6 lg:px-20 py-20 sm:py-28">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <p className="text-orange-400 text-xs font-semibold tracking-widest uppercase mb-3">Что мы делаем</p>
+            <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold">
+              Полный спектр{" "}
+              <span className="text-orange-400">кастомизации</span>
+            </h2>
+            <p className="text-white/50 mt-4 text-base sm:text-lg max-w-xl mx-auto">
+              Каждый элемент — ручная работа. Каждый проект — уникален.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="group bg-white/5 hover:bg-white/10 border border-white/10 hover:border-orange-400/40 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-orange-500/10"
+              >
+                <div className="w-10 h-10 rounded-xl bg-orange-500/20 flex items-center justify-center mb-4 group-hover:bg-orange-500/30 transition-colors">
+                  <Icon name={service.icon} size={20} className="text-orange-400" />
+                </div>
+                <h3 className="text-white font-semibold text-base mb-2">{service.title}</h3>
+                <p className="text-white/50 text-sm leading-relaxed">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section id="contacts" className="relative z-10 px-4 sm:px-6 lg:px-20 pb-24">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="bg-gradient-to-br from-white/5 to-orange-500/10 border border-orange-400/20 rounded-3xl px-8 py-14 backdrop-blur-sm">
+            <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4">
+              Готовы создать что-то{" "}
+              <span className="text-orange-400">эксклюзивное?</span>
+            </h2>
+            <p className="text-white/60 text-base sm:text-lg mb-8 max-w-lg mx-auto">
+              Расскажите об идее — мы воплотим её в металле и пластике.
+            </p>
+            <Button className="group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-3 rounded-xl text-lg font-semibold flex items-center gap-2 mx-auto backdrop-blur-sm border border-orange-400/30 shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105">
+              Связаться с нами
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+            </Button>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
