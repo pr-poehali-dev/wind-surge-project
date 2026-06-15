@@ -179,125 +179,79 @@ export default function Index() {
             проекты
           </h2>
 
-          {/* Bento grid */}
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3">
+          {/* Mosaic grid */}
+          <div className="grid grid-cols-2 lg:grid-cols-12 gap-2 sm:gap-3 auto-rows-[220px] sm:auto-rows-[260px]">
 
-            {/* Large — full car, front 3/4 */}
-            <div className="col-span-2 lg:col-span-2 group relative overflow-hidden" style={{ aspectRatio: "16/9" }}>
+            {/* 1. Финик Горилла — большой слева */}
+            <div className="col-span-2 lg:col-span-7 row-span-2 group relative overflow-hidden">
               <img
-                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/05f30e56-b0be-4fe8-bf07-72d7a81b8a93.png"
-                alt="Mercedes CLS кастом — морда волка"
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/bd5930f8-3e06-48a1-bd91-421e7ed5a176.png"
+                alt="Infiniti FX — Горилла"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
               <div className="absolute bottom-0 left-0 p-5">
                 <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-xs font-bold tracking-widest uppercase">Mercedes CLS — кастомный обвес «Волк»</p>
+                <p className="text-white text-sm font-black tracking-widest uppercase">Infiniti FX — «Горилла»</p>
+                <p className="text-white/50 text-xs mt-1 tracking-wider uppercase">Кастомный бампер · морда · расширение арок</p>
               </div>
             </div>
 
-            {/* Right tall — bumper close-up */}
-            <div className="col-span-2 lg:col-span-1 group relative overflow-hidden" style={{ aspectRatio: "4/5" }}>
+            {/* 2. CLS Волк — правый верх */}
+            <div className="col-span-1 lg:col-span-5 group relative overflow-hidden">
               <img
                 src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/05f30e56-b0be-4fe8-bf07-72d7a81b8a93.png"
-                alt="Кастомный бампер — клыки"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                style={{ objectPosition: "30% 80%" }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
-              <div className="absolute bottom-0 left-0 p-4">
-                <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-xs font-bold tracking-widest uppercase">Бампер с клыками</p>
-              </div>
-            </div>
-
-            {/* Bottom left — hood mask */}
-            <div className="col-span-1 group relative overflow-hidden aspect-square">
-              <img
-                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/05f30e56-b0be-4fe8-bf07-72d7a81b8a93.png"
-                alt="Маска на капоте"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                style={{ objectPosition: "40% 20%" }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 p-4">
-                <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-xs font-bold tracking-widest uppercase">Маска на капоте</p>
-              </div>
-            </div>
-
-            {/* Bottom center — wheel arch */}
-            <div className="col-span-1 group relative overflow-hidden aspect-square">
-              <img
-                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/05f30e56-b0be-4fe8-bf07-72d7a81b8a93.png"
-                alt="Расширение арок"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                style={{ objectPosition: "85% 70%" }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 p-4">
-                <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-xs font-bold tracking-widest uppercase">Расширение арок</p>
-              </div>
-            </div>
-
-            {/* Bottom right — headlight */}
-            <div className="col-span-2 lg:col-span-1 group relative overflow-hidden aspect-square">
-              <img
-                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/05f30e56-b0be-4fe8-bf07-72d7a81b8a93.png"
-                alt="Кастомные фары"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                style={{ objectPosition: "55% 40%" }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 p-4">
-                <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-xs font-bold tracking-widest uppercase">Кастомные фары</p>
-              </div>
-            </div>
-
-            {/* Finik Kobra — full width */}
-            <div className="col-span-2 lg:col-span-3 group relative overflow-hidden" style={{ aspectRatio: "16/7" }}>
-              <img
-                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/cb82a27f-e4fb-40d7-a11a-235ece41d02b.png"
-                alt="Infiniti FX кастом — Кобра"
+                alt="Mercedes CLS — Волк"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-transparent to-transparent" />
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 p-6 sm:p-10">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
                 <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-sm sm:text-base font-black tracking-widest uppercase">Infiniti FX — обвес «Кобра»</p>
-                <p className="text-white/50 text-xs mt-1 tracking-wider uppercase">Карбоновые клыки · расширение арок · полный body kit</p>
+                <p className="text-white text-xs font-black tracking-widest uppercase">Mercedes CLS — «Волк»</p>
               </div>
             </div>
 
-            {/* Cruiser Gorilla — full width */}
-            <div className="col-span-2 lg:col-span-3 group relative overflow-hidden" style={{ aspectRatio: "16/7" }}>
+            {/* 3. Land Cruiser Горилла — правый низ */}
+            <div className="col-span-1 lg:col-span-5 group relative overflow-hidden">
               <img
                 src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/c774ad16-b2d9-43fb-9dcc-cd526eea672d.png"
-                alt="Land Cruiser кастом — горилла"
+                alt="Land Cruiser — Горилла"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-transparent to-transparent" />
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 p-6 sm:p-10">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
                 <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-sm sm:text-base font-black tracking-widest uppercase">Land Cruiser — обвес «Горилла»</p>
-                <p className="text-white/50 text-xs mt-1 tracking-wider uppercase">Кастомная морда · LED-фары с оранжевыми глазами · лифт подвески</p>
+                <p className="text-white text-xs font-black tracking-widest uppercase">Land Cruiser — «Горилла»</p>
               </div>
             </div>
 
-            {/* BMW Shark — full width */}
-            <div className="col-span-2 lg:col-span-3 group relative overflow-hidden" style={{ aspectRatio: "16/7" }}>
+            {/* 4. Финик Кобра — нижний левый */}
+            <div className="col-span-1 lg:col-span-6 group relative overflow-hidden">
               <img
-                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/7664a75e-f98d-40e6-9969-17d71178475b.png"
-                alt="BMW M6 кастом — акулья пасть"
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/cb82a27f-e4fb-40d7-a11a-235ece41d02b.png"
+                alt="Infiniti FX — Кобра"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-transparent to-transparent" />
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 p-6 sm:p-10">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
                 <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-sm sm:text-base font-black tracking-widest uppercase">BMW M6 — обвес «Акула»</p>
-                <p className="text-white/50 text-xs mt-1 tracking-wider uppercase">Карбоновые зубы · расширение арок · капот с воздухозаборниками</p>
+                <p className="text-white text-xs font-black tracking-widest uppercase">Infiniti FX — «Кобра»</p>
+                <p className="text-white/50 text-xs mt-0.5 tracking-wider uppercase">Карбоновые клыки · full body kit</p>
+              </div>
+            </div>
+
+            {/* 5. BMW Акула — нижний правый */}
+            <div className="col-span-1 lg:col-span-6 group relative overflow-hidden">
+              <img
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/7664a75e-f98d-40e6-9969-17d71178475b.png"
+                alt="BMW M6 — Акула"
+                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-xs font-black tracking-widest uppercase">BMW M6 — «Акула»</p>
+                <p className="text-white/50 text-xs mt-0.5 tracking-wider uppercase">Карбоновые зубы · воздухозаборники</p>
               </div>
             </div>
 
