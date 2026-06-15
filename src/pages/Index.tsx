@@ -165,6 +165,109 @@ export default function Index() {
         </div>
       </main>
 
+      {/* Gallery Section */}
+      <section id="works" className="relative z-10 px-6 sm:px-10 lg:px-20 pt-24 sm:pt-32">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center gap-4 mb-4">
+            <div className="w-8 h-0.5 bg-red-600" />
+            <p className="text-red-500 text-xs font-bold tracking-[0.3em] uppercase">Наши работы</p>
+          </div>
+          <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-3">
+            Реализованные
+          </h2>
+          <h2 className="text-white/20 text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-12">
+            проекты
+          </h2>
+
+          {/* Bento grid */}
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3">
+            {/* Large left */}
+            <div className="col-span-1 row-span-2 lg:col-span-1 group relative overflow-hidden aspect-[3/4]">
+              <img
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/86df1e84-9305-4580-a7fb-a186ba627393.jpg"
+                alt="Кастомные фары"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-xs font-bold tracking-widest uppercase">Кастомные фары</p>
+              </div>
+            </div>
+
+            {/* Top center */}
+            <div className="col-span-1 group relative overflow-hidden aspect-square">
+              <img
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/38ee36e3-6a05-49f2-ad4b-aab7e0515e3d.jpg"
+                alt="Кастомный бампер"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-xs font-bold tracking-widest uppercase">Бампер</p>
+              </div>
+            </div>
+
+            {/* Top right */}
+            <div className="col-span-1 group relative overflow-hidden aspect-square">
+              <img
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/727e5ed9-8ace-401f-a088-75f251ec8365.jpg"
+                alt="Решётка радиатора"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-xs font-bold tracking-widest uppercase">Решётка</p>
+              </div>
+            </div>
+
+            {/* Bottom center */}
+            <div className="col-span-1 group relative overflow-hidden aspect-square">
+              <img
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/f4a5486e-72af-4b43-971f-e92d81f82070.jpg"
+                alt="Расширение арок"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-xs font-bold tracking-widest uppercase">Расширение арок</p>
+              </div>
+            </div>
+
+            {/* Bottom right */}
+            <div className="col-span-1 group relative overflow-hidden aspect-square">
+              <img
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/a880c230-82e1-438b-b2e4-26f38ca2ed31.jpg"
+                alt="Спойлер и диффузор"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-xs font-bold tracking-widest uppercase">Спойлер</p>
+              </div>
+            </div>
+
+            {/* Wide bottom */}
+            <div className="col-span-2 lg:col-span-3 group relative overflow-hidden" style={{ aspectRatio: "16/5" }}>
+              <img
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/06005af1-78e8-4567-9eed-f6507710ab98.jpg"
+                alt="3D-проектирование"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-transparent to-transparent" />
+              <div className="absolute left-0 top-1/2 -translate-y-1/2 p-6 sm:p-10">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-xs sm:text-sm font-bold tracking-widest uppercase">3D-проектирование и прототипирование</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section id="services" className="relative z-10 px-6 sm:px-10 lg:px-20 py-24 sm:py-32">
         <div className="max-w-6xl mx-auto">
