@@ -256,6 +256,21 @@ export default function Index() {
               </div>
             </div>
 
+            {/* Cruiser Gorilla — full width */}
+            <div className="col-span-2 lg:col-span-3 group relative overflow-hidden" style={{ aspectRatio: "16/7" }}>
+              <img
+                src="https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/c774ad16-b2d9-43fb-9dcc-cd526eea672d.png"
+                alt="Land Cruiser кастом — горилла"
+                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-transparent to-transparent" />
+              <div className="absolute left-0 top-1/2 -translate-y-1/2 p-6 sm:p-10">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-sm sm:text-base font-black tracking-widest uppercase">Land Cruiser — обвес «Горилла»</p>
+                <p className="text-white/50 text-xs mt-1 tracking-wider uppercase">Кастомная морда · LED-фары с оранжевыми глазами · лифт подвески</p>
+              </div>
+            </div>
+
             {/* BMW Shark — full width */}
             <div className="col-span-2 lg:col-span-3 group relative overflow-hidden" style={{ aspectRatio: "16/7" }}>
               <img
