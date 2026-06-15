@@ -7,46 +7,49 @@ import Icon from "@/components/ui/icon"
 
 const BG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png"
 
+const PHONE = "+79022557753"
+const PHONE_DISPLAY = "+7 (902) 255-77-53"
+
 const services = [
   {
     icon: "Zap",
     title: "Кастомные фары",
-    description: "Светодиодная оптика, ангельские глазки, лазерная графика — превратим свет в искусство.",
+    description: "Уникальная светодиодная оптика на заказ: ангельские глазки, лазерная гравировка, индивидуальная графика — эксклюзив для вашего авто.",
   },
   {
     icon: "Shield",
     title: "Кастомные бампера",
-    description: "Агрессивный дизайн, встроенные воздухозаборники — мощь с первого взгляда.",
+    description: "Авторские бамперы с агрессивным дизайном, встроенными воздухозаборниками и уникальными элементами — ни одного похожего.",
   },
   {
     icon: "Grid2x2",
     title: "Решётки радиатора",
-    description: "Уникальный паттерн, подсветка, логотипы — лицо вашего автомобиля.",
+    description: "Кастомные решётки с уникальным паттерном, светодиодной подсветкой и персональной символикой — лицо вашего автомобиля.",
   },
   {
     icon: "Triangle",
-    title: "Кастомные спойлеры",
-    description: "Крышки багажника, антикрылья, задние диффузоры — аэродинамика и стиль.",
+    title: "Спойлеры и диффузоры",
+    description: "Авторские спойлеры, антикрылья и задние диффузоры — аэродинамика и агрессивный стиль в одном изделии.",
   },
   {
     icon: "Car",
-    title: "Кастомные кузова",
-    description: "Расширение арок, переработка линий, body kit — полная трансформация.",
+    title: "Кастомный кузов",
+    description: "Расширение колёсных арок, переработка кузовных линий, полный body kit под заказ — тотальная трансформация автомобиля.",
   },
   {
     icon: "PenTool",
-    title: "Обвес под заказ",
-    description: "От эскиза до готового изделия — эксклюзивный обвес под вашу идею.",
+    title: "Эксклюзивный обвес",
+    description: "Полный цикл: от концепт-эскиза до готового изделия. Разрабатываем уникальный обвес, который существует в единственном экземпляре.",
   },
   {
     icon: "Box",
     title: "3D-проектирование",
-    description: "3D-моделирование и прототипирование пластиковых обвесов любой сложности.",
+    description: "3D-моделирование, прототипирование и производство пластиковых кузовных элементов любой сложности и геометрии.",
   },
   {
     icon: "Layers",
     title: "Эксклюзивные детали",
-    description: "Накладки, пороги, вставки, навесные элементы — каждая деталь под вас.",
+    description: "Авторские накладки, пороги, вставки и навесные элементы — каждая деталь проектируется и изготавливается индивидуально.",
   },
 ]
 
@@ -132,36 +135,36 @@ export default function Index() {
         <div className="mb-6">
           <div className="inline-flex items-center gap-2 border border-red-800/60 bg-red-950/30 px-4 py-1.5 rounded-sm">
             <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-            <span className="text-red-400 text-xs font-bold tracking-[0.3em] uppercase">Кастомизация авто</span>
+            <span className="text-red-400 text-xs font-bold tracking-[0.3em] uppercase">Кастомный тюнинг авто — Москва</span>
           </div>
         </div>
 
         <h1 className="text-white font-black leading-tight mb-6 uppercase tracking-tight"
           style={{ fontSize: "clamp(1.4rem, 3.5vw, 2.8rem)", textShadow: "0 2px 20px rgba(0,0,0,0.9)" }}>
-          Твой автомобиль —
+          Уникальный кастом —
           <br />
-          <span className="text-red-600">твоё&nbsp;</span>
+          <span className="text-red-600">только&nbsp;</span>
           <LineShadowText className="italic font-black text-white" shadowColor="rgba(185,28,28,0.6)">
-            правило
+            для вас
           </LineShadowText>
         </h1>
 
         <p className="text-white/45 text-base sm:text-lg lg:text-xl mb-10 max-w-lg leading-relaxed tracking-wide">
-          Кастомные фары, бампера, обвесы и кузова —<br />
-          от идеи до готового изделия под ваш стиль.
+          Эксклюзивные бампера, кузовные обвесы, кастомные фары —<br />
+          каждое изделие создаётся в единственном экземпляре.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <Button
-            className="group relative bg-red-700 hover:bg-red-600 text-white px-8 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-2xl shadow-red-900/40 hover:shadow-red-700/40 transition-all duration-300 hover:scale-[1.03]"
-          >
-            Обсудить проект
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-          </Button>
-          <button className="text-white/40 hover:text-white/80 text-sm font-medium tracking-widest uppercase transition-colors flex items-center gap-2">
-            Посмотреть работы
+          <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
+            <Button className="group relative bg-red-700 hover:bg-red-600 text-white px-8 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-2xl shadow-red-900/40 hover:shadow-red-700/40 transition-all duration-300 hover:scale-[1.03]">
+              Обсудить проект
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+            </Button>
+          </a>
+          <a href="#works" className="text-white/40 hover:text-white/80 text-sm font-medium tracking-widest uppercase transition-colors flex items-center gap-2 self-center">
+            Смотреть работы
             <ArrowRight className="w-3 h-3" />
-          </button>
+          </a>
         </div>
       </main>
 
@@ -319,15 +322,121 @@ export default function Index() {
               Расскажите об идее — мы воплотим её в металле и пластике.
             </p>
 
-            <Button
-              className="group bg-red-700 hover:bg-red-600 text-white px-10 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-xl shadow-red-900/30 hover:shadow-red-700/40 transition-all duration-300 hover:scale-[1.03]"
-            >
-              Связаться с нами
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-            </Button>
+            <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
+              <Button className="group bg-red-700 hover:bg-red-600 text-white px-10 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-xl shadow-red-900/30 hover:shadow-red-700/40 transition-all duration-300 hover:scale-[1.03]">
+                Написать в WhatsApp
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+              </Button>
+            </a>
           </div>
         </div>
       </section>
+
+      {/* Голод — линейка */}
+      <section className="relative z-10 px-6 sm:px-10 lg:px-20 py-24 sm:py-32">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center gap-4 mb-4">
+            <div className="w-8 h-0.5 bg-red-600" />
+            <p className="text-red-500 text-xs font-bold tracking-[0.3em] uppercase">Авторская линейка</p>
+          </div>
+          <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-3">
+            Линейка
+          </h2>
+          <h2 className="text-white/20 text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-6">
+            «ГОЛОД»
+          </h2>
+          <p className="text-white/50 text-base sm:text-lg max-w-2xl mb-12 leading-relaxed">
+            Эксклюзивные кастомные бампера и капоты, выполненные в виде разъярённых морд животных. Каждое изделие линейки «Голод» — авторская скульптура из пластика и карбона, превращающая автомобиль в хищника. Изготовление под заказ для любой марки и модели.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-white/5 border border-white/5">
+            {[
+              { animal: "Горилла", desc: "Массивная морда с клыками, нависающий лоб, детализированные морщины — доминирование с первого взгляда.", tag: "бампер + капот" },
+              { animal: "Кобра", desc: "Раскрытая пасть с ядовитыми зубами, угрожающий взгляд — стремительность и опасность в каждой линии.", tag: "бампер + капот" },
+              { animal: "Акула", desc: "Острые карбоновые зубы, хищный силуэт — обвес для тех, кто рвёт асфальт, а не едет по нему.", tag: "бампер + решётка" },
+            ].map((item, i) => (
+              <div key={i} className="group bg-[#0c0c0c] hover:bg-[#111] p-8 transition-all duration-300 relative overflow-hidden cursor-default">
+                <div className="absolute top-0 left-0 w-0 h-0.5 bg-red-600 group-hover:w-full transition-all duration-500" />
+                <div className="text-red-600/30 font-black text-6xl sm:text-7xl uppercase tracking-tighter leading-none mb-4 select-none">
+                  {String(i + 1).padStart(2, "0")}
+                </div>
+                <h3 className="text-white font-black text-xl uppercase tracking-widest mb-1">«{item.animal}»</h3>
+                <p className="text-red-500/70 text-xs font-bold tracking-widest uppercase mb-4">{item.tag}</p>
+                <p className="text-white/40 text-sm leading-relaxed group-hover:text-white/60 transition-colors">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 border border-white/5 bg-[#0c0c0c] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div>
+              <p className="text-white font-bold tracking-wider uppercase text-sm mb-1">Хочешь своего зверя?</p>
+              <p className="text-white/40 text-xs tracking-wide">Разработаем любое животное под заказ — от эскиза до готового изделия</p>
+            </div>
+            <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer" className="shrink-0">
+              <Button className="bg-red-700 hover:bg-red-600 text-white px-6 py-3 rounded-sm text-xs font-bold tracking-widest uppercase border-0 transition-all duration-300 hover:scale-[1.03]">
+                Заказать обвес «Голод»
+              </Button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer id="contacts" className="relative z-10 border-t border-white/5 px-6 sm:px-10 lg:px-20 py-14">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-12">
+
+            {/* Brand */}
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-1 h-7 bg-red-600 rounded-full" />
+                <span className="text-white font-black text-xl tracking-[0.2em] uppercase">PRO<span className="text-red-500">CUSTOM</span></span>
+              </div>
+              <p className="text-white/35 text-sm leading-relaxed max-w-xs">
+                Эксклюзивный кастомный тюнинг автомобилей. Уникальные бампера, обвесы, фары и кузовные элементы в единственном экземпляре.
+              </p>
+            </div>
+
+            {/* Contacts */}
+            <div>
+              <p className="text-white/20 text-xs font-bold tracking-[0.3em] uppercase mb-5">Связаться</p>
+              <div className="space-y-3">
+                <a href={`tel:${PHONE}`} className="flex items-center gap-3 text-white/70 hover:text-white transition-colors group">
+                  <Icon name="Phone" size={14} className="text-red-600 shrink-0" />
+                  <span className="text-sm font-medium tracking-wider">{PHONE_DISPLAY}</span>
+                </a>
+                <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
+                  <Icon name="MessageCircle" size={14} className="text-red-600 shrink-0" />
+                  <span className="text-sm">WhatsApp</span>
+                </a>
+                <a href={`https://t.me/${PHONE}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
+                  <Icon name="Send" size={14} className="text-red-600 shrink-0" />
+                  <span className="text-sm">Telegram</span>
+                </a>
+                <a href={`viber://chat?number=${PHONE}`} className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
+                  <Icon name="PhoneCall" size={14} className="text-red-600 shrink-0" />
+                  <span className="text-sm">Viber</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Services nav */}
+            <div>
+              <p className="text-white/20 text-xs font-bold tracking-[0.3em] uppercase mb-5">Услуги</p>
+              <div className="space-y-2">
+                {["Кастомные бампера", "Линейка «Голод»", "Кастомные фары", "Обвесы под заказ", "3D-проектирование", "Расширение арок"].map(s => (
+                  <p key={s} className="text-white/35 text-sm">{s}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
+            <p className="text-white/20 text-xs tracking-wider uppercase">© 2024 ProCustom — эксклюзивный кастомный тюнинг</p>
+            <p className="text-white/15 text-xs">procustom.ru</p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
