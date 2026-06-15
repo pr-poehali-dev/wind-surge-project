@@ -1,10 +1,9 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Menu, X } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { LineShadowText } from "@/components/line-shadow-text"
-import { ShimmerButton } from "@/components/shimmer-button"
 import { useState } from "react"
-import { Link } from "react-router-dom"
 import Icon from "@/components/ui/icon"
+import SiteHeader from "@/components/SiteHeader"
 
 const BG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png"
 
@@ -55,8 +54,6 @@ const services = [
 ]
 
 export default function Index() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <div className="min-h-screen relative overflow-hidden" style={{ background: "#080808", fontFamily: "'Inter', sans-serif" }}>
 
@@ -70,66 +67,7 @@ export default function Index() {
       {/* Left side gradient for text readability */}
       <div className="fixed inset-0" style={{ background: "linear-gradient(to right, rgba(8,8,8,0.75) 0%, rgba(8,8,8,0.3) 50%, transparent 100%)" }} />
 
-      {/* Header */}
-      <header className="relative z-20 flex items-center justify-between px-6 sm:px-10 lg:px-16 py-5 border-b border-white/5">
-        <div className="flex items-center gap-3">
-          <div className="w-1 h-7 bg-red-600 rounded-full" />
-          <span className="text-white font-black text-xl sm:text-2xl tracking-[0.2em] uppercase">
-            PRO<span className="text-red-500">CUSTOM</span>
-          </span>
-        </div>
-
-        <nav className="hidden md:flex items-center space-x-8">
-          {["Услуги", "Работы", "О нас", "Контакты"].map((item, i) => {
-            const hrefs = ["#services", "#works", "/about", "#contacts"]
-            const isRoute = hrefs[i].startsWith("/")
-            return isRoute ? (
-              <Link key={i} to={hrefs[i]} className="text-white/50 hover:text-white transition-colors text-sm font-medium tracking-wider uppercase">{item}</Link>
-            ) : (
-              <a key={i} href={hrefs[i]} className="text-white/50 hover:text-white transition-colors text-sm font-medium tracking-wider uppercase">{item}</a>
-            )
-          })}
-        </nav>
-
-        <button
-          className="md:hidden text-white p-2 z-30"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
-
-        <ShimmerButton
-          className="hidden md:flex text-white px-6 py-2 rounded-none text-sm font-bold tracking-widest uppercase"
-          background="rgba(185,28,28,1)"
-          shimmerColor="rgba(255,255,255,0.3)"
-          borderRadius="4px"
-        >
-          Заказать
-        </ShimmerButton>
-      </header>
-
-      {/* Mobile menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 bg-[#080808]/97 backdrop-blur-md z-10 flex flex-col items-center justify-center space-y-8">
-          {["Услуги", "Работы", "О нас", "Контакты"].map((item, i) => (
-            <a
-              key={i}
-              href={`#${["services", "works", "about", "contacts"][i]}`}
-              className="text-white/70 text-2xl font-bold tracking-widest uppercase hover:text-red-500 transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {item}
-            </a>
-          ))}
-          <ShimmerButton
-            className="text-white px-10 py-3 text-sm font-bold tracking-widest uppercase mt-4"
-            background="rgba(185,28,28,1)"
-            borderRadius="4px"
-          >
-            Заказать
-          </ShimmerButton>
-        </div>
-      )}
+      <SiteHeader />
 
       {/* Hero */}
       <main className="relative z-10 flex flex-col items-start justify-center min-h-[calc(100vh-72px)] px-6 sm:px-10 lg:px-20">

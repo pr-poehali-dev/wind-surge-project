@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, ArrowLeft, Menu, X } from "lucide-react"
+import { ArrowRight, ArrowLeft } from "lucide-react"
 import Icon from "@/components/ui/icon"
 import { Link } from "react-router-dom"
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
+import SiteHeader from "@/components/SiteHeader"
 
 const PHONE = "+79022557753"
 const PHONE_DISPLAY = "+7 (902) 255-77-53"
@@ -63,8 +64,6 @@ const works = [
 ]
 
 export default function About() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   useEffect(() => {
     document.title = "Уникальный кастом авто в России | Эксклюзивные бампера и обвесы на заказ — ProCustom"
     const desc = document.querySelector('meta[name="description"]')
