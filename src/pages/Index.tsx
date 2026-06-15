@@ -3,6 +3,7 @@ import { ArrowRight, Menu, X } from "lucide-react"
 import { LineShadowText } from "@/components/line-shadow-text"
 import { ShimmerButton } from "@/components/shimmer-button"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import Icon from "@/components/ui/icon"
 
 const BG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png"
@@ -79,15 +80,15 @@ export default function Index() {
         </div>
 
         <nav className="hidden md:flex items-center space-x-8">
-          {["Услуги", "Работы", "О нас", "Контакты"].map((item, i) => (
-            <a
-              key={i}
-              href={`#${["services", "works", "about", "contacts"][i]}`}
-              className="text-white/50 hover:text-white transition-colors text-sm font-medium tracking-wider uppercase"
-            >
-              {item}
-            </a>
-          ))}
+          {["Услуги", "Работы", "О нас", "Контакты"].map((item, i) => {
+            const hrefs = ["#services", "#works", "/about", "#contacts"]
+            const isRoute = hrefs[i].startsWith("/")
+            return isRoute ? (
+              <Link key={i} to={hrefs[i]} className="text-white/50 hover:text-white transition-colors text-sm font-medium tracking-wider uppercase">{item}</Link>
+            ) : (
+              <a key={i} href={hrefs[i]} className="text-white/50 hover:text-white transition-colors text-sm font-medium tracking-wider uppercase">{item}</a>
+            )
+          })}
         </nav>
 
         <button
