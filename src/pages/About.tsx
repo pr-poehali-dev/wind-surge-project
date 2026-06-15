@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, ArrowLeft } from "lucide-react"
+import { ArrowRight, ArrowLeft, Menu, X } from "lucide-react"
 import Icon from "@/components/ui/icon"
 import { Link } from "react-router-dom"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 const PHONE = "+79022557753"
 const PHONE_DISPLAY = "+7 (902) 255-77-53"
@@ -63,6 +63,8 @@ const works = [
 ]
 
 export default function About() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   useEffect(() => {
     document.title = "Уникальный кастом авто в России | Эксклюзивные бампера и обвесы на заказ — ProCustom"
     const desc = document.querySelector('meta[name="description"]')
@@ -98,12 +100,61 @@ export default function About() {
           ))}
         </nav>
 
-        <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
-          <Button className="bg-red-700 hover:bg-red-600 text-white px-5 py-2 rounded-sm text-xs font-bold tracking-widest uppercase border-0 transition-all">
-            Связаться
-          </Button>
-        </a>
+        <div className="flex items-center gap-3">
+          <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            <Button className="bg-red-700 hover:bg-red-600 text-white px-5 py-2 rounded-sm text-xs font-bold tracking-widest uppercase border-0 transition-all">
+              Связаться
+            </Button>
+          </a>
+          <button
+            className="md:hidden text-white p-2"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </div>
       </header>
+
+      {/* Mobile menu */}
+      {mobileMenuOpen && (
+        <div className="fixed inset-0 z-50 flex flex-col" style={{ background: "#080808" }}>
+          <div className="flex items-center justify-between px-6 py-5 border-b border-white/5">
+            <Link to="/" className="flex items-center gap-3" onClick={() => setMobileMenuOpen(false)}>
+              <div className="w-1 h-7 bg-red-600 rounded-full" />
+              <span className="text-white font-black text-xl tracking-[0.2em] uppercase">PRO<span className="text-red-500">CUSTOM</span></span>
+            </Link>
+            <button className="text-white p-2" onClick={() => setMobileMenuOpen(false)}>
+              <X className="w-5 h-5" />
+            </button>
+          </div>
+          <nav className="flex flex-col px-6 pt-10 gap-1">
+            {["Услуги", "Работы", "О нас", "Контакты"].map((item, i) => {
+              const hrefs = ["/#services", "/#works", "/about", "/#contacts"]
+              return (
+                <a
+                  key={i}
+                  href={hrefs[i]}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`py-4 text-2xl font-black uppercase tracking-widest border-b border-white/5 transition-colors ${i === 2 ? "text-white" : "text-white/40 hover:text-white"}`}
+                >
+                  {item}
+                </a>
+              )
+            })}
+          </nav>
+          <div className="px-6 pt-10">
+            <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
+              <Button className="w-full bg-red-700 hover:bg-red-600 text-white py-4 rounded-sm text-sm font-bold tracking-widest uppercase border-0">
+                Написать в WhatsApp
+              </Button>
+            </a>
+            <a href={`tel:${PHONE}`} className="flex items-center justify-center gap-2 mt-4 text-white/40 hover:text-white transition-colors">
+              <Icon name="Phone" size={14} className="text-red-600" />
+              <span className="text-sm tracking-wider">{PHONE_DISPLAY}</span>
+            </a>
+          </div>
+        </div>
+      )}
 
       {/* Hero */}
       <section className="px-6 sm:px-10 lg:px-20 pt-20 pb-16 border-b border-white/5">
