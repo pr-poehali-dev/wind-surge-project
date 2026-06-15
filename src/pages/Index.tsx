@@ -5,7 +5,7 @@ import { ShimmerButton } from "@/components/shimmer-button"
 import { useState } from "react"
 import Icon from "@/components/ui/icon"
 
-const BG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/f4e2af9f-2472-495d-bd1a-ce84c9006624.jpg"
+const BG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png"
 
 const services = [
   {
@@ -54,21 +54,24 @@ export default function Index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="min-h-screen relative overflow-hidden font-sans">
+    <div className="min-h-screen relative overflow-hidden" style={{ background: "#080808", fontFamily: "'Inter', sans-serif" }}>
 
-      {/* Background image */}
+      {/* Background — hero image bottom half */}
       <div
-        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${BG_IMAGE})` }}
+        className="fixed inset-0 bg-cover bg-bottom bg-no-repeat"
+        style={{ backgroundImage: `url(${BG_IMAGE})`, backgroundSize: "cover", backgroundPosition: "center 30%" }}
       />
-      {/* Overlay for readability */}
-      <div className="fixed inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70" />
+      {/* Heavy dark overlay — preserves aggressive mood */}
+      <div className="fixed inset-0 bg-gradient-to-b from-[#080808] via-[#080808]/80 to-[#080808]/95" />
+      {/* Subtle red-tinted vignette from center */}
+      <div className="fixed inset-0" style={{ background: "radial-gradient(ellipse 80% 60% at 50% 100%, rgba(180,0,0,0.08) 0%, transparent 70%)" }} />
 
       {/* Header */}
-      <header className="relative z-20 flex items-center justify-between px-6 sm:px-10 lg:px-16 py-5">
-        <div className="flex items-center">
-          <span className="text-white font-extrabold text-xl sm:text-2xl tracking-widest drop-shadow-lg">
-            NAMAKS <span className="text-orange-400">CUSTOM</span>
+      <header className="relative z-20 flex items-center justify-between px-6 sm:px-10 lg:px-16 py-5 border-b border-white/5">
+        <div className="flex items-center gap-3">
+          <div className="w-1 h-7 bg-red-600 rounded-full" />
+          <span className="text-white font-black text-xl sm:text-2xl tracking-[0.2em] uppercase">
+            PRO<span className="text-red-500">CUSTOM</span>
           </span>
         </div>
 
@@ -77,7 +80,7 @@ export default function Index() {
             <a
               key={i}
               href={`#${["services", "works", "about", "contacts"][i]}`}
-              className="text-white/80 hover:text-white transition-colors text-sm lg:text-base font-medium drop-shadow"
+              className="text-white/50 hover:text-white transition-colors text-sm font-medium tracking-wider uppercase"
             >
               {item}
             </a>
@@ -92,9 +95,10 @@ export default function Index() {
         </button>
 
         <ShimmerButton
-          className="hidden md:flex text-white px-5 lg:px-7 py-2 rounded-xl text-sm lg:text-base font-semibold shadow-xl"
-          background="rgba(234,88,12,0.9)"
-          shimmerColor="#fff"
+          className="hidden md:flex text-white px-6 py-2 rounded-none text-sm font-bold tracking-widest uppercase"
+          background="rgba(185,28,28,1)"
+          shimmerColor="rgba(255,255,255,0.3)"
+          borderRadius="4px"
         >
           Заказать
         </ShimmerButton>
@@ -102,20 +106,21 @@ export default function Index() {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed top-0 left-0 right-0 bottom-0 bg-black/90 backdrop-blur-md z-10 flex flex-col items-center justify-center space-y-8">
+        <div className="md:hidden fixed inset-0 bg-[#080808]/97 backdrop-blur-md z-10 flex flex-col items-center justify-center space-y-8">
           {["Услуги", "Работы", "О нас", "Контакты"].map((item, i) => (
             <a
               key={i}
               href={`#${["services", "works", "about", "contacts"][i]}`}
-              className="text-white text-2xl font-semibold hover:text-orange-400 transition-colors"
+              className="text-white/70 text-2xl font-bold tracking-widest uppercase hover:text-red-500 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               {item}
             </a>
           ))}
           <ShimmerButton
-            className="text-white px-8 py-3 rounded-xl text-base font-semibold shadow-xl mt-4"
-            background="rgba(234,88,12,0.9)"
+            className="text-white px-10 py-3 text-sm font-bold tracking-widest uppercase mt-4"
+            background="rgba(185,28,28,1)"
+            borderRadius="4px"
           >
             Заказать
           </ShimmerButton>
@@ -123,59 +128,70 @@ export default function Index() {
       )}
 
       {/* Hero */}
-      <main className="relative z-10 flex flex-col items-start justify-center min-h-[calc(100vh-80px)] px-6 sm:px-10 lg:px-20 max-w-5xl">
-        <div className="mb-5">
-          <div className="inline-flex items-center bg-orange-500/20 backdrop-blur-sm border border-orange-400/40 rounded-full px-4 py-2">
-            <span className="text-orange-300 text-xs font-bold tracking-widest uppercase">Кастомизация авто</span>
+      <main className="relative z-10 flex flex-col items-start justify-center min-h-[calc(100vh-72px)] px-6 sm:px-10 lg:px-20">
+        <div className="mb-6">
+          <div className="inline-flex items-center gap-2 border border-red-800/60 bg-red-950/30 px-4 py-1.5 rounded-sm">
+            <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+            <span className="text-red-400 text-xs font-bold tracking-[0.3em] uppercase">Кастомизация авто</span>
           </div>
         </div>
 
-        <h1 className="text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold leading-[1.05] mb-6 drop-shadow-2xl">
+        <h1 className="text-white font-black leading-none mb-6 uppercase tracking-tight"
+          style={{ fontSize: "clamp(2.5rem, 8vw, 7rem)", textShadow: "0 0 80px rgba(0,0,0,0.8)" }}>
           Твой автомобиль —
           <br />
-          твоё{" "}
-          <LineShadowText className="italic font-light text-orange-300" shadowColor="rgba(251,146,60,0.8)">
+          <span className="text-red-600">твоё&nbsp;</span>
+          <LineShadowText className="italic font-black text-white" shadowColor="rgba(185,28,28,0.6)">
             правило
           </LineShadowText>
         </h1>
 
-        <p className="text-white/80 text-base sm:text-xl lg:text-2xl mb-10 max-w-xl leading-relaxed drop-shadow">
+        <p className="text-white/45 text-base sm:text-lg lg:text-xl mb-10 max-w-lg leading-relaxed tracking-wide">
           Кастомные фары, бампера, обвесы и кузова —<br />
           от идеи до готового изделия под ваш стиль.
         </p>
 
-        <Button className="group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-xl text-lg font-bold flex items-center gap-3 border border-orange-400/40 shadow-2xl shadow-orange-500/40 hover:shadow-orange-500/60 transition-all duration-300 hover:scale-105 hover:-translate-y-0.5">
-          Обсудить проект
-          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-rotate-12 transition-transform duration-300" />
-          <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-white/0 via-white/10 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Button
+            className="group relative bg-red-700 hover:bg-red-600 text-white px-8 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-2xl shadow-red-900/40 hover:shadow-red-700/40 transition-all duration-300 hover:scale-[1.03]"
+          >
+            Обсудить проект
+            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+          </Button>
+          <button className="text-white/40 hover:text-white/80 text-sm font-medium tracking-widest uppercase transition-colors flex items-center gap-2">
+            Посмотреть работы
+            <ArrowRight className="w-3 h-3" />
+          </button>
+        </div>
       </main>
 
       {/* Services Section */}
       <section id="services" className="relative z-10 px-6 sm:px-10 lg:px-20 py-24 sm:py-32">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <p className="text-orange-400 text-xs font-bold tracking-widest uppercase mb-3">Что мы делаем</p>
-            <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl font-extrabold drop-shadow-lg">
-              Полный спектр{" "}
-              <span className="text-orange-400">кастомизации</span>
-            </h2>
-            <p className="text-white/60 mt-4 text-base sm:text-lg max-w-xl mx-auto">
-              Каждый элемент — ручная работа. Каждый проект — уникален.
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+          <div className="flex items-center gap-4 mb-4">
+            <div className="w-8 h-0.5 bg-red-600" />
+            <p className="text-red-500 text-xs font-bold tracking-[0.3em] uppercase">Что мы делаем</p>
+          </div>
+          <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-3">
+            Полный спектр
+          </h2>
+          <h2 className="text-white/20 text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-16">
+            кастомизации
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="group bg-black/40 hover:bg-black/55 backdrop-blur-md border border-white/15 hover:border-orange-400/50 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/15"
+                className="group bg-[#0c0c0c] hover:bg-[#111] p-6 transition-all duration-300 hover:shadow-inner relative overflow-hidden cursor-default"
               >
-                <div className="w-11 h-11 rounded-xl bg-orange-500/25 flex items-center justify-center mb-4 group-hover:bg-orange-500/40 transition-colors shadow-lg shadow-orange-500/20">
-                  <Icon name={service.icon} size={22} className="text-orange-400" />
+                <div className="absolute top-0 left-0 w-0 h-0.5 bg-red-600 group-hover:w-full transition-all duration-500" />
+                <div className="w-10 h-10 flex items-center justify-center mb-5">
+                  <Icon name={service.icon} size={22} className="text-red-600/80 group-hover:text-red-500 transition-colors" />
                 </div>
-                <h3 className="text-white font-bold text-base mb-2">{service.title}</h3>
-                <p className="text-white/55 text-sm leading-relaxed">{service.description}</p>
+                <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-2">{service.title}</h3>
+                <p className="text-white/35 text-xs leading-relaxed group-hover:text-white/50 transition-colors">{service.description}</p>
               </div>
             ))}
           </div>
@@ -184,18 +200,36 @@ export default function Index() {
 
       {/* CTA Section */}
       <section id="contacts" className="relative z-10 px-6 sm:px-10 lg:px-20 pb-28">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="bg-black/40 backdrop-blur-md border border-orange-400/25 rounded-3xl px-8 py-16 shadow-2xl shadow-orange-500/10">
-            <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 drop-shadow-lg">
-              Готовы создать что-то{" "}
-              <span className="text-orange-400">эксклюзивное?</span>
+        <div className="max-w-4xl mx-auto">
+          <div
+            className="relative overflow-hidden border border-white/8 p-12 sm:p-16"
+            style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #0a0a0a 100%)" }}
+          >
+            {/* Accent corner */}
+            <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-red-700" />
+            <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-red-700" />
+
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-8 h-0.5 bg-red-600" />
+              <p className="text-red-500 text-xs font-bold tracking-[0.3em] uppercase">Начать проект</p>
+            </div>
+
+            <h2 className="text-white text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-3">
+              Готовы создать
             </h2>
-            <p className="text-white/60 text-base sm:text-lg mb-10 max-w-lg mx-auto">
+            <h2 className="text-white/20 text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-8">
+              что-то эксклюзивное?
+            </h2>
+
+            <p className="text-white/40 text-sm sm:text-base mb-10 max-w-md leading-relaxed tracking-wide">
               Расскажите об идее — мы воплотим её в металле и пластике.
             </p>
-            <Button className="group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-10 py-4 rounded-xl text-lg font-bold flex items-center gap-3 mx-auto border border-orange-400/40 shadow-xl shadow-orange-500/30 hover:shadow-orange-500/50 transition-all duration-300 hover:scale-105">
+
+            <Button
+              className="group bg-red-700 hover:bg-red-600 text-white px-10 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-xl shadow-red-900/30 hover:shadow-red-700/40 transition-all duration-300 hover:scale-[1.03]"
+            >
               Связаться с нами
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
             </Button>
           </div>
         </div>
