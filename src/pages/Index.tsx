@@ -61,10 +61,10 @@ export default function Index() {
         className="fixed inset-0 bg-cover bg-bottom bg-no-repeat"
         style={{ backgroundImage: `url(${BG_IMAGE})`, backgroundSize: "cover", backgroundPosition: "center 30%" }}
       />
-      {/* Heavy dark overlay — preserves aggressive mood */}
-      <div className="fixed inset-0 bg-gradient-to-b from-[#080808] via-[#080808]/80 to-[#080808]/95" />
-      {/* Subtle red-tinted vignette from center */}
-      <div className="fixed inset-0" style={{ background: "radial-gradient(ellipse 80% 60% at 50% 100%, rgba(180,0,0,0.08) 0%, transparent 70%)" }} />
+      {/* Light overlay — car stays visible */}
+      <div className="fixed inset-0 bg-gradient-to-b from-[#080808]/85 via-transparent to-[#080808]/60" />
+      {/* Left side gradient for text readability */}
+      <div className="fixed inset-0" style={{ background: "linear-gradient(to right, rgba(8,8,8,0.75) 0%, rgba(8,8,8,0.3) 50%, transparent 100%)" }} />
 
       {/* Header */}
       <header className="relative z-20 flex items-center justify-between px-6 sm:px-10 lg:px-16 py-5 border-b border-white/5">
@@ -136,8 +136,8 @@ export default function Index() {
           </div>
         </div>
 
-        <h1 className="text-white font-black leading-none mb-6 uppercase tracking-tight"
-          style={{ fontSize: "clamp(2.5rem, 8vw, 7rem)", textShadow: "0 0 80px rgba(0,0,0,0.8)" }}>
+        <h1 className="text-white font-black leading-tight mb-6 uppercase tracking-tight"
+          style={{ fontSize: "clamp(1.4rem, 3.5vw, 2.8rem)", textShadow: "0 2px 20px rgba(0,0,0,0.9)" }}>
           Твой автомобиль —
           <br />
           <span className="text-red-600">твоё&nbsp;</span>
