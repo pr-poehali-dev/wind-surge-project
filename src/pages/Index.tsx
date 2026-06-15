@@ -71,7 +71,7 @@ export default function Index() {
         <div className="mb-6">
           <div className="inline-flex items-center gap-2 border border-red-800/60 bg-red-950/30 px-4 py-1.5 rounded-sm">
             <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-            <span className="text-red-400 text-xs font-bold tracking-[0.3em] uppercase">Кастомный тюнинг авто — Москва</span>
+            <span className="text-red-400 text-xs font-bold tracking-[0.3em] uppercase">Кастомный тюнинг авто — по всей России</span>
           </div>
         </div>
 

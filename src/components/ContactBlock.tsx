@@ -9,7 +9,7 @@ const MESSENGERS = [
   { label: "Позвонить",  href: `tel:${PHONE}`,                              icon: "Phone"         },
   { label: "WhatsApp",   href: `https://wa.me/${PHONE}`,                    icon: "MessageCircle", external: true },
   { label: "Telegram",   href: `https://t.me/+${PHONE.replace("+", "")}`,   icon: "Send",          external: true },
-  { label: "Viber",      href: `viber://chat?number=${PHONE}`,              icon: "PhoneCall"     },
+  { label: "Max",        href: `https://max.ru/`,                           icon: "MessageSquare", external: true },
 ]
 
 /** Строчка с иконками всех мессенджеров */
