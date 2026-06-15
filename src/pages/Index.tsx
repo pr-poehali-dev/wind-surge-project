@@ -1,14 +1,11 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { LineShadowText } from "@/components/line-shadow-text"
-import { useState } from "react"
 import Icon from "@/components/ui/icon"
 import SiteHeader from "@/components/SiteHeader"
+import { PHONE, PHONE_DISPLAY, ContactCTA, WhatsAppButton, MessengerLinks } from "@/components/ContactBlock"
 
 const BG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png"
-
-const PHONE = "+79022557753"
-const PHONE_DISPLAY = "+7 (902) 255-77-53"
 
 const services = [
   {
@@ -93,17 +90,15 @@ export default function Index() {
           каждое изделие создаётся в единственном экземпляре.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4">
-          <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
-            <Button className="group relative bg-red-700 hover:bg-red-600 text-white px-8 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-2xl shadow-red-900/40 hover:shadow-red-700/40 transition-all duration-300 hover:scale-[1.03]">
-              Обсудить проект
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-            </Button>
-          </a>
-          <a href="#works" className="text-white/40 hover:text-white/80 text-sm font-medium tracking-widest uppercase transition-colors flex items-center gap-2 self-center">
-            Смотреть работы
-            <ArrowRight className="w-3 h-3" />
-          </a>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col sm:flex-row gap-4">
+            <WhatsAppButton label="Обсудить проект" />
+            <a href="#works" className="text-white/40 hover:text-white/80 text-sm font-medium tracking-widest uppercase transition-colors flex items-center gap-2 self-center">
+              Смотреть работы
+              <ArrowRight className="w-3 h-3" />
+            </a>
+          </div>
+          <MessengerLinks />
         </div>
       </main>
 
@@ -261,12 +256,7 @@ export default function Index() {
               Расскажите об идее — мы воплотим её в металле и пластике.
             </p>
 
-            <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
-              <Button className="group bg-red-700 hover:bg-red-600 text-white px-10 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-xl shadow-red-900/30 hover:shadow-red-700/40 transition-all duration-300 hover:scale-[1.03]">
-                Написать в WhatsApp
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-              </Button>
-            </a>
+            <ContactCTA />
           </div>
         </div>
       </section>
@@ -338,25 +328,11 @@ export default function Index() {
 
             {/* Contacts */}
             <div>
-              <p className="text-white/20 text-xs font-bold tracking-[0.3em] uppercase mb-5">Связаться</p>
-              <div className="space-y-3">
-                <a href={`tel:${PHONE}`} className="flex items-center gap-3 text-white/70 hover:text-white transition-colors group">
-                  <Icon name="Phone" size={14} className="text-red-600 shrink-0" />
-                  <span className="text-sm font-medium tracking-wider">{PHONE_DISPLAY}</span>
-                </a>
-                <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
-                  <Icon name="MessageCircle" size={14} className="text-red-600 shrink-0" />
-                  <span className="text-sm">WhatsApp</span>
-                </a>
-                <a href={`https://t.me/${PHONE}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
-                  <Icon name="Send" size={14} className="text-red-600 shrink-0" />
-                  <span className="text-sm">Telegram</span>
-                </a>
-                <a href={`viber://chat?number=${PHONE}`} className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
-                  <Icon name="PhoneCall" size={14} className="text-red-600 shrink-0" />
-                  <span className="text-sm">Viber</span>
-                </a>
-              </div>
+              <p className="text-white/20 text-xs font-bold tracking-[0.3em] uppercase mb-5">Звоните! Пишите везде где удобно</p>
+              <a href={`tel:${PHONE}`} className="text-white font-bold text-lg tracking-wider hover:text-red-400 transition-colors block mb-4">
+                {PHONE_DISPLAY}
+              </a>
+              <MessengerLinks className="flex-col" />
             </div>
 
             {/* Services nav */}

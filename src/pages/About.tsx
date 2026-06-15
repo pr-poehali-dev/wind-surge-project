@@ -1,12 +1,9 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight, ArrowLeft } from "lucide-react"
+import { ArrowLeft } from "lucide-react"
 import Icon from "@/components/ui/icon"
 import { Link } from "react-router-dom"
 import { useEffect } from "react"
 import SiteHeader from "@/components/SiteHeader"
-
-const PHONE = "+79022557753"
-const PHONE_DISPLAY = "+7 (902) 255-77-53"
+import { PHONE, PHONE_DISPLAY, ContactCTA } from "@/components/ContactBlock"
 
 const steps = [
   { num: "01", title: "Концепция", desc: "Обсуждаем идею, референсы, технические задачи — вы становитесь соавтором изделия." },
@@ -363,20 +360,7 @@ export default function About() {
               «Ваша машина — холст. Мы — художники, которые не делают копий».
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 items-start">
-              <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
-                <Button className="group bg-red-700 hover:bg-red-600 text-white px-8 py-4 rounded-sm text-sm font-bold tracking-widest uppercase flex items-center gap-3 border-0 shadow-xl shadow-red-900/30 transition-all duration-300 hover:scale-[1.03]">
-                  Написать в WhatsApp
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </a>
-              <a href={`tel:${PHONE}`} className="flex items-center gap-2 text-white/50 hover:text-white transition-colors self-center">
-                <Icon name="Phone" size={14} className="text-red-600" />
-                <span className="text-sm font-medium tracking-wider">{PHONE_DISPLAY}</span>
-              </a>
-            </div>
-
-            <p className="text-white/20 text-xs mt-4 tracking-wide">Все мессенджеры: WhatsApp, Telegram, Viber</p>
+            <ContactCTA />
           </div>
         </div>
       </section>
