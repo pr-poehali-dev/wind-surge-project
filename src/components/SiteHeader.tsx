@@ -26,7 +26,7 @@ export default function SiteHeader() {
         <Link to="/" className="flex items-center gap-3">
           <div className="w-1 h-7 bg-red-600 rounded-full" />
           <span className="text-white font-black text-xl sm:text-2xl tracking-[0.2em] uppercase">
-            PRO<span className="text-red-500">CUSTOM</span>
+            МОЙ<span className="text-red-500"> КАСТОМ</span>
           </span>
         </Link>
 
@@ -79,7 +79,7 @@ export default function SiteHeader() {
             <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
               <div className="w-1 h-7 bg-red-600 rounded-full" />
               <span className="text-white font-black text-xl tracking-[0.2em] uppercase">
-                PRO<span className="text-red-500">CUSTOM</span>
+                МОЙ<span className="text-red-500"> КАСТОМ</span>
               </span>
             </Link>
             <button className="text-white p-2" onClick={() => setOpen(false)}>

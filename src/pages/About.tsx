@@ -62,13 +62,13 @@ const works = [
 
 export default function About() {
   useEffect(() => {
-    document.title = "Уникальный кастом авто в России | Эксклюзивные бампера и обвесы на заказ — ProCustom"
+    document.title = "Уникальный кастом авто в России | Эксклюзивные бампера и обвесы на заказ — МОЙ КАСТОМ"
     const desc = document.querySelector('meta[name="description"]')
     if (desc) desc.setAttribute("content", "Кастомные фары, кузовные обвесы и бампера в единственном экземпляре. Мы не повторяемся — создаём искусство для вашего автомобиля. Индивидуальный проект под ключ. Тел: +7 (902) 255-77-53")
     const kw = document.querySelector('meta[name="keywords"]')
     if (kw) kw.setAttribute("content", "уникальный кастом, эксклюзивные бампера, кузовные обвесы на заказ, кастомные фары, обвес в единственном экземпляре, тюнинг на заказ")
     return () => {
-      document.title = "ProCustom — Кастомный тюнинг автомобилей: уникальные бампера, обвесы, фары на заказ"
+      document.title = "МОЙ КАСТОМ — Кастомный тюнинг автомобилей: уникальные бампера, обвесы, фары на заказ"
     }
   }, [])
 
@@ -80,7 +80,7 @@ export default function About() {
         <Link to="/" className="flex items-center gap-3">
           <div className="w-1 h-7 bg-red-600 rounded-full" />
           <span className="text-white font-black text-xl sm:text-2xl tracking-[0.2em] uppercase">
-            PRO<span className="text-red-500">CUSTOM</span>
+            МОЙ<span className="text-red-500"> КАСТОМ</span>
           </span>
         </Link>
 
@@ -117,7 +117,7 @@ export default function About() {
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/5">
             <Link to="/" className="flex items-center gap-3" onClick={() => setMobileMenuOpen(false)}>
               <div className="w-1 h-7 bg-red-600 rounded-full" />
-              <span className="text-white font-black text-xl tracking-[0.2em] uppercase">PRO<span className="text-red-500">CUSTOM</span></span>
+              <span className="text-white font-black text-xl tracking-[0.2em] uppercase">МОЙ<span className="text-red-500"> КАСТОМ</span></span>
             </Link>
             <button className="text-white p-2" onClick={() => setMobileMenuOpen(false)}>
               <X className="w-5 h-5" />
