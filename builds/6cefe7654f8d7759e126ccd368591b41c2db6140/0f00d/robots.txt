@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://moicustom.ru/sitemap.xml
+Sitemap: https://wind-surge-project.poehali.dev/sitemap.xml
