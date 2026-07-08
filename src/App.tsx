@@ -9,6 +9,7 @@ import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import { LocalizedPage } from "@/i18n/langRouting";
 import { LANGUAGES } from "@/i18n/config";
+import AutoLangRedirect from "@/components/AutoLangRedirect";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <AutoLangRedirect />
         <Routes>
           <Route path="/" element={<LocalizedPage code="ru"><Index /></LocalizedPage>} />
           <Route path="/about" element={<LocalizedPage code="ru"><About /></LocalizedPage>} />
