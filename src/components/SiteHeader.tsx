@@ -1,24 +1,27 @@
 import { useState } from "react"
 import { Link, useLocation } from "react-router-dom"
 import { Menu, X } from "lucide-react"
+import { useTranslation } from "react-i18next"
 import { Button } from "@/components/ui/button"
 import { ShimmerButton } from "@/components/shimmer-button"
 import Icon from "@/components/ui/icon"
+import LanguageSwitcher from "@/components/LanguageSwitcher"
 
 const PHONE = "+79022557753"
 const PHONE_DISPLAY = "+7 (902) 255-77-53"
 
-const NAV_ITEMS = [
-  { label: "Услуги",   href: "/#services" },
-  { label: "Работы",   href: "/#works"    },
-  { label: "О нас",    href: "/about"     },
-  { label: "Контакты", href: "/#contacts" },
-]
-
 export default function SiteHeader() {
+  const { t } = useTranslation()
   const [open, setOpen] = useState(false)
   const { pathname } = useLocation()
   const isAbout = pathname === "/about"
+
+  const NAV_ITEMS = [
+    { label: t("nav.services"), href: "/#services" },
+    { label: t("nav.works"),    href: "/#works"    },
+    { label: t("nav.about"),    href: "/about"     },
+    { label: t("nav.contacts"), href: "/#contacts" },
+  ]
 
   return (
     <>
@@ -55,13 +58,16 @@ export default function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-3">
+          <div className="hidden md:block">
+            <LanguageSwitcher />
+          </div>
           <ShimmerButton
             className="hidden md:flex text-white px-6 py-2 rounded-none text-sm font-bold tracking-widest uppercase"
             background="rgba(185,28,28,1)"
             shimmerColor="rgba(255,255,255,0.3)"
             borderRadius="4px"
           >
-            Заказать
+            {t("nav.order")}
           </ShimmerButton>
           <button
             className="md:hidden text-white p-2"
@@ -74,7 +80,7 @@ export default function SiteHeader() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="fixed inset-0 z-50 flex flex-col" style={{ background: "#080808" }}>
+        <div className="fixed inset-0 z-50 flex flex-col overflow-y-auto" style={{ background: "#080808" }}>
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/5">
             <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
               <div className="w-1 h-7 bg-red-600 rounded-full" />
@@ -88,7 +94,7 @@ export default function SiteHeader() {
           </div>
 
           <nav className="flex flex-col px-6 pt-10 gap-1">
-            {NAV_ITEMS.map(({ label, href }, i) => {
+            {NAV_ITEMS.map(({ label, href }) => {
               const active = href === "/about" ? isAbout : false
               const isRoute = href.startsWith("/about")
               const resolvedHref = isAbout ? href : href.replace("/#", "#")
@@ -114,10 +120,15 @@ export default function SiteHeader() {
             })}
           </nav>
 
-          <div className="px-6 pt-10">
+          <div className="px-6 pt-8">
+            <p className="text-white/20 text-xs font-bold tracking-[0.3em] uppercase mb-3">{t("nav.language")}</p>
+            <LanguageSwitcher variant="mobile" />
+          </div>
+
+          <div className="px-6 pt-8 pb-8">
             <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
               <Button className="w-full bg-red-700 hover:bg-red-600 text-white py-4 rounded-sm text-sm font-bold tracking-widest uppercase border-0">
-                Написать в WhatsApp
+                {t("messengers.whatsappButton")}
               </Button>
             </a>
             <a href={`tel:${PHONE}`} className="flex items-center justify-center gap-2 mt-4 text-white/40 hover:text-white transition-colors">

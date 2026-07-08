@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "works": "Trabalhos",
+    "about": "Sobre nós",
+    "contacts": "Contatos",
+    "order": "Pedir",
+    "home": "Início",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Tuning automotivo personalizado — em toda a Rússia",
+    "title1": "Um custom único —",
+    "titleAccent": "só",
+    "titleEnd": "para você",
+    "subtitle": "Para-choques exclusivos, kits de carroceria, faróis personalizados — cada peça é feita em exemplar único.",
+    "ctaDiscuss": "Discutir o projeto",
+    "ctaWorks": "Ver trabalhos"
+  },
+  "gallery": {
+    "label": "Nossos trabalhos",
+    "title1": "Projetos",
+    "title2": "realizados",
+    "items": [
+      { "title": "Infiniti FX — «Gorila»", "desc": "Para-choque personalizado · máscara · alargamento de para-lamas" },
+      { "title": "Mercedes CLS — «Lobo»", "desc": "" },
+      { "title": "Land Cruiser — «Gorila»", "desc": "" },
+      { "title": "Infiniti FX — «Cobra»", "desc": "Presas de carbono · kit de carroceria completo" },
+      { "title": "BMW M6 — «Tubarão»", "desc": "Dentes de carbono · tomadas de ar" }
+    ]
+  },
+  "services": {
+    "label": "O que fazemos",
+    "title1": "Gama completa",
+    "title2": "de personalização",
+    "items": [
+      { "title": "Faróis personalizados", "description": "Óptica LED única sob encomenda: angel eyes, gravação a laser, gráficos individuais — exclusivos para o seu carro." },
+      { "title": "Para-choques personalizados", "description": "Para-choques originais com design agressivo, tomadas de ar embutidas e elementos únicos — nenhum igual ao outro." },
+      { "title": "Grades de radiador", "description": "Grades personalizadas com padrão único, iluminação LED e simbologia pessoal — o rosto do seu carro." },
+      { "title": "Aerofólios e difusores", "description": "Aerofólios, spoilers e difusores traseiros originais — aerodinâmica e estilo agressivo em um só produto." },
+      { "title": "Carroceria personalizada", "description": "Alargamento de para-lamas, redesenho das linhas da carroceria, kit de carroceria completo sob encomenda — transformação total do veículo." },
+      { "title": "Kit de carroceria exclusivo", "description": "Ciclo completo: do esboço conceitual ao produto acabado. Desenvolvemos um kit de carroceria único, existente em exemplar único." },
+      { "title": "Design 3D", "description": "Modelagem 3D, prototipagem e produção de elementos de carroceria plásticos de qualquer complexidade e geometria." },
+      { "title": "Peças exclusivas", "description": "Acabamentos, saias laterais, inserções e acessórios originais — cada peça é projetada e fabricada individualmente." }
+    ]
+  },
+  "cta": {
+    "label": "Iniciar um projeto",
+    "title1": "Pronto para criar",
+    "title2": "algo exclusivo?",
+    "desc": "Conte-nos sua ideia — nós a transformaremos em metal e plástico."
+  },
+  "golod": {
+    "label": "Linha autoral",
+    "title1": "A linha",
+    "title2": "«FOME»",
+    "desc": "Para-choques e capôs exclusivos personalizados, feitos em formato de rostos de animais furiosos. Cada peça da linha «Fome» é uma escultura original de plástico e carbono, transformando o carro em um predador. Fabricação sob encomenda para qualquer marca e modelo.",
+    "items": [
+      { "animal": "Gorila", "desc": "Um rosto maciço com presas, testa saliente, rugas detalhadas — dominação à primeira vista.", "tag": "para-choque + capô" },
+      { "animal": "Cobra", "desc": "Uma boca aberta com presas venenosas, um olhar ameaçador — velocidade e perigo em cada linha.", "tag": "para-choque + capô" },
+      { "animal": "Tubarão", "desc": "Dentes de carbono afiados, uma silhueta predadora — um kit para quem rasga o asfalto, não apenas dirige sobre ele.", "tag": "para-choque + grade" }
+    ],
+    "wantBeast": "Quer sua própria fera?",
+    "wantBeastDesc": "Desenvolvemos qualquer animal sob encomenda — do esboço ao produto acabado",
+    "orderButton": "Pedir o kit «Fome»"
+  },
+  "messengers": {
+    "call": "Ligar",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "max": "Max",
+    "whatsappButton": "Escrever no WhatsApp"
+  },
+  "contact": {
+    "ctaText": "Ligue! Escreva por onde for mais conveniente"
+  },
+  "footer": {
+    "brandDesc": "Tuning automotivo personalizado exclusivo. Para-choques, kits de carroceria, faróis e elementos de carroceria únicos.",
+    "servicesTitle": "Serviços",
+    "servicesList": ["Para-choques personalizados", "Linha «Fome»", "Faróis personalizados", "Kits de carroceria sob encomenda", "Design 3D", "Alargamento de para-lamas"],
+    "copyright": "© 2024 ProCustom — tuning personalizado exclusivo"
+  },
+  "about": {
+    "hero": {
+      "label": "Sobre a oficina",
+      "title1": "Um custom único —",
+      "title2": "só para você",
+      "p1": "Criamos para-choques exclusivos, kits de carroceria e faróis personalizados que não podem ser comprados em loja. Cada peça nasce em exemplar único — feita especialmente para o seu carro e seu estilo.",
+      "p2": "A oficina PROCUSTOM é um lugar onde soluções em série não importam. Apenas trabalho manual, apenas abordagem pessoal e apenas custom único."
+    },
+    "reasons": {
+      "label": "Nossas vantagens",
+      "title": "Por que nos escolher?",
+      "items": [
+        { "title": "Para-choques exclusivos «como nenhum outro»", "desc": "Projetamos e fabricamos para-choques sob medida que se integram perfeitamente ao design do carro. Sem formas prontas — apenas modelagem 3D de acordo com sua geometria e desejos." },
+        { "title": "Kits de carroceria — individualidade pura", "desc": "Saias laterais, splitters, difusores, extensores de para-lamas. Criamos kits de carroceria de qualquer complexidade: do estilo tuning agressivo ao clássico refinado. Cada elemento é um exemplar único." },
+        { "title": "Faróis personalizados — luz que se destaca", "desc": "Desenvolvemos faróis personalizados com gráficos únicos, LEDs DRL, lentes de projeção e tecnologia a laser. Não é apenas luz — é arquitetura." },
+        { "title": "Ciclo completo chave na mão", "desc": "Do esboço e impressão 3D até a pintura e instalação. Você recebe um custom único e pronto sem precisar procurar outros artesãos." }
+      ]
+    },
+    "process": {
+      "label": "Processo de criação",
+      "title1": "Como é criado",
+      "title2": "o seu exemplar único?",
+      "steps": [
+        { "num": "01", "title": "Conceito", "desc": "Discutimos a ideia, referências, tarefas técnicas — você se torna coautor da peça." },
+        { "num": "02", "title": "Projeto 3D", "desc": "Modelamos a peça especificamente para a geometria do seu carro — sem formas universais." },
+        { "num": "03", "title": "Produção", "desc": "Carbono, fibra de vidro, plástico ABS ou impressão 3D — escolhemos o material de acordo com a tarefa." },
+        { "num": "04", "title": "Acabamento", "desc": "Ajuste, primer, pintura, polimento — a peça está pronta para instalação chave na mão." }
+      ],
+      "guaranteeLabel": "Garantia de exclusividade",
+      "guaranteeText": "Você não encontrará os mesmos faróis ou o mesmo para-choque em outro carro — porque cada peça é feita para você. O esboço vai para o arquivo, os desenhos não são revendidos, não há moldes. Mesmo que alguém peça o mesmo kit uma segunda vez — recusaremos."
+    },
+    "forWho": {
+      "label": "Custom ou tuning?",
+      "title1": "Tuning sob encomenda —",
+      "title2": "você é o coautor",
+      "p1": "Se você precisa de peças prontas de catálogo — não somos para você. Criamos tuning sob encomenda onde você é o coautor. O custom único é adequado para:",
+      "useCases": ["Exposições e show cars", "Projetos pessoais de paixão", "Restomod de carros clássicos", "Criação de um estilo assinatura de marca"],
+      "whyLabel": "Por que «exemplar único» é uma tecnologia",
+      "whyItems": [
+        "Sem moldes ou matrizes — cada projeto do zero",
+        "Sem revenda de desenhos — o esboço é seu",
+        "Você possui o design — a peça pertence a você"
+      ]
+    },
+    "works": {
+      "label": "Nossos trabalhos",
+      "title": "Em exemplar único",
+      "items": [
+        { "title": "Infiniti FX — «Gorila»", "desc": "Para-choque + capô com design agressivo e integração total à carroceria." },
+        { "title": "Land Cruiser — «Gorila»", "desc": "Kit de carroceria completo em estilo off-road brutal com caráter agressivo." },
+        { "title": "Infiniti FX — «Cobra»", "desc": "Presas de carbono, alargamento de para-lamas, kit de carroceria completo em exemplar único." }
+      ]
+    },
+    "howToOrder": {
+      "label": "Como pedir",
+      "title1": "Pedir para-choques exclusivos",
+      "title2": "ou faróis personalizados",
+      "p1": "Entre em contato — responderemos em 24 horas. Para calcular o custo, envie:",
+      "list": ["Foto do carro (vista geral)", "Referências do estilo desejado", "Lista de peças (para-choques, kits de carroceria, faróis ou conjunto completo)"],
+      "quote": "«Seu carro é uma tela. Nós somos os artistas que não fazem cópias»."
+    },
+    "footer": {
+      "copyright": "© 2024 ProCustom — tuning personalizado exclusivo"
+    },
+    "meta": {
+      "title": "Custom automotivo único na Rússia | Para-choques e kits de carroceria exclusivos sob encomenda — MY CUSTOM",
+      "description": "Faróis, kits de carroceria e para-choques personalizados em exemplar único. Nunca nos repetimos — criamos arte para o seu carro. Projeto chave na mão. Tel: +7 (902) 255-77-53"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ops! Página não encontrada",
+    "backHome": "Voltar para o início"
+  }
+}

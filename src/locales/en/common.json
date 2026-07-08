@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "services": "Services",
+    "works": "Works",
+    "about": "About",
+    "contacts": "Contacts",
+    "order": "Order",
+    "home": "Home",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Custom auto tuning — all over Russia",
+    "title1": "Unique custom —",
+    "titleAccent": "only",
+    "titleEnd": "for you",
+    "subtitle": "Exclusive bumpers, body kits, custom headlights — every piece is made in a single copy.",
+    "ctaDiscuss": "Discuss project",
+    "ctaWorks": "View works"
+  },
+  "gallery": {
+    "label": "Our works",
+    "title1": "Completed",
+    "title2": "projects",
+    "items": [
+      { "title": "Infiniti FX — \"Gorilla\"", "desc": "Custom bumper · face · arch extension" },
+      { "title": "Mercedes CLS — \"Wolf\"", "desc": "" },
+      { "title": "Land Cruiser — \"Gorilla\"", "desc": "" },
+      { "title": "Infiniti FX — \"Cobra\"", "desc": "Carbon fangs · full body kit" },
+      { "title": "BMW M6 — \"Shark\"", "desc": "Carbon teeth · air intakes" }
+    ]
+  },
+  "services": {
+    "label": "What we do",
+    "title1": "Full range",
+    "title2": "of customization",
+    "items": [
+      { "title": "Custom headlights", "description": "Unique LED optics to order: angel eyes, laser engraving, individual graphics — exclusive for your car." },
+      { "title": "Custom bumpers", "description": "Original bumpers with aggressive design, built-in air intakes and unique elements — no two alike." },
+      { "title": "Radiator grilles", "description": "Custom grilles with a unique pattern, LED lighting and personal symbols — the face of your car." },
+      { "title": "Spoilers & diffusers", "description": "Original spoilers, wings and rear diffusers — aerodynamics and aggressive style in one product." },
+      { "title": "Custom body", "description": "Wheel arch extension, body line rework, full body kit to order — total car transformation." },
+      { "title": "Exclusive body kit", "description": "Full cycle: from concept sketch to finished product. We design a unique body kit that exists in a single copy." },
+      { "title": "3D design", "description": "3D modeling, prototyping and production of plastic body elements of any complexity and geometry." },
+      { "title": "Exclusive parts", "description": "Original trims, side skirts, inserts and attachments — each part is designed and made individually." }
+    ]
+  },
+  "cta": {
+    "label": "Start a project",
+    "title1": "Ready to create",
+    "title2": "something exclusive?",
+    "desc": "Tell us your idea — we'll bring it to life in metal and plastic."
+  },
+  "golod": {
+    "label": "Signature line",
+    "title1": "The",
+    "title2": "\"HUNGER\" line",
+    "desc": "Exclusive custom bumpers and hoods made in the shape of furious animal faces. Every piece of the \"Hunger\" line is an original sculpture of plastic and carbon, turning a car into a predator. Made to order for any make and model.",
+    "items": [
+      { "animal": "Gorilla", "desc": "A massive face with fangs, a heavy brow, detailed wrinkles — dominance at first glance.", "tag": "bumper + hood" },
+      { "animal": "Cobra", "desc": "An open mouth with venomous fangs, a threatening stare — speed and danger in every line.", "tag": "bumper + hood" },
+      { "animal": "Shark", "desc": "Sharp carbon teeth, a predatory silhouette — a body kit for those who tear the asphalt, not just drive on it.", "tag": "bumper + grille" }
+    ],
+    "wantBeast": "Want your own beast?",
+    "wantBeastDesc": "We'll develop any animal to order — from sketch to finished product",
+    "orderButton": "Order the \"Hunger\" kit"
+  },
+  "messengers": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "max": "Max",
+    "whatsappButton": "Message on WhatsApp"
+  },
+  "contact": {
+    "ctaText": "Call us! Message wherever is convenient"
+  },
+  "footer": {
+    "brandDesc": "Exclusive custom auto tuning. Unique bumpers, body kits, headlights and body elements made in a single copy.",
+    "servicesTitle": "Services",
+    "servicesList": ["Custom bumpers", "\"Hunger\" line", "Custom headlights", "Body kits to order", "3D design", "Arch extension"],
+    "copyright": "© 2024 ProCustom — exclusive custom tuning"
+  },
+  "about": {
+    "hero": {
+      "label": "About the workshop",
+      "title1": "Unique custom —",
+      "title2": "only for you",
+      "p1": "We create exclusive bumpers, body kits and custom headlights that can't be bought in a store. Every piece is born in a single copy — made specifically for your car and your style.",
+      "p2": "PROCUSTOM workshop is a place where mass-production solutions don't matter. Only handmade work, only a personal approach, and only unique custom."
+    },
+    "reasons": {
+      "label": "Our advantages",
+      "title": "Why choose us?",
+      "items": [
+        { "title": "Exclusive bumpers \"like no one else's\"", "desc": "We design and manufacture custom bumpers that integrate perfectly into your car's design. No ready-made shapes — only 3D modeling for your geometry and wishes." },
+        { "title": "Body kits — pure individuality", "desc": "Side skirts, splitters, diffusers, arch extenders. We create body kits of any complexity: from aggressive tuning style to refined classics. Every element is a single copy." },
+        { "title": "Custom headlights — light that stands out", "desc": "We design custom headlights with unique graphics, DRL LEDs, projector lenses and laser technology. It's not just light — it's architecture." },
+        { "title": "Full turnkey cycle", "desc": "From sketch and 3D printing to painting and installation. You get a ready unique custom piece without having to look for other craftsmen." }
+      ]
+    },
+    "process": {
+      "label": "Creation process",
+      "title1": "How is",
+      "title2": "your unique piece created?",
+      "steps": [
+        { "num": "01", "title": "Concept", "desc": "We discuss the idea, references, technical tasks — you become a co-author of the piece." },
+        { "num": "02", "title": "3D project", "desc": "We model the part specifically for your car's geometry — no universal shapes." },
+        { "num": "03", "title": "Production", "desc": "Carbon, fiberglass, ABS plastic or 3D printing — we choose the material for the task." },
+        { "num": "04", "title": "Finish", "desc": "Fitting, primer, painting, polishing — the piece is ready for turnkey installation." }
+      ],
+      "guaranteeLabel": "Uniqueness guarantee",
+      "guaranteeText": "You won't find the same headlights or the same bumper on another car — because every piece is made for you. The sketch goes into the archive, drawings are not resold, there are no molds. Even if someone orders the same body kit twice — we will refuse."
+    },
+    "forWho": {
+      "label": "Custom or tuning?",
+      "title1": "Tuning to order —",
+      "title2": "you're the co-author",
+      "p1": "If you need ready-made parts from a catalog — that's not us. We create custom tuning where you're the co-author. Unique custom suits:",
+      "useCases": ["Exhibitions and show cars", "Personal passion projects", "Restomod of classic cars", "Creating a brand's signature style"],
+      "whyLabel": "Why a \"single copy\" is a technology",
+      "whyItems": [
+        "No molds or dies — every project from scratch",
+        "No reselling of drawings — the sketch is yours",
+        "You own the design — the part belongs to you"
+      ]
+    },
+    "works": {
+      "label": "Our works",
+      "title": "In a single copy",
+      "items": [
+        { "title": "Infiniti FX — \"Gorilla\"", "desc": "Bumper + hood with aggressive design and full body integration." },
+        { "title": "Land Cruiser — \"Gorilla\"", "desc": "Full body kit in a brutal off-road style with an aggressive character." },
+        { "title": "Infiniti FX — \"Cobra\"", "desc": "Carbon fangs, arch extension, full body kit in a single copy." }
+      ]
+    },
+    "howToOrder": {
+      "label": "How to order",
+      "title1": "Order exclusive bumpers",
+      "title2": "or custom headlights",
+      "p1": "Contact us — we'll reply within 24 hours. To calculate the cost, send us:",
+      "list": ["A photo of your car (general view)", "References of the desired style", "List of parts (bumpers, body kits, headlights, or full set)"],
+      "quote": "\"Your car is a canvas. We are the artists who don't make copies.\""
+    },
+    "footer": {
+      "copyright": "© 2024 ProCustom — exclusive custom tuning"
+    },
+    "meta": {
+      "title": "Unique custom car tuning in Russia | Exclusive bumpers and body kits to order — MY CUSTOM",
+      "description": "Custom headlights, body kits and bumpers made in a single copy. We never repeat ourselves — we create art for your car. Full turnkey project. Phone: +7 (902) 255-77-53"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "backHome": "Return to home"
+  }
+}

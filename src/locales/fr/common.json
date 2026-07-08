@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "services": "Services",
+    "works": "Réalisations",
+    "about": "À propos",
+    "contacts": "Contacts",
+    "order": "Commander",
+    "home": "Accueil",
+    "language": "Langue"
+  },
+  "hero": {
+    "badge": "Tuning auto sur mesure — dans toute la Russie",
+    "title1": "Un custom unique —",
+    "titleAccent": "rien que",
+    "titleEnd": "pour vous",
+    "subtitle": "Pare-chocs exclusifs, kits carrosserie, phares sur mesure — chaque pièce est réalisée en exemplaire unique.",
+    "ctaDiscuss": "Discuter du projet",
+    "ctaWorks": "Voir les réalisations"
+  },
+  "gallery": {
+    "label": "Nos réalisations",
+    "title1": "Projets",
+    "title2": "réalisés",
+    "items": [
+      { "title": "Infiniti FX — « Gorille »", "desc": "Pare-chocs sur mesure · masque · élargissement des ailes" },
+      { "title": "Mercedes CLS — « Loup »", "desc": "" },
+      { "title": "Land Cruiser — « Gorille »", "desc": "" },
+      { "title": "Infiniti FX — « Cobra »", "desc": "Crocs en carbone · kit carrosserie complet" },
+      { "title": "BMW M6 — « Requin »", "desc": "Dents en carbone · prises d'air" }
+    ]
+  },
+  "services": {
+    "label": "Ce que nous faisons",
+    "title1": "Gamme complète",
+    "title2": "de personnalisation",
+    "items": [
+      { "title": "Phares sur mesure", "description": "Optique LED unique sur commande : angel eyes, gravure laser, graphisme personnalisé — l'exclusivité pour votre voiture." },
+      { "title": "Pare-chocs sur mesure", "description": "Pare-chocs originaux au design agressif, prises d'air intégrées et éléments uniques — aucun exemplaire identique." },
+      { "title": "Calandres", "description": "Calandres sur mesure au motif unique, éclairage LED et symboles personnels — le visage de votre voiture." },
+      { "title": "Spoilers et diffuseurs", "description": "Spoilers, ailerons et diffuseurs arrière originaux — aérodynamisme et style agressif réunis." },
+      { "title": "Carrosserie personnalisée", "description": "Élargissement des passages de roues, refonte des lignes de carrosserie, kit carrosserie complet — transformation totale du véhicule." },
+      { "title": "Kit carrosserie exclusif", "description": "Cycle complet : du croquis conceptuel à la pièce finie. Nous concevons un kit carrosserie unique en son genre." },
+      { "title": "Conception 3D", "description": "Modélisation 3D, prototypage et fabrication d'éléments de carrosserie en plastique de toute complexité." },
+      { "title": "Pièces exclusives", "description": "Baguettes, bas de caisse, inserts et éléments rapportés originaux — chaque pièce est conçue et fabriquée individuellement." }
+    ]
+  },
+  "cta": {
+    "label": "Démarrer un projet",
+    "title1": "Prêt à créer",
+    "title2": "quelque chose d'exclusif ?",
+    "desc": "Parlez-nous de votre idée — nous la concrétiserons en métal et en plastique."
+  },
+  "golod": {
+    "label": "Ligne signature",
+    "title1": "La ligne",
+    "title2": "« FAIM »",
+    "desc": "Pare-chocs et capots exclusifs sur mesure, façonnés en forme de gueules d'animaux féroces. Chaque pièce de la ligne « Faim » est une sculpture originale en plastique et carbone, transformant la voiture en prédateur. Fabrication sur commande pour toute marque et modèle.",
+    "items": [
+      { "animal": "Gorille", "desc": "Une gueule massive avec des crocs, un front proéminent, des rides détaillées — la domination au premier regard.", "tag": "pare-chocs + capot" },
+      { "animal": "Cobra", "desc": "Une gueule ouverte aux crocs venimeux, un regard menaçant — vitesse et danger dans chaque ligne.", "tag": "pare-chocs + capot" },
+      { "animal": "Requin", "desc": "Des dents en carbone acérées, une silhouette prédatrice — un kit pour ceux qui déchirent l'asphalte, pas pour ceux qui roulent dessus.", "tag": "pare-chocs + calandre" }
+    ],
+    "wantBeast": "Vous voulez votre propre bête ?",
+    "wantBeastDesc": "Nous développons n'importe quel animal sur commande — du croquis à la pièce finie",
+    "orderButton": "Commander le kit « Faim »"
+  },
+  "messengers": {
+    "call": "Appeler",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "max": "Max",
+    "whatsappButton": "Écrire sur WhatsApp"
+  },
+  "contact": {
+    "ctaText": "Appelez-nous ! Écrivez-nous où bon vous semble"
+  },
+  "footer": {
+    "brandDesc": "Tuning automobile sur mesure exclusif. Pare-chocs, kits carrosserie, phares et éléments de carrosserie uniques.",
+    "servicesTitle": "Services",
+    "servicesList": ["Pare-chocs sur mesure", "Ligne « Faim »", "Phares sur mesure", "Kits carrosserie sur commande", "Conception 3D", "Élargissement des ailes"],
+    "copyright": "© 2024 ProCustom — tuning sur mesure exclusif"
+  },
+  "about": {
+    "hero": {
+      "label": "À propos de l'atelier",
+      "title1": "Un custom unique —",
+      "title2": "rien que pour vous",
+      "p1": "Nous créons des pare-chocs exclusifs, des kits carrosserie et des phares sur mesure qu'on ne peut pas acheter en magasin. Chaque pièce naît en exemplaire unique — spécialement pour votre voiture et votre style.",
+      "p2": "L'atelier PROCUSTOM est un lieu où les solutions de série n'ont pas leur place. Uniquement du travail manuel, une approche personnelle et un custom unique."
+    },
+    "reasons": {
+      "label": "Nos avantages",
+      "title": "Pourquoi nous choisir ?",
+      "items": [
+        { "title": "Des pare-chocs exclusifs « comme nulle part ailleurs »", "desc": "Nous concevons et fabriquons des pare-chocs sur mesure qui s'intègrent parfaitement au design de votre voiture. Aucune forme toute faite — uniquement une modélisation 3D adaptée à votre géométrie et vos souhaits." },
+        { "title": "Kits carrosserie — individualité pure", "desc": "Bas de caisse, splitters, diffuseurs, élargisseurs d'ailes. Nous créons des kits carrosserie de toute complexité : du style tuning agressif au classique raffiné. Chaque élément est un exemplaire unique." },
+        { "title": "Phares sur mesure — une lumière qui se distingue", "desc": "Nous concevons des phares sur mesure avec un graphisme unique, des LED DRL, des lentilles à projection et des technologies laser. Ce n'est pas juste de la lumière — c'est de l'architecture." },
+        { "title": "Cycle complet clé en main", "desc": "Du croquis à l'impression 3D, jusqu'à la peinture et l'installation. Vous obtenez un custom unique et fini sans avoir à chercher d'autres artisans." }
+      ]
+    },
+    "process": {
+      "label": "Processus de création",
+      "title1": "Comment est créé",
+      "title2": "votre exemplaire unique ?",
+      "steps": [
+        { "num": "01", "title": "Concept", "desc": "Nous discutons de l'idée, des références, des tâches techniques — vous devenez coauteur de la pièce." },
+        { "num": "02", "title": "Projet 3D", "desc": "Nous modélisons la pièce en fonction de la géométrie exacte de votre voiture — aucune forme universelle." },
+        { "num": "03", "title": "Production", "desc": "Carbone, fibre de verre, plastique ABS ou impression 3D — nous choisissons le matériau adapté à la tâche." },
+        { "num": "04", "title": "Finition", "desc": "Ajustement, apprêt, peinture, polissage — la pièce est prête pour une installation clé en main." }
+      ],
+      "guaranteeLabel": "Garantie d'unicité",
+      "guaranteeText": "Vous ne trouverez pas les mêmes phares ou le même pare-chocs sur une autre voiture — car chaque pièce est créée pour vous. Le croquis part aux archives, les plans ne sont jamais revendus, il n'y a pas de moules. Même si quelqu'un commande le même kit une deuxième fois — nous refuserons."
+    },
+    "forWho": {
+      "label": "Custom ou tuning ?",
+      "title1": "Tuning sur commande —",
+      "title2": "vous êtes le coauteur",
+      "p1": "Si vous cherchez des pièces toutes faites de catalogue — ce n'est pas chez nous. Nous créons un tuning sur commande où vous êtes coauteur. Le custom unique convient pour :",
+      "useCases": ["Expositions et show-cars", "Projets personnels passion", "Restomod de voitures classiques", "Création d'un style signature de marque"],
+      "whyLabel": "Pourquoi « l'exemplaire unique » est une technologie",
+      "whyItems": [
+        "Pas de moules ni de matrices — chaque projet part de zéro",
+        "Pas de revente de plans — le croquis est à vous",
+        "Vous possédez le modèle — la pièce vous appartient"
+      ]
+    },
+    "works": {
+      "label": "Nos réalisations",
+      "title": "En exemplaire unique",
+      "items": [
+        { "title": "Infiniti FX — « Gorille »", "desc": "Pare-chocs + capot au design agressif et intégration complète à la carrosserie." },
+        { "title": "Land Cruiser — « Gorille »", "desc": "Kit carrosserie complet dans un style tout-terrain brutal au caractère agressif." },
+        { "title": "Infiniti FX — « Cobra »", "desc": "Crocs en carbone, élargissement des ailes, kit carrosserie complet en exemplaire unique." }
+      ]
+    },
+    "howToOrder": {
+      "label": "Comment commander",
+      "title1": "Commander des pare-chocs exclusifs",
+      "title2": "ou des phares sur mesure",
+      "p1": "Contactez-nous — nous répondrons sous 24 heures. Pour calculer le prix, envoyez-nous :",
+      "list": ["Une photo de votre voiture (vue générale)", "Des références du style souhaité", "La liste des pièces (pare-chocs, kits carrosserie, phares ou ensemble complet)"],
+      "quote": "« Votre voiture est une toile. Nous sommes les artistes qui ne font pas de copies. »"
+    },
+    "footer": {
+      "copyright": "© 2024 ProCustom — tuning sur mesure exclusif"
+    },
+    "meta": {
+      "title": "Tuning automobile unique en Russie | Pare-chocs et kits carrosserie exclusifs sur commande — MY CUSTOM",
+      "description": "Phares, kits carrosserie et pare-chocs sur mesure en exemplaire unique. Nous ne nous répétons jamais — nous créons de l'art pour votre voiture. Projet clé en main. Tél : +7 (902) 255-77-53"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oups ! Page introuvable",
+    "backHome": "Retour à l'accueil"
+  }
+}

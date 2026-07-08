@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "services": "Hizmetler",
+    "works": "Çalışmalar",
+    "about": "Hakkımızda",
+    "contacts": "İletişim",
+    "order": "Sipariş ver",
+    "home": "Ana sayfa",
+    "language": "Dil"
+  },
+  "hero": {
+    "badge": "Özel araç modifikasyonu — Rusya genelinde",
+    "title1": "Eşsiz özel tasarım —",
+    "titleAccent": "sadece",
+    "titleEnd": "sizin için",
+    "subtitle": "Özel tamponlar, body kit'ler, özel farlar — her ürün tek bir kopya olarak üretilir.",
+    "ctaDiscuss": "Projeyi görüşün",
+    "ctaWorks": "Çalışmaları gör"
+  },
+  "gallery": {
+    "label": "Çalışmalarımız",
+    "title1": "Tamamlanan",
+    "title2": "projeler",
+    "items": [
+      { "title": "Infiniti FX — \"Gorilla\"", "desc": "Özel tampon · yüz · çamurluk genişletme" },
+      { "title": "Mercedes CLS — \"Kurt\"", "desc": "" },
+      { "title": "Land Cruiser — \"Gorilla\"", "desc": "" },
+      { "title": "Infiniti FX — \"Kobra\"", "desc": "Karbon dişler · tam body kit" },
+      { "title": "BMW M6 — \"Köpekbalığı\"", "desc": "Karbon dişler · hava girişleri" }
+    ]
+  },
+  "services": {
+    "label": "Ne yapıyoruz",
+    "title1": "Tam yelpazede",
+    "title2": "özelleştirme",
+    "items": [
+      { "title": "Özel farlar", "description": "Sipariş üzerine benzersiz LED optik: angel eyes, lazer gravür, kişisel grafikler — aracınız için özel." },
+      { "title": "Özel tamponlar", "description": "Agresif tasarımlı, entegre hava girişli ve benzersiz elemanlı orijinal tamponlar — birbirinin aynısı yok." },
+      { "title": "Radyatör ızgaraları", "description": "Benzersiz desenli, LED aydınlatmalı ve kişisel semboller içeren özel ızgaralar — aracınızın yüzü." },
+      { "title": "Spoiler ve difüzörler", "description": "Orijinal spoiler, kanatlar ve arka difüzörler — tek üründe aerodinamik ve agresif stil." },
+      { "title": "Özel gövde", "description": "Çamurluk genişletme, gövde hatlarının yeniden tasarımı, sipariş üzerine tam body kit — aracın tam dönüşümü." },
+      { "title": "Özel body kit", "description": "Tam döngü: konsept eskizden bitmiş ürüne kadar. Tek bir kopya olarak var olan benzersiz bir body kit tasarlıyoruz." },
+      { "title": "3D tasarım", "description": "Her karmaşıklık ve geometride plastik gövde elemanlarının 3D modellemesi, prototiplemesi ve üretimi." },
+      { "title": "Özel parçalar", "description": "Orijinal kaplamalar, marşpiyeller, ekler ve montaj parçaları — her parça ayrı ayrı tasarlanır ve üretilir." }
+    ]
+  },
+  "cta": {
+    "label": "Projeye başla",
+    "title1": "Özel bir şey",
+    "title2": "yaratmaya hazır mısınız?",
+    "desc": "Fikrinizi anlatın — biz onu metal ve plastikte hayata geçirelim."
+  },
+  "golod": {
+    "label": "İmza koleksiyonu",
+    "title1": "\"AÇLIK\"",
+    "title2": "koleksiyonu",
+    "desc": "Öfkeli hayvan yüzleri şeklinde yapılmış özel tamponlar ve kaputlar. \"Açlık\" koleksiyonunun her ürünü, aracı bir yırtıcıya dönüştüren, plastik ve karbondan yapılmış orijinal bir heykeldir. Her marka ve model için sipariş üzerine üretim.",
+    "items": [
+      { "animal": "Gorilla", "desc": "Dişli devasa bir yüz, sarkık alın, detaylı kırışıklıklar — ilk bakışta hakimiyet.", "tag": "tampon + kaput" },
+      { "animal": "Kobra", "desc": "Zehirli dişli açık ağız, tehditkar bakış — her çizgide hız ve tehlike.", "tag": "tampon + kaput" },
+      { "animal": "Köpekbalığı", "desc": "Keskin karbon dişler, yırtıcı bir silüet — asfaltta sadece sürmeyen, onu yırtan kişiler için.", "tag": "tampon + ızgara" }
+    ],
+    "wantBeast": "Kendi canavarınızı ister misiniz?",
+    "wantBeastDesc": "Eskizden bitmiş ürüne kadar sipariş üzerine herhangi bir hayvanı geliştiririz",
+    "orderButton": "\"Açlık\" kitini sipariş ver"
+  },
+  "messengers": {
+    "call": "Ara",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "max": "Max",
+    "whatsappButton": "WhatsApp'tan yazın"
+  },
+  "contact": {
+    "ctaText": "Arayın! Size uygun olan her yerden yazın"
+  },
+  "footer": {
+    "brandDesc": "Özel araç modifikasyonu. Tek bir kopya olarak benzersiz tamponlar, body kit'ler, farlar ve gövde elemanları.",
+    "servicesTitle": "Hizmetler",
+    "servicesList": ["Özel tamponlar", "\"Açlık\" koleksiyonu", "Özel farlar", "Sipariş üzerine body kit", "3D tasarım", "Çamurluk genişletme"],
+    "copyright": "© 2024 ProCustom — özel benzersiz modifikasyon"
+  },
+  "about": {
+    "hero": {
+      "label": "Atölye hakkında",
+      "title1": "Eşsiz özel tasarım —",
+      "title2": "sadece sizin için",
+      "p1": "Mağazadan satın alınamayacak özel tamponlar, body kit'ler ve özel farlar üretiyoruz. Her ürün tek bir kopya olarak, özellikle aracınız ve tarzınız için doğar.",
+      "p2": "PROCUSTOM atölyesi, seri çözümlerin bir anlam ifade etmediği bir yerdir. Sadece el işçiliği, sadece kişisel yaklaşım ve sadece benzersiz özel tasarım."
+    },
+    "reasons": {
+      "label": "Avantajlarımız",
+      "title": "Neden bizi seçmelisiniz?",
+      "items": [
+        { "title": "\"Kimsede olmayan\" özel tamponlar", "desc": "Aracın tasarımına mükemmel şekilde entegre olan özel tamponlar tasarlıyor ve üretiyoruz. Hazır kalıp yok — sadece geometrinize ve isteklerinize göre 3D modelleme." },
+        { "title": "Body kit'ler — saf bireysellik", "desc": "Marşpiyeller, splitterlar, difüzörler, çamurluk genişleticiler. Her karmaşıklıkta body kit yaratıyoruz: agresif tuning stilinden zarif klasiğe kadar. Her eleman tek bir kopyadır." },
+        { "title": "Özel farlar — öne çıkan ışık", "desc": "Benzersiz grafiklere, DRL LED'lere, projeksiyon lenslerine ve lazer teknolojisine sahip özel farlar tasarlıyoruz. Bu sadece ışık değil — mimaridir." },
+        { "title": "Tam anahtar teslim döngü", "desc": "Eskiz ve 3D baskıdan boyama ve montaja kadar. Başka ustalar aramanıza gerek kalmadan hazır, benzersiz bir özel tasarım elde edersiniz." }
+      ]
+    },
+    "process": {
+      "label": "Yaratım süreci",
+      "title1": "Benzersiz örneğiniz",
+      "title2": "nasıl yaratılıyor?",
+      "steps": [
+        { "num": "01", "title": "Konsept", "desc": "Fikri, referansları, teknik görevleri tartışırız — ürünün ortak yazarı olursunuz." },
+        { "num": "02", "title": "3D proje", "desc": "Parçayı özellikle aracınızın geometrisine göre modelliyoruz — evrensel şekiller yok." },
+        { "num": "03", "title": "Üretim", "desc": "Karbon, fiberglas, ABS plastik veya 3D baskı — göreve göre malzemeyi seçiyoruz." },
+        { "num": "04", "title": "Bitiş", "desc": "Ayarlama, astar, boyama, cilalama — ürün anahtar teslim montaja hazır." }
+      ],
+      "guaranteeLabel": "Benzersizlik garantisi",
+      "guaranteeText": "Başka bir arabada aynı farları veya aynı tamponu bulamazsınız — çünkü her ürün sizin için yaratılır. Eskiz arşive gider, çizimler tekrar satılmaz, kalıp yoktur. Biri aynı kiti ikinci kez sipariş etse bile — reddederiz."
+    },
+    "forWho": {
+      "label": "Özel tasarım mı tuning mi?",
+      "title1": "Sipariş üzerine tuning —",
+      "title2": "siz ortak yazarsınız",
+      "p1": "Katalogdan hazır parçalara ihtiyacınız varsa — bu bize göre değil. Sizin ortak yazar olduğunuz sipariş üzerine tuning yaratıyoruz. Benzersiz özel tasarım şunlar için uygundur:",
+      "useCases": ["Sergiler ve show car'lar", "Kişisel tutku projeleri", "Klasik araçların restomodu", "Marka imza tarzı yaratma"],
+      "whyLabel": "Neden \"tek kopya\" bir teknolojidir",
+      "whyItems": [
+        "Kalıp ve pres formu yok — her proje sıfırdan",
+        "Çizimlerin yeniden satışı yok — eskiz sizindir",
+        "Tasarımın sahibi sizsiniz — parça size aittir"
+      ]
+    },
+    "works": {
+      "label": "Çalışmalarımız",
+      "title": "Tek kopya olarak",
+      "items": [
+        { "title": "Infiniti FX — \"Gorilla\"", "desc": "Agresif tasarımlı ve gövdeye tam entegre tampon + kaput." },
+        { "title": "Land Cruiser — \"Gorilla\"", "desc": "Agresif karakterli, acımasız off-road tarzında tam body kit." },
+        { "title": "Infiniti FX — \"Kobra\"", "desc": "Karbon dişler, çamurluk genişletme, tek kopya tam body kit." }
+      ]
+    },
+    "howToOrder": {
+      "label": "Nasıl sipariş verilir",
+      "title1": "Özel tampon sipariş ver",
+      "title2": "veya özel farlar",
+      "p1": "Bizimle iletişime geçin — 24 saat içinde yanıt vereceğiz. Maliyet hesaplaması için gönderin:",
+      "list": ["Aracın fotoğrafı (genel görünüm)", "İstenen tarzın referansları", "Parça listesi (tampon, body kit, farlar veya tam set)"],
+      "quote": "\"Arabanız bir tuval. Biz kopya yapmayan sanatçılarız.\""
+    },
+    "footer": {
+      "copyright": "© 2024 ProCustom — özel benzersiz modifikasyon"
+    },
+    "meta": {
+      "title": "Rusya'da eşsiz araç özel modifikasyonu | Sipariş üzerine özel tampon ve body kit'ler — MY CUSTOM",
+      "description": "Tek kopya özel farlar, body kit'ler ve tamponlar. Asla tekrarlamayız — aracınız için sanat yaratırız. Anahtar teslim proje. Tel: +7 (902) 255-77-53"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hata! Sayfa bulunamadı",
+    "backHome": "Ana sayfaya dön"
+  }
+}

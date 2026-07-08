@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "services": "Huduma",
+    "works": "Kazi",
+    "about": "Kutuhusu",
+    "contacts": "Mawasiliano",
+    "order": "Agiza",
+    "home": "Nyumbani",
+    "language": "Lugha"
+  },
+  "hero": {
+    "badge": "Marekebisho ya magari maalum — kote Urusi",
+    "title1": "Marekebisho ya kipekee —",
+    "titleAccent": "kwa ajili",
+    "titleEnd": "yako tu",
+    "subtitle": "Bumpa za kipekee, seti za mwili, taa maalum za mbele — kila kipande hutengenezwa kwa nakala moja tu.",
+    "ctaDiscuss": "Jadili mradi",
+    "ctaWorks": "Tazama kazi"
+  },
+  "gallery": {
+    "label": "Kazi zetu",
+    "title1": "Miradi",
+    "title2": "iliyokamilika",
+    "items": [
+      { "title": "Infiniti FX — \"Sokwe\"", "desc": "Bumpa maalum · uso · upanuzi wa matao" },
+      { "title": "Mercedes CLS — \"Mbwa mwitu\"", "desc": "" },
+      { "title": "Land Cruiser — \"Sokwe\"", "desc": "" },
+      { "title": "Infiniti FX — \"Kobra\"", "desc": "Meno ya kaboni · seti kamili ya mwili" },
+      { "title": "BMW M6 — \"Papa\"", "desc": "Meno ya kaboni · matundu ya hewa" }
+    ]
+  },
+  "services": {
+    "label": "Tunachofanya",
+    "title1": "Aina zote za",
+    "title2": "urekebishaji",
+    "items": [
+      { "title": "Taa maalum za mbele", "description": "Optiki za kipekee za LED kwa oda: macho ya malaika, uchongaji wa leza, michoro binafsi — ya kipekee kwa gari lako." },
+      { "title": "Bumpa maalum", "description": "Bumpa asili zenye muundo mkali, matundu ya hewa yaliyojengwa ndani na vipengele vya kipekee — hakuna mbili zinazofanana." },
+      { "title": "Gridi za radiator", "description": "Gridi maalum zenye muundo wa kipekee, mwanga wa LED na alama za kibinafsi — uso wa gari lako." },
+      { "title": "Spoiler na diffuser", "description": "Spoiler asili, mabawa na diffuser za nyuma — aerodynamics na mtindo mkali katika bidhaa moja." },
+      { "title": "Mwili maalum", "description": "Upanuzi wa matao ya magurudumu, urekebishaji wa mistari ya mwili, seti kamili ya mwili kwa oda — mabadiliko kamili ya gari." },
+      { "title": "Seti ya mwili ya kipekee", "description": "Mzunguko kamili: kutoka mchoro wa dhana hadi bidhaa iliyokamilika. Tunabuni seti ya mwili ya kipekee inayopatikana kwa nakala moja tu." },
+      { "title": "Ubunifu wa 3D", "description": "Uundaji wa 3D, uundaji wa mifano na uzalishaji wa vipengele vya mwili wa plastiki wa ugumu na jiometri yoyote." },
+      { "title": "Sehemu za kipekee", "description": "Vipambo asili, skirt za pembeni, viingizo na viambatanisho — kila sehemu inabuniwa na kutengenezwa mmoja mmoja." }
+    ]
+  },
+  "cta": {
+    "label": "Anza mradi",
+    "title1": "Uko tayari kuunda",
+    "title2": "kitu cha kipekee?",
+    "desc": "Tuambie wazo lako — tutaligeuza kuwa chuma na plastiki."
+  },
+  "golod": {
+    "label": "Mstari wa asili",
+    "title1": "Mstari",
+    "title2": "\"NJAA\"",
+    "desc": "Bumpa na hoodi maalum za kipekee, zilizotengenezwa kwa umbo la nyuso za wanyama wenye hasira. Kila bidhaa ya mstari wa \"Njaa\" ni sanamu asili ya plastiki na kaboni, inayogeuza gari kuwa mwindaji. Utengenezaji kwa oda kwa chapa na mfano wowote.",
+    "items": [
+      { "animal": "Sokwe", "desc": "Uso mkubwa wenye meno makali, paji la uso lililoning'inia, mikunjo ya kina — utawala kwa mtazamo wa kwanza.", "tag": "bumpa + hoodi" },
+      { "animal": "Kobra", "desc": "Mdomo wazi wenye meno ya sumu, mtazamo wa kutisha — kasi na hatari katika kila mstari.", "tag": "bumpa + hoodi" },
+      { "animal": "Papa", "desc": "Meno makali ya kaboni, umbo la mwindaji — seti kwa wale wanaorarua lami, si kuendesha juu yake tu.", "tag": "bumpa + gridi" }
+    ],
+    "wantBeast": "Unataka mnyama wako mwenyewe?",
+    "wantBeastDesc": "Tutaunda mnyama yeyote kwa oda — kutoka mchoro hadi bidhaa iliyokamilika",
+    "orderButton": "Agiza seti ya \"Njaa\""
+  },
+  "messengers": {
+    "call": "Piga simu",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "max": "Max",
+    "whatsappButton": "Andika kwenye WhatsApp"
+  },
+  "contact": {
+    "ctaText": "Piga simu! Andika popote inapokufaa"
+  },
+  "footer": {
+    "brandDesc": "Marekebisho ya magari maalum ya kipekee. Bumpa za kipekee, seti za mwili, taa za mbele na vipengele vya mwili kwa nakala moja.",
+    "servicesTitle": "Huduma",
+    "servicesList": ["Bumpa maalum", "Mstari wa \"Njaa\"", "Taa maalum za mbele", "Seti za mwili kwa oda", "Ubunifu wa 3D", "Upanuzi wa matao"],
+    "copyright": "© 2024 ProCustom — urekebishaji maalum wa kipekee"
+  },
+  "about": {
+    "hero": {
+      "label": "Kuhusu warsha",
+      "title1": "Marekebisho ya kipekee —",
+      "title2": "kwa ajili yako tu",
+      "p1": "Tunaunda bumpa za kipekee, seti za mwili na taa maalum za mbele ambazo haziwezi kununuliwa dukani. Kila bidhaa huzaliwa kwa nakala moja — maalum kwa gari lako na mtindo wako.",
+      "p2": "Warsha ya PROCUSTOM ni mahali ambapo suluhisho za wingi hazina maana. Kazi ya mkono tu, mbinu ya kibinafsi tu, na marekebisho ya kipekee tu."
+    },
+    "reasons": {
+      "label": "Faida zetu",
+      "title": "Kwa nini utuchague?",
+      "items": [
+        { "title": "Bumpa za kipekee \"asizo na mwingine\"", "desc": "Tunabuni na kutengeneza bumpa maalum zinazoungana kikamilifu na muundo wa gari. Hakuna maumbo yaliyotengenezwa tayari — uundaji wa 3D tu kulingana na jiometri na matakwa yako." },
+        { "title": "Seti za mwili — ubinafsi safi", "desc": "Skirt za pembeni, splitter, diffuser, vipanuzi vya matao. Tunaunda seti za mwili za ugumu wowote: kutoka mtindo wa urekebishaji mkali hadi classic iliyosafishwa. Kila kipengele ni nakala moja." },
+        { "title": "Taa maalum za mbele — mwanga unaojitokeza", "desc": "Tunabuni taa maalum za mbele zenye michoro ya kipekee, LED za DRL, lenzi za makadirio na teknolojia ya leza. Sio mwanga tu — ni usanifu." },
+        { "title": "Mzunguko kamili wa mkono kwa mkono", "desc": "Kutoka mchoro na uchapishaji wa 3D hadi upakaji rangi na usanikishaji. Unapata marekebisho ya kipekee yaliyokamilika bila haja ya kutafuta mafundi wengine." }
+      ]
+    },
+    "process": {
+      "label": "Mchakato wa uundaji",
+      "title1": "Nakala yako ya kipekee",
+      "title2": "inaundwaje?",
+      "steps": [
+        { "num": "01", "title": "Dhana", "desc": "Tunajadili wazo, marejeleo, kazi za kiufundi — unakuwa mwandishi mwenza wa bidhaa." },
+        { "num": "02", "title": "Mradi wa 3D", "desc": "Tunaunda sehemu hasa kwa jiometri ya gari lako — hakuna maumbo ya jumla." },
+        { "num": "03", "title": "Uzalishaji", "desc": "Kaboni, fiberglass, plastiki ya ABS au uchapishaji wa 3D — tunachagua nyenzo kulingana na kazi." },
+        { "num": "04", "title": "Umaliziaji", "desc": "Kufaa, primer, upakaji rangi, kung'arisha — bidhaa iko tayari kwa usanikishaji wa mkono kwa mkono." }
+      ],
+      "guaranteeLabel": "Dhamana ya upekee",
+      "guaranteeText": "Hutaona taa za mbele zilezile au bumpa ileile kwenye gari lingine — kwa sababu kila bidhaa inaundwa kwa ajili yako. Mchoro huenda kwenye kumbukumbu, michoro haziuzwi tena, hakuna ukungu. Hata kama mtu ataagiza seti ileile mara ya pili — tutakataa."
+    },
+    "forWho": {
+      "label": "Marekebisho au urekebishaji?",
+      "title1": "Urekebishaji kwa oda —",
+      "title2": "wewe ni mwandishi mwenza",
+      "p1": "Ikiwa unahitaji sehemu zilizotengenezwa tayari kutoka katalogi — hii si kwetu. Tunaunda urekebishaji kwa oda ambapo wewe ni mwandishi mwenza. Marekebisho ya kipekee yanafaa kwa:",
+      "useCases": ["Maonyesho na magari ya maonyesho", "Miradi binafsi ya shauku", "Restomod ya magari ya kawaida", "Kuunda mtindo wa saini wa chapa"],
+      "whyLabel": "Kwa nini \"nakala moja\" ni teknolojia",
+      "whyItems": [
+        "Hakuna ukungu na fomu za kubonyeza — kila mradi kuanzia sifuri",
+        "Hakuna kuuza tena kwa michoro — mchoro ni wako",
+        "Unamiliki muundo — sehemu ni yako"
+      ]
+    },
+    "works": {
+      "label": "Kazi zetu",
+      "title": "Kwa nakala moja",
+      "items": [
+        { "title": "Infiniti FX — \"Sokwe\"", "desc": "Bumpa + hoodi yenye muundo mkali na muunganiko kamili na mwili." },
+        { "title": "Land Cruiser — \"Sokwe\"", "desc": "Seti kamili ya mwili kwa mtindo wa nje ya barabara wa kikatili wenye tabia kali." },
+        { "title": "Infiniti FX — \"Kobra\"", "desc": "Meno ya kaboni, upanuzi wa matao, seti kamili ya mwili kwa nakala moja." }
+      ]
+    },
+    "howToOrder": {
+      "label": "Jinsi ya kuagiza",
+      "title1": "Agiza bumpa za kipekee",
+      "title2": "au taa maalum za mbele",
+      "p1": "Wasiliana nasi — tutajibu ndani ya masaa 24. Kwa kukokotoa gharama, tuma:",
+      "list": ["Picha ya gari (mtazamo wa jumla)", "Marejeleo ya mtindo unaotaka", "Orodha ya sehemu (bumpa, seti za mwili, taa za mbele au seti kamili)"],
+      "quote": "\"Gari lako ni turubai. Sisi ni wasanii wasiotengeneza nakala.\""
+    },
+    "footer": {
+      "copyright": "© 2024 ProCustom — urekebishaji maalum wa kipekee"
+    },
+    "meta": {
+      "title": "Marekebisho ya kipekee ya magari Urusi | Bumpa na seti za mwili za kipekee kwa oda — MY CUSTOM",
+      "description": "Taa maalum za mbele, seti za mwili na bumpa kwa nakala moja. Hatujirudia kamwe — tunaunda sanaa kwa gari lako. Mradi wa mkono kwa mkono. Simu: +7 (902) 255-77-53"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Ukurasa haukupatikana",
+    "backHome": "Rudi nyumbani"
+  }
+}

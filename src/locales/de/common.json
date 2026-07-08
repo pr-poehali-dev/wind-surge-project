@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "works": "Arbeiten",
+    "about": "Über uns",
+    "contacts": "Kontakt",
+    "order": "Bestellen",
+    "home": "Startseite",
+    "language": "Sprache"
+  },
+  "hero": {
+    "badge": "Individuelles Auto-Tuning — in ganz Russland",
+    "title1": "Einzigartiges Custom —",
+    "titleAccent": "nur",
+    "titleEnd": "für Sie",
+    "subtitle": "Exklusive Stoßstangen, Karosserie-Kits, individuelle Scheinwerfer — jedes Stück wird als Unikat gefertigt.",
+    "ctaDiscuss": "Projekt besprechen",
+    "ctaWorks": "Arbeiten ansehen"
+  },
+  "gallery": {
+    "label": "Unsere Arbeiten",
+    "title1": "Realisierte",
+    "title2": "Projekte",
+    "items": [
+      { "title": "Infiniti FX — „Gorilla“", "desc": "Individuelle Stoßstange · Maske · Radlaufverbreiterung" },
+      { "title": "Mercedes CLS — „Wolf“", "desc": "" },
+      { "title": "Land Cruiser — „Gorilla“", "desc": "" },
+      { "title": "Infiniti FX — „Kobra“", "desc": "Carbon-Reißzähne · komplettes Body Kit" },
+      { "title": "BMW M6 — „Hai“", "desc": "Carbon-Zähne · Lufteinlässe" }
+    ]
+  },
+  "services": {
+    "label": "Was wir tun",
+    "title1": "Volles Spektrum",
+    "title2": "der Individualisierung",
+    "items": [
+      { "title": "Individuelle Scheinwerfer", "description": "Einzigartige LED-Optik nach Maß: Angel Eyes, Lasergravur, individuelle Grafik — exklusiv für Ihr Auto." },
+      { "title": "Individuelle Stoßstangen", "description": "Original-Stoßstangen mit aggressivem Design, integrierten Lufteinlässen und einzigartigen Elementen — kein Exemplar gleicht dem anderen." },
+      { "title": "Kühlergrills", "description": "Individuelle Grills mit einzigartigem Muster, LED-Beleuchtung und persönlicher Symbolik — das Gesicht Ihres Autos." },
+      { "title": "Spoiler und Diffusoren", "description": "Original-Spoiler, Heckflügel und Heckdiffusoren — Aerodynamik und aggressiver Stil in einem Produkt." },
+      { "title": "Individuelle Karosserie", "description": "Radlaufverbreiterung, Überarbeitung der Karosserielinien, komplettes Body Kit nach Maß — totale Fahrzeugtransformation." },
+      { "title": "Exklusives Bodykit", "description": "Voller Zyklus: von der Konzeptskizze bis zum fertigen Produkt. Wir entwickeln ein einzigartiges Bodykit, das es nur einmal gibt." },
+      { "title": "3D-Konstruktion", "description": "3D-Modellierung, Prototyping und Herstellung von Kunststoff-Karosserieelementen jeder Komplexität und Geometrie." },
+      { "title": "Exklusive Teile", "description": "Original-Verkleidungen, Schweller, Einsätze und Anbauteile — jedes Teil wird individuell entworfen und gefertigt." }
+    ]
+  },
+  "cta": {
+    "label": "Projekt starten",
+    "title1": "Bereit, etwas",
+    "title2": "Exklusives zu schaffen?",
+    "desc": "Erzählen Sie uns von Ihrer Idee — wir setzen sie in Metall und Kunststoff um."
+  },
+  "golod": {
+    "label": "Autoren-Linie",
+    "title1": "Die Linie",
+    "title2": "„HUNGER“",
+    "desc": "Exklusive individuelle Stoßstangen und Motorhauben in Form wütender Tiergesichter. Jedes Stück der Linie „Hunger“ ist eine originale Skulptur aus Kunststoff und Carbon, die das Auto in einen Raubtier verwandelt. Anfertigung nach Maß für jede Marke und jedes Modell.",
+    "items": [
+      { "animal": "Gorilla", "desc": "Eine massive Fratze mit Reißzähnen, eine hängende Stirn, detaillierte Falten — Dominanz auf den ersten Blick.", "tag": "Stoßstange + Motorhaube" },
+      { "animal": "Kobra", "desc": "Ein aufgerissenes Maul mit Giftzähnen, ein bedrohlicher Blick — Schnelligkeit und Gefahr in jeder Linie.", "tag": "Stoßstange + Motorhaube" },
+      { "animal": "Hai", "desc": "Scharfe Carbon-Zähne, eine räuberische Silhouette — ein Kit für alle, die den Asphalt zerreißen, statt nur darauf zu fahren.", "tag": "Stoßstange + Grill" }
+    ],
+    "wantBeast": "Möchten Sie Ihr eigenes Tier?",
+    "wantBeastDesc": "Wir entwickeln jedes Tier nach Maß — von der Skizze bis zum fertigen Produkt",
+    "orderButton": "„Hunger“-Kit bestellen"
+  },
+  "messengers": {
+    "call": "Anrufen",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "max": "Max",
+    "whatsappButton": "Auf WhatsApp schreiben"
+  },
+  "contact": {
+    "ctaText": "Rufen Sie an! Schreiben Sie, wo immer es Ihnen passt"
+  },
+  "footer": {
+    "brandDesc": "Exklusives individuelles Auto-Tuning. Einzigartige Stoßstangen, Bodykits, Scheinwerfer und Karosserieelemente als Unikat.",
+    "servicesTitle": "Leistungen",
+    "servicesList": ["Individuelle Stoßstangen", "„Hunger“-Linie", "Individuelle Scheinwerfer", "Bodykits nach Maß", "3D-Konstruktion", "Radlaufverbreiterung"],
+    "copyright": "© 2024 ProCustom — exklusives individuelles Tuning"
+  },
+  "about": {
+    "hero": {
+      "label": "Über die Werkstatt",
+      "title1": "Einzigartiges Custom —",
+      "title2": "nur für Sie",
+      "p1": "Wir schaffen exklusive Stoßstangen, Bodykits und individuelle Scheinwerfer, die man nicht im Laden kaufen kann. Jedes Stück entsteht als Unikat — speziell für Ihr Auto und Ihren Stil.",
+      "p2": "Die Werkstatt PROCUSTOM ist ein Ort, an dem Serienlösungen keine Rolle spielen. Nur Handarbeit, nur ein persönlicher Ansatz und nur einzigartiges Custom."
+    },
+    "reasons": {
+      "label": "Unsere Vorteile",
+      "title": "Warum uns wählen?",
+      "items": [
+        { "title": "Exklusive Stoßstangen „wie sonst niemand“", "desc": "Wir entwerfen und fertigen individuelle Stoßstangen, die sich perfekt in das Design Ihres Autos einfügen. Keine Fertigformen — nur 3D-Modellierung nach Ihrer Geometrie und Ihren Wünschen." },
+        { "title": "Bodykits — reine Individualität", "desc": "Schweller, Splitter, Diffusoren, Radlauferweiterungen. Wir erstellen Bodykits jeder Komplexität: vom aggressiven Tuning-Stil bis zur raffinierten Klassik. Jedes Element ist ein Unikat." },
+        { "title": "Individuelle Scheinwerfer — Licht, das auffällt", "desc": "Wir entwickeln individuelle Scheinwerfer mit einzigartiger Grafik, DRL-LEDs, Projektionslinsen und Lasertechnologie. Das ist nicht nur Licht — das ist Architektur." },
+        { "title": "Voller Zyklus schlüsselfertig", "desc": "Von der Skizze und dem 3D-Druck bis zur Lackierung und Montage. Sie erhalten ein fertiges, einzigartiges Custom, ohne andere Handwerker suchen zu müssen." }
+      ]
+    },
+    "process": {
+      "label": "Entstehungsprozess",
+      "title1": "Wie entsteht",
+      "title2": "Ihr einzigartiges Exemplar?",
+      "steps": [
+        { "num": "01", "title": "Konzept", "desc": "Wir besprechen die Idee, Referenzen, technische Aufgaben — Sie werden zum Co-Autor des Werkes." },
+        { "num": "02", "title": "3D-Projekt", "desc": "Wir modellieren das Teil genau nach der Geometrie Ihres Autos — keine Universalformen." },
+        { "num": "03", "title": "Fertigung", "desc": "Carbon, Glasfaser, ABS-Kunststoff oder 3D-Druck — wir wählen das Material passend zur Aufgabe." },
+        { "num": "04", "title": "Finish", "desc": "Anpassung, Grundierung, Lackierung, Politur — das Werk ist bereit zur schlüsselfertigen Montage." }
+      ],
+      "guaranteeLabel": "Einzigartigkeitsgarantie",
+      "guaranteeText": "Sie werden dieselben Scheinwerfer oder dieselbe Stoßstange an keinem anderen Auto finden — denn jedes Werk wird für Sie geschaffen. Die Skizze geht ins Archiv, Zeichnungen werden nicht wiederverkauft, es gibt keine Formen. Selbst wenn jemand dasselbe Bodykit ein zweites Mal bestellt — wir lehnen ab."
+    },
+    "forWho": {
+      "label": "Custom oder Tuning?",
+      "title1": "Tuning nach Maß —",
+      "title2": "Sie sind Co-Autor",
+      "p1": "Wenn Sie fertige Teile aus einem Katalog brauchen — sind wir nicht die Richtigen. Wir schaffen Tuning nach Maß, bei dem Sie Co-Autor sind. Einzigartiges Custom eignet sich für:",
+      "useCases": ["Ausstellungen und Show-Cars", "Persönliche Herzensprojekte", "Restomod klassischer Autos", "Schaffung eines markentypischen Stils"],
+      "whyLabel": "Warum „Unikat“ eine Technologie ist",
+      "whyItems": [
+        "Keine Formen und Pressformen — jedes Projekt von Grund auf",
+        "Kein Weiterverkauf von Zeichnungen — die Skizze gehört Ihnen",
+        "Sie besitzen das Modell — das Teil gehört Ihnen"
+      ]
+    },
+    "works": {
+      "label": "Unsere Arbeiten",
+      "title": "Als Unikat",
+      "items": [
+        { "title": "Infiniti FX — „Gorilla“", "desc": "Stoßstange + Motorhaube mit aggressivem Design und vollständiger Integration in die Karosserie." },
+        { "title": "Land Cruiser — „Gorilla“", "desc": "Vollständiges Bodykit im brutalen Offroad-Stil mit aggressivem Charakter." },
+        { "title": "Infiniti FX — „Kobra“", "desc": "Carbon-Reißzähne, Radlaufverbreiterung, komplettes Body Kit als Unikat." }
+      ]
+    },
+    "howToOrder": {
+      "label": "Wie man bestellt",
+      "title1": "Exklusive Stoßstangen bestellen",
+      "title2": "oder individuelle Scheinwerfer",
+      "p1": "Kontaktieren Sie uns — wir antworten innerhalb von 24 Stunden. Zur Preisberechnung senden Sie bitte:",
+      "list": ["Ein Foto Ihres Autos (Gesamtansicht)", "Referenzen des gewünschten Stils", "Liste der Teile (Stoßstangen, Bodykits, Scheinwerfer oder komplettes Set)"],
+      "quote": "„Ihr Auto ist eine Leinwand. Wir sind die Künstler, die keine Kopien anfertigen.“"
+    },
+    "footer": {
+      "copyright": "© 2024 ProCustom — exklusives individuelles Tuning"
+    },
+    "meta": {
+      "title": "Einzigartiges Auto-Custom-Tuning in Russland | Exklusive Stoßstangen und Bodykits nach Maß — MY CUSTOM",
+      "description": "Individuelle Scheinwerfer, Bodykits und Stoßstangen als Unikat. Wir wiederholen uns nie — wir schaffen Kunst für Ihr Auto. Schlüsselfertiges Projekt. Tel: +7 (902) 255-77-53"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hoppla! Seite nicht gefunden",
+    "backHome": "Zurück zur Startseite"
+  }
+}

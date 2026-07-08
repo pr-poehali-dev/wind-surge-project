@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "services": "Dịch vụ",
+    "works": "Tác phẩm",
+    "about": "Về chúng tôi",
+    "contacts": "Liên hệ",
+    "order": "Đặt hàng",
+    "home": "Trang chủ",
+    "language": "Ngôn ngữ"
+  },
+  "hero": {
+    "badge": "Độ xe theo yêu cầu — trên khắp nước Nga",
+    "title1": "Độ xe độc đáo —",
+    "titleAccent": "chỉ dành",
+    "titleEnd": "riêng cho bạn",
+    "subtitle": "Cản trước độc quyền, bộ bodykit, đèn pha tùy chỉnh — mỗi sản phẩm được chế tạo với số lượng duy nhất.",
+    "ctaDiscuss": "Thảo luận dự án",
+    "ctaWorks": "Xem tác phẩm"
+  },
+  "gallery": {
+    "label": "Tác phẩm của chúng tôi",
+    "title1": "Các dự án",
+    "title2": "đã hoàn thành",
+    "items": [
+      { "title": "Infiniti FX — \"Khỉ đột\"", "desc": "Cản trước tùy chỉnh · mặt nạ · mở rộng vòm bánh xe" },
+      { "title": "Mercedes CLS — \"Sói\"", "desc": "" },
+      { "title": "Land Cruiser — \"Khỉ đột\"", "desc": "" },
+      { "title": "Infiniti FX — \"Hổ mang\"", "desc": "Nanh carbon · bodykit đầy đủ" },
+      { "title": "BMW M6 — \"Cá mập\"", "desc": "Răng carbon · cửa hút gió" }
+    ]
+  },
+  "services": {
+    "label": "Chúng tôi làm gì",
+    "title1": "Đầy đủ các dịch vụ",
+    "title2": "tùy chỉnh",
+    "items": [
+      { "title": "Đèn pha tùy chỉnh", "description": "Quang học LED độc đáo theo yêu cầu: angel eyes, khắc laser, đồ họa cá nhân hóa — độc quyền cho xe của bạn." },
+      { "title": "Cản trước tùy chỉnh", "description": "Cản trước nguyên bản với thiết kế mạnh mẽ, cửa hút gió tích hợp và các yếu tố độc đáo — không có chiếc nào giống nhau." },
+      { "title": "Lưới tản nhiệt", "description": "Lưới tùy chỉnh với hoa văn độc đáo, đèn LED và biểu tượng cá nhân — bộ mặt của chiếc xe bạn." },
+      { "title": "Cánh gió và bộ khuếch tán", "description": "Cánh gió, spoiler và bộ khuếch tán sau nguyên bản — khí động học và phong cách mạnh mẽ trong một sản phẩm." },
+      { "title": "Thân xe tùy chỉnh", "description": "Mở rộng vòm bánh xe, thiết kế lại đường nét thân xe, bodykit đầy đủ theo yêu cầu — biến đổi toàn diện chiếc xe." },
+      { "title": "Bodykit độc quyền", "description": "Toàn bộ chu trình: từ bản phác thảo ý tưởng đến sản phẩm hoàn thiện. Chúng tôi thiết kế bodykit độc đáo chỉ tồn tại với một bản duy nhất." },
+      { "title": "Thiết kế 3D", "description": "Mô hình hóa 3D, tạo mẫu và sản xuất các bộ phận thân xe bằng nhựa với độ phức tạp và hình học bất kỳ." },
+      { "title": "Phụ kiện độc quyền", "description": "Ốp trang trí, ốp hông, chi tiết chèn và phụ kiện lắp thêm nguyên bản — mỗi chi tiết được thiết kế và chế tạo riêng biệt." }
+    ]
+  },
+  "cta": {
+    "label": "Bắt đầu dự án",
+    "title1": "Sẵn sàng tạo ra",
+    "title2": "điều gì đó độc quyền?",
+    "desc": "Hãy chia sẻ ý tưởng của bạn — chúng tôi sẽ hiện thực hóa nó bằng kim loại và nhựa."
+  },
+  "golod": {
+    "label": "Dòng sản phẩm độc quyền",
+    "title1": "Dòng",
+    "title2": "\"CƠN ĐÓI\"",
+    "desc": "Cản trước và nắp capo độc quyền được chế tạo theo hình dạng khuôn mặt động vật hung dữ. Mỗi sản phẩm của dòng \"Cơn Đói\" là một tác phẩm điêu khắc nguyên bản từ nhựa và carbon, biến chiếc xe thành một kẻ săn mồi. Chế tạo theo yêu cầu cho mọi hãng và mẫu xe.",
+    "items": [
+      { "animal": "Khỉ đột", "desc": "Khuôn mặt to lớn với nanh, trán nhô ra, những nếp nhăn chi tiết — thống trị ngay từ cái nhìn đầu tiên.", "tag": "cản trước + nắp capo" },
+      { "animal": "Hổ mang", "desc": "Miệng mở với nanh độc, ánh mắt đe dọa — sự nhanh nhẹn và nguy hiểm trong từng đường nét.", "tag": "cản trước + nắp capo" },
+      { "animal": "Cá mập", "desc": "Răng carbon sắc bén, hình dáng của kẻ săn mồi — bodykit dành cho những ai xé toạc mặt đường, không chỉ lái trên đó.", "tag": "cản trước + lưới tản nhiệt" }
+    ],
+    "wantBeast": "Bạn muốn con thú của riêng mình?",
+    "wantBeastDesc": "Chúng tôi sẽ phát triển bất kỳ loài động vật nào theo yêu cầu — từ bản phác thảo đến sản phẩm hoàn thiện",
+    "orderButton": "Đặt bộ \"Cơn Đói\""
+  },
+  "messengers": {
+    "call": "Gọi điện",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "max": "Max",
+    "whatsappButton": "Nhắn tin qua WhatsApp"
+  },
+  "contact": {
+    "ctaText": "Gọi cho chúng tôi! Nhắn tin bất cứ nơi nào thuận tiện"
+  },
+  "footer": {
+    "brandDesc": "Độ xe theo yêu cầu độc quyền. Cản trước, bodykit, đèn pha và các bộ phận thân xe độc đáo chỉ có một bản duy nhất.",
+    "servicesTitle": "Dịch vụ",
+    "servicesList": ["Cản trước tùy chỉnh", "Dòng \"Cơn Đói\"", "Đèn pha tùy chỉnh", "Bodykit theo yêu cầu", "Thiết kế 3D", "Mở rộng vòm bánh xe"],
+    "copyright": "© 2024 ProCustom — độ xe độc quyền theo yêu cầu"
+  },
+  "about": {
+    "hero": {
+      "label": "Về xưởng",
+      "title1": "Độ xe độc đáo —",
+      "title2": "chỉ dành riêng cho bạn",
+      "p1": "Chúng tôi tạo ra những cản trước độc quyền, bodykit và đèn pha tùy chỉnh không thể mua được ở cửa hàng. Mỗi sản phẩm ra đời với số lượng duy nhất — dành riêng cho chiếc xe và phong cách của bạn.",
+      "p2": "Xưởng PROCUSTOM là nơi mà các giải pháp hàng loạt không có ý nghĩa. Chỉ có công việc thủ công, chỉ có phương pháp cá nhân hóa và chỉ có độ xe độc đáo."
+    },
+    "reasons": {
+      "label": "Ưu điểm của chúng tôi",
+      "title": "Tại sao chọn chúng tôi?",
+      "items": [
+        { "title": "Cản trước độc quyền \"không ai có\"", "desc": "Chúng tôi thiết kế và chế tạo cản trước tùy chỉnh hòa hợp hoàn hảo với thiết kế xe. Không có khuôn mẫu sẵn có — chỉ có mô hình 3D theo hình dạng và mong muốn của bạn." },
+        { "title": "Bodykit — cá tính thuần khiết", "desc": "Ốp hông, splitter, bộ khuếch tán, mở rộng vòm bánh xe. Chúng tôi tạo ra bodykit với độ phức tạp bất kỳ: từ phong cách độ xe mạnh mẽ đến cổ điển tinh tế. Mỗi yếu tố là một bản duy nhất." },
+        { "title": "Đèn pha tùy chỉnh — ánh sáng nổi bật", "desc": "Chúng tôi phát triển đèn pha tùy chỉnh với đồ họa độc đáo, đèn LED DRL, thấu kính chiếu và công nghệ laser. Đây không chỉ là ánh sáng — đó là kiến trúc." },
+        { "title": "Chu trình trọn gói đầy đủ", "desc": "Từ bản phác thảo và in 3D đến sơn và lắp đặt. Bạn nhận được một sản phẩm độ xe độc đáo hoàn chỉnh mà không cần tìm kiếm thợ khác." }
+      ]
+    },
+    "process": {
+      "label": "Quy trình tạo ra",
+      "title1": "Bản duy nhất của bạn",
+      "title2": "được tạo ra như thế nào?",
+      "steps": [
+        { "num": "01", "title": "Ý tưởng", "desc": "Chúng tôi thảo luận về ý tưởng, tài liệu tham khảo, nhiệm vụ kỹ thuật — bạn trở thành đồng tác giả của sản phẩm." },
+        { "num": "02", "title": "Dự án 3D", "desc": "Chúng tôi mô hình hóa chi tiết đặc biệt theo hình học của xe bạn — không có hình dạng chung." },
+        { "num": "03", "title": "Sản xuất", "desc": "Carbon, sợi thủy tinh, nhựa ABS hoặc in 3D — chúng tôi chọn vật liệu phù hợp với nhiệm vụ." },
+        { "num": "04", "title": "Hoàn thiện", "desc": "Lắp ráp thử, sơn lót, sơn phủ, đánh bóng — sản phẩm sẵn sàng lắp đặt trọn gói." }
+      ],
+      "guaranteeLabel": "Bảo đảm độc nhất",
+      "guaranteeText": "Bạn sẽ không tìm thấy đèn pha hoặc cản trước giống hệt trên xe khác — vì mỗi sản phẩm được tạo ra dành riêng cho bạn. Bản phác thảo được lưu trữ, bản vẽ không được bán lại, không có khuôn mẫu. Ngay cả khi ai đó đặt hàng cùng một bodykit lần thứ hai — chúng tôi sẽ từ chối."
+    },
+    "forWho": {
+      "label": "Độ xe hay tuning?",
+      "title1": "Tuning theo yêu cầu —",
+      "title2": "bạn là đồng tác giả",
+      "p1": "Nếu bạn cần các bộ phận có sẵn từ catalogue — chúng tôi không phù hợp. Chúng tôi tạo ra tuning theo yêu cầu, nơi bạn là đồng tác giả. Độ xe độc đáo phù hợp cho:",
+      "useCases": ["Triển lãm và show car", "Dự án cá nhân đam mê", "Restomod xe cổ điển", "Tạo phong cách đặc trưng cho thương hiệu"],
+      "whyLabel": "Tại sao \"bản duy nhất\" là một công nghệ",
+      "whyItems": [
+        "Không có khuôn mẫu và khuôn ép — mỗi dự án bắt đầu từ con số không",
+        "Không bán lại bản vẽ — bản phác thảo là của bạn",
+        "Bạn sở hữu thiết kế — chi tiết thuộc về bạn"
+      ]
+    },
+    "works": {
+      "label": "Tác phẩm của chúng tôi",
+      "title": "Với số lượng duy nhất",
+      "items": [
+        { "title": "Infiniti FX — \"Khỉ đột\"", "desc": "Cản trước + nắp capo với thiết kế mạnh mẽ và tích hợp hoàn toàn vào thân xe." },
+        { "title": "Land Cruiser — \"Khỉ đột\"", "desc": "Bodykit đầy đủ theo phong cách off-road hung dữ với đặc trưng mạnh mẽ." },
+        { "title": "Infiniti FX — \"Hổ mang\"", "desc": "Nanh carbon, mở rộng vòm bánh xe, bodykit đầy đủ với số lượng duy nhất." }
+      ]
+    },
+    "howToOrder": {
+      "label": "Cách đặt hàng",
+      "title1": "Đặt cản trước độc quyền",
+      "title2": "hoặc đèn pha tùy chỉnh",
+      "p1": "Liên hệ với chúng tôi — chúng tôi sẽ trả lời trong vòng 24 giờ. Để tính chi phí, hãy gửi:",
+      "list": ["Ảnh xe (toàn cảnh)", "Tài liệu tham khảo phong cách mong muốn", "Danh sách chi tiết (cản trước, bodykit, đèn pha hoặc bộ đầy đủ)"],
+      "quote": "\"Chiếc xe của bạn là một tấm vải. Chúng tôi là những nghệ sĩ không làm bản sao.\""
+    },
+    "footer": {
+      "copyright": "© 2024 ProCustom — độ xe độc quyền theo yêu cầu"
+    },
+    "meta": {
+      "title": "Độ xe độc đáo tại Nga | Cản trước và bodykit độc quyền theo yêu cầu — MY CUSTOM",
+      "description": "Đèn pha, bodykit và cản trước tùy chỉnh với số lượng duy nhất. Chúng tôi không bao giờ lặp lại — chúng tôi tạo ra nghệ thuật cho chiếc xe của bạn. Dự án trọn gói. Điện thoại: +7 (902) 255-77-53"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Rất tiếc! Không tìm thấy trang",
+    "backHome": "Quay về trang chủ"
+  }
+}

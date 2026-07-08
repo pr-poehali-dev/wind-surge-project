@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "services": "Layanan",
+    "works": "Karya",
+    "about": "Tentang Kami",
+    "contacts": "Kontak",
+    "order": "Pesan",
+    "home": "Beranda",
+    "language": "Bahasa"
+  },
+  "hero": {
+    "badge": "Tuning mobil kustom — di seluruh Rusia",
+    "title1": "Kustomisasi unik —",
+    "titleAccent": "hanya",
+    "titleEnd": "untuk Anda",
+    "subtitle": "Bumper eksklusif, body kit, lampu depan kustom — setiap produk dibuat dalam satu eksemplar.",
+    "ctaDiscuss": "Diskusikan proyek",
+    "ctaWorks": "Lihat karya"
+  },
+  "gallery": {
+    "label": "Karya kami",
+    "title1": "Proyek",
+    "title2": "yang selesai",
+    "items": [
+      { "title": "Infiniti FX — \"Gorila\"", "desc": "Bumper kustom · wajah · perluasan spakbor" },
+      { "title": "Mercedes CLS — \"Serigala\"", "desc": "" },
+      { "title": "Land Cruiser — \"Gorila\"", "desc": "" },
+      { "title": "Infiniti FX — \"Kobra\"", "desc": "Taring karbon · body kit lengkap" },
+      { "title": "BMW M6 — \"Hiu\"", "desc": "Gigi karbon · saluran udara" }
+    ]
+  },
+  "services": {
+    "label": "Apa yang kami lakukan",
+    "title1": "Rangkaian lengkap",
+    "title2": "kustomisasi",
+    "items": [
+      { "title": "Lampu depan kustom", "description": "Optik LED unik sesuai pesanan: angel eyes, ukiran laser, grafis individual — eksklusif untuk mobil Anda." },
+      { "title": "Bumper kustom", "description": "Bumper orisinal dengan desain agresif, saluran udara terintegrasi dan elemen unik — tidak ada yang sama." },
+      { "title": "Grille radiator", "description": "Grille kustom dengan pola unik, pencahayaan LED dan simbol pribadi — wajah mobil Anda." },
+      { "title": "Spoiler dan diffuser", "description": "Spoiler, wing, dan diffuser belakang orisinal — aerodinamika dan gaya agresif dalam satu produk." },
+      { "title": "Bodi kustom", "description": "Perluasan spakbor, perombakan garis bodi, body kit lengkap sesuai pesanan — transformasi total kendaraan." },
+      { "title": "Body kit eksklusif", "description": "Siklus lengkap: dari sketsa konsep hingga produk jadi. Kami merancang body kit unik yang hanya ada dalam satu eksemplar." },
+      { "title": "Desain 3D", "description": "Pemodelan 3D, prototyping dan produksi elemen bodi plastik dengan kompleksitas dan geometri apa pun." },
+      { "title": "Suku cadang eksklusif", "description": "Trim, side skirt, sisipan dan aksesori orisinal — setiap bagian dirancang dan dibuat secara individual." }
+    ]
+  },
+  "cta": {
+    "label": "Mulai proyek",
+    "title1": "Siap menciptakan",
+    "title2": "sesuatu yang eksklusif?",
+    "desc": "Ceritakan ide Anda — kami akan mewujudkannya dalam logam dan plastik."
+  },
+  "golod": {
+    "label": "Lini orisinal",
+    "title1": "Lini",
+    "title2": "\"LAPAR\"",
+    "desc": "Bumper dan kap mesin kustom eksklusif, dibuat dalam bentuk wajah hewan buas. Setiap produk dari lini \"Lapar\" adalah patung orisinal dari plastik dan karbon, mengubah mobil menjadi predator. Pembuatan sesuai pesanan untuk merek dan model apa pun.",
+    "items": [
+      { "animal": "Gorila", "desc": "Wajah masif dengan taring, dahi menonjol, kerutan detail — dominasi sejak pandangan pertama.", "tag": "bumper + kap mesin" },
+      { "animal": "Kobra", "desc": "Mulut terbuka dengan taring beracun, tatapan mengancam — kecepatan dan bahaya di setiap garis.", "tag": "bumper + kap mesin" },
+      { "animal": "Hiu", "desc": "Gigi karbon tajam, siluet predator — kit untuk mereka yang merobek aspal, bukan sekadar melintasinya.", "tag": "bumper + grille" }
+    ],
+    "wantBeast": "Ingin binatang Anda sendiri?",
+    "wantBeastDesc": "Kami akan mengembangkan hewan apa pun sesuai pesanan — dari sketsa hingga produk jadi",
+    "orderButton": "Pesan kit \"Lapar\""
+  },
+  "messengers": {
+    "call": "Telepon",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "max": "Max",
+    "whatsappButton": "Kirim pesan di WhatsApp"
+  },
+  "contact": {
+    "ctaText": "Hubungi kami! Kirim pesan di mana pun yang nyaman"
+  },
+  "footer": {
+    "brandDesc": "Tuning mobil kustom eksklusif. Bumper unik, body kit, lampu depan, dan elemen bodi dalam satu eksemplar.",
+    "servicesTitle": "Layanan",
+    "servicesList": ["Bumper kustom", "Lini \"Lapar\"", "Lampu depan kustom", "Body kit sesuai pesanan", "Desain 3D", "Perluasan spakbor"],
+    "copyright": "© 2024 ProCustom — tuning kustom eksklusif"
+  },
+  "about": {
+    "hero": {
+      "label": "Tentang bengkel",
+      "title1": "Kustomisasi unik —",
+      "title2": "hanya untuk Anda",
+      "p1": "Kami menciptakan bumper eksklusif, body kit, dan lampu depan kustom yang tidak bisa dibeli di toko. Setiap produk lahir dalam satu eksemplar — khusus untuk mobil dan gaya Anda.",
+      "p2": "Bengkel PROCUSTOM adalah tempat di mana solusi massal tidak berarti apa-apa. Hanya kerja tangan, hanya pendekatan personal, dan hanya kustomisasi unik."
+    },
+    "reasons": {
+      "label": "Keunggulan kami",
+      "title": "Mengapa memilih kami?",
+      "items": [
+        { "title": "Bumper eksklusif \"tak dimiliki siapa pun\"", "desc": "Kami merancang dan membuat bumper kustom yang menyatu sempurna dengan desain mobil. Tanpa bentuk siap pakai — hanya pemodelan 3D sesuai geometri dan keinginan Anda." },
+        { "title": "Body kit — individualitas murni", "desc": "Side skirt, splitter, diffuser, arch extender. Kami membuat body kit dengan kompleksitas apa pun: dari gaya tuning agresif hingga klasik yang halus. Setiap elemen adalah eksemplar tunggal." },
+        { "title": "Lampu depan kustom — cahaya yang menonjol", "desc": "Kami mengembangkan lampu depan kustom dengan grafis unik, LED DRL, lensa proyeksi, dan teknologi laser. Ini bukan sekadar cahaya — ini arsitektur." },
+        { "title": "Siklus lengkap turnkey", "desc": "Dari sketsa dan pencetakan 3D hingga pengecatan dan pemasangan. Anda mendapatkan kustomisasi unik jadi tanpa perlu mencari pengrajin lain." }
+      ]
+    },
+    "process": {
+      "label": "Proses pembuatan",
+      "title1": "Bagaimana eksemplar",
+      "title2": "unik Anda dibuat?",
+      "steps": [
+        { "num": "01", "title": "Konsep", "desc": "Kami mendiskusikan ide, referensi, tugas teknis — Anda menjadi co-author dari produk." },
+        { "num": "02", "title": "Proyek 3D", "desc": "Kami memodelkan bagian secara khusus untuk geometri mobil Anda — tanpa bentuk universal." },
+        { "num": "03", "title": "Produksi", "desc": "Karbon, fiberglass, plastik ABS, atau pencetakan 3D — kami memilih material sesuai tugas." },
+        { "num": "04", "title": "Penyelesaian", "desc": "Penyesuaian, primer, pengecatan, pemolesan — produk siap untuk pemasangan turnkey." }
+      ],
+      "guaranteeLabel": "Jaminan keunikan",
+      "guaranteeText": "Anda tidak akan menemukan lampu depan atau bumper yang sama di mobil lain — karena setiap produk dibuat khusus untuk Anda. Sketsa masuk arsip, gambar tidak dijual kembali, tidak ada cetakan. Bahkan jika seseorang memesan body kit yang sama untuk kedua kalinya — kami akan menolak."
+    },
+    "forWho": {
+      "label": "Kustom atau tuning?",
+      "title1": "Tuning sesuai pesanan —",
+      "title2": "Anda co-author",
+      "p1": "Jika Anda membutuhkan suku cadang siap pakai dari katalog — itu bukan kami. Kami membuat tuning sesuai pesanan di mana Anda adalah co-author. Kustomisasi unik cocok untuk:",
+      "useCases": ["Pameran dan show car", "Proyek pribadi bergairah", "Restomod mobil klasik", "Menciptakan gaya khas merek"],
+      "whyLabel": "Mengapa \"eksemplar tunggal\" adalah sebuah teknologi",
+      "whyItems": [
+        "Tanpa cetakan dan matriks — setiap proyek dari nol",
+        "Tidak ada penjualan kembali gambar — sketsa milik Anda",
+        "Anda memiliki desainnya — bagian tersebut milik Anda"
+      ]
+    },
+    "works": {
+      "label": "Karya kami",
+      "title": "Dalam eksemplar tunggal",
+      "items": [
+        { "title": "Infiniti FX — \"Gorila\"", "desc": "Bumper + kap mesin dengan desain agresif dan integrasi penuh ke bodi." },
+        { "title": "Land Cruiser — \"Gorila\"", "desc": "Body kit lengkap dengan gaya off-road brutal berkarakter agresif." },
+        { "title": "Infiniti FX — \"Kobra\"", "desc": "Taring karbon, perluasan spakbor, body kit lengkap dalam eksemplar tunggal." }
+      ]
+    },
+    "howToOrder": {
+      "label": "Cara memesan",
+      "title1": "Pesan bumper eksklusif",
+      "title2": "atau lampu depan kustom",
+      "p1": "Hubungi kami — kami akan menjawab dalam 24 jam. Untuk menghitung biaya, kirimkan:",
+      "list": ["Foto mobil (tampilan umum)", "Referensi gaya yang diinginkan", "Daftar suku cadang (bumper, body kit, lampu depan atau set lengkap)"],
+      "quote": "\"Mobil Anda adalah kanvas. Kami adalah seniman yang tidak membuat salinan.\""
+    },
+    "footer": {
+      "copyright": "© 2024 ProCustom — tuning kustom eksklusif"
+    },
+    "meta": {
+      "title": "Kustomisasi mobil unik di Rusia | Bumper dan body kit eksklusif sesuai pesanan — MY CUSTOM",
+      "description": "Lampu depan, body kit, dan bumper kustom dalam eksemplar tunggal. Kami tidak pernah mengulang — kami menciptakan seni untuk mobil Anda. Proyek turnkey. Telepon: +7 (902) 255-77-53"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Halaman tidak ditemukan",
+    "backHome": "Kembali ke beranda"
+  }
+}
