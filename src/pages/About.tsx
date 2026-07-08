@@ -1,10 +1,11 @@
 import { ArrowLeft } from "lucide-react"
 import Icon from "@/components/ui/icon"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { useEffect } from "react"
 import { useTranslation } from "react-i18next"
 import SiteHeader from "@/components/SiteHeader"
 import { ContactCTA } from "@/components/ContactBlock"
+import { getLangFromPath, localizedPath } from "@/i18n/langRouting"
 
 const WORK_IMAGES = [
   "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/bd5930f8-3e06-48a1-bd91-421e7ed5a176.png",
@@ -17,6 +18,9 @@ const WHY_ICONS = ["X", "Lock", "User"]
 
 export default function About() {
   const { t } = useTranslation()
+  const location = useLocation()
+  const lang = getLangFromPath(location.pathname)
+  const homePath = localizedPath("/", lang)
   const reasons = t("about.reasons.items", { returnObjects: true }) as { title: string; desc: string }[]
   const steps = t("about.process.steps", { returnObjects: true }) as { num: string; title: string; desc: string }[]
   const useCases = t("about.forWho.useCases", { returnObjects: true }) as string[]
@@ -41,7 +45,7 @@ export default function About() {
       {/* Hero */}
       <section className="px-6 sm:px-10 lg:px-20 pt-20 pb-16 border-b border-white/5">
         <div className="max-w-5xl mx-auto">
-          <Link to="/" className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 text-xs tracking-widest uppercase mb-8 transition-colors">
+          <Link to={homePath} className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 text-xs tracking-widest uppercase mb-8 transition-colors">
             <ArrowLeft className="w-3 h-3" />
             {t("nav.home")}
           </Link>
@@ -247,7 +251,7 @@ export default function About() {
       <footer className="border-t border-white/5 px-6 sm:px-10 lg:px-20 py-8">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-white/20 text-xs tracking-wider uppercase">{t("about.footer.copyright")}</p>
-          <Link to="/" className="text-white/20 hover:text-white/50 text-xs tracking-wider uppercase transition-colors">
+          <Link to={homePath} className="text-white/20 hover:text-white/50 text-xs tracking-wider uppercase transition-colors">
             {t("nav.home")}
           </Link>
         </div>

@@ -1,13 +1,17 @@
 import { useState, useRef, useEffect } from "react"
-import { useTranslation } from "react-i18next"
+import { useNavigate, useLocation } from "react-router-dom"
 import { LANGUAGES } from "@/i18n/config"
+import { getLangFromPath, getBasePath, localizedPath } from "@/i18n/langRouting"
 import Icon from "@/components/ui/icon"
 
 export default function LanguageSwitcher({ variant = "desktop" }: { variant?: "desktop" | "mobile" }) {
-  const { i18n } = useTranslation()
+  const navigate = useNavigate()
+  const location = useLocation()
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
-  const current = LANGUAGES.find((l) => l.code === i18n.language) || LANGUAGES[0]
+  const currentLang = getLangFromPath(location.pathname)
+  const basePath = getBasePath(location.pathname)
+  const current = LANGUAGES.find((l) => l.code === currentLang) || LANGUAGES[0]
 
   useEffect(() => {
     function onClickOutside(e: MouseEvent) {
@@ -18,7 +22,7 @@ export default function LanguageSwitcher({ variant = "desktop" }: { variant?: "d
   }, [])
 
   const handleSelect = (code: string) => {
-    i18n.changeLanguage(code)
+    navigate(localizedPath(basePath, code) + location.hash)
     setOpen(false)
   }
 
@@ -30,7 +34,7 @@ export default function LanguageSwitcher({ variant = "desktop" }: { variant?: "d
             key={lang.code}
             onClick={() => handleSelect(lang.code)}
             className={`flex items-center gap-2 px-3 py-2 rounded-sm text-xs font-medium tracking-wider transition-colors ${
-              lang.code === i18n.language ? "bg-red-700 text-white" : "bg-white/5 text-white/50 hover:text-white"
+              lang.code === currentLang ? "bg-red-700 text-white" : "bg-white/5 text-white/50 hover:text-white"
             }`}
           >
             <span>{lang.flag}</span>
@@ -57,7 +61,7 @@ export default function LanguageSwitcher({ variant = "desktop" }: { variant?: "d
               key={lang.code}
               onClick={() => handleSelect(lang.code)}
               className={`w-full flex items-center gap-2 px-4 py-2.5 text-left text-xs font-medium tracking-wider transition-colors ${
-                lang.code === i18n.language ? "bg-red-700/20 text-white" : "text-white/60 hover:bg-white/5 hover:text-white"
+                lang.code === currentLang ? "bg-red-700/20 text-white" : "text-white/60 hover:bg-white/5 hover:text-white"
               }`}
             >
               <span>{lang.flag}</span>

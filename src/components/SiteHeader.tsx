@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { ShimmerButton } from "@/components/shimmer-button"
 import Icon from "@/components/ui/icon"
 import LanguageSwitcher from "@/components/LanguageSwitcher"
+import { getLangFromPath, getBasePath, localizedPath } from "@/i18n/langRouting"
 
 const PHONE = "+79022557753"
 const PHONE_DISPLAY = "+7 (902) 255-77-53"
@@ -14,19 +15,23 @@ export default function SiteHeader() {
   const { t } = useTranslation()
   const [open, setOpen] = useState(false)
   const { pathname } = useLocation()
-  const isAbout = pathname === "/about"
+  const lang = getLangFromPath(pathname)
+  const basePath = getBasePath(pathname)
+  const isAbout = basePath === "/about"
+  const homePath = localizedPath("/", lang)
+  const aboutPath = localizedPath("/about", lang)
 
   const NAV_ITEMS = [
-    { label: t("nav.services"), href: "/#services" },
-    { label: t("nav.works"),    href: "/#works"    },
-    { label: t("nav.about"),    href: "/about"     },
-    { label: t("nav.contacts"), href: "/#contacts" },
+    { label: t("nav.services"), href: `${homePath}#services`, hash: true },
+    { label: t("nav.works"),    href: `${homePath}#works`,    hash: true },
+    { label: t("nav.about"),    href: aboutPath,               hash: false },
+    { label: t("nav.contacts"), href: `${homePath}#contacts`, hash: true },
   ]
 
   return (
     <>
       <header className="relative z-20 flex items-center justify-between px-6 sm:px-10 lg:px-16 py-5 border-b border-white/5">
-        <Link to="/" className="flex items-center gap-3">
+        <Link to={homePath} className="flex items-center gap-3">
           <div className="w-1 h-7 bg-red-600 rounded-full" />
           <span className="text-white font-black text-xl sm:text-2xl tracking-[0.2em] uppercase">
             МОЙ<span className="text-red-500"> КАСТОМ</span>
@@ -34,10 +39,17 @@ export default function SiteHeader() {
         </Link>
 
         <nav className="hidden md:flex items-center space-x-8">
-          {NAV_ITEMS.map(({ label, href }) => {
-            const active = href === "/about" ? isAbout : false
-            const isRoute = href.startsWith("/about")
-            return isRoute ? (
+          {NAV_ITEMS.map(({ label, href, hash }) => {
+            const active = !hash && href === aboutPath ? isAbout : false
+            return hash ? (
+              <a
+                key={href}
+                href={isAbout ? href : href.replace(homePath, "")}
+                className="text-white/50 hover:text-white transition-colors text-sm font-medium tracking-wider uppercase"
+              >
+                {label}
+              </a>
+            ) : (
               <Link
                 key={href}
                 to={href}
@@ -45,14 +57,6 @@ export default function SiteHeader() {
               >
                 {label}
               </Link>
-            ) : (
-              <a
-                key={href}
-                href={isAbout ? href : href.replace("/#", "#")}
-                className="text-white/50 hover:text-white transition-colors text-sm font-medium tracking-wider uppercase"
-              >
-                {label}
-              </a>
             )
           })}
         </nav>
@@ -82,7 +86,7 @@ export default function SiteHeader() {
       {open && (
         <div className="fixed inset-0 z-50 flex flex-col overflow-y-auto" style={{ background: "#080808" }}>
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/5">
-            <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
+            <Link to={homePath} className="flex items-center gap-3" onClick={() => setOpen(false)}>
               <div className="w-1 h-7 bg-red-600 rounded-full" />
               <span className="text-white font-black text-xl tracking-[0.2em] uppercase">
                 МОЙ<span className="text-red-500"> КАСТОМ</span>
@@ -94,20 +98,10 @@ export default function SiteHeader() {
           </div>
 
           <nav className="flex flex-col px-6 pt-10 gap-1">
-            {NAV_ITEMS.map(({ label, href }) => {
-              const active = href === "/about" ? isAbout : false
-              const isRoute = href.startsWith("/about")
-              const resolvedHref = isAbout ? href : href.replace("/#", "#")
-              return isRoute ? (
-                <Link
-                  key={href}
-                  to={href}
-                  onClick={() => setOpen(false)}
-                  className={`py-4 text-2xl font-black uppercase tracking-widest border-b border-white/5 transition-colors ${active ? "text-white" : "text-white/40 hover:text-white"}`}
-                >
-                  {label}
-                </Link>
-              ) : (
+            {NAV_ITEMS.map(({ label, href, hash }) => {
+              const active = !hash && href === aboutPath ? isAbout : false
+              const resolvedHref = isAbout ? href : href.replace(homePath, "")
+              return hash ? (
                 <a
                   key={href}
                   href={resolvedHref}
@@ -116,6 +110,15 @@ export default function SiteHeader() {
                 >
                   {label}
                 </a>
+              ) : (
+                <Link
+                  key={href}
+                  to={href}
+                  onClick={() => setOpen(false)}
+                  className={`py-4 text-2xl font-black uppercase tracking-widest border-b border-white/5 transition-colors ${active ? "text-white" : "text-white/40 hover:text-white"}`}
+                >
+                  {label}
+                </Link>
               )
             })}
           </nav>
