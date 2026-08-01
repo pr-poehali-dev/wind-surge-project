@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 import { LineShadowText } from "@/components/line-shadow-text"
 import Icon from "@/components/ui/icon"
 import SiteHeader from "@/components/SiteHeader"
-import { PHONE, PHONE_DISPLAY, ContactCTA, WhatsAppButton, MessengerLinks } from "@/components/ContactBlock"
+import { PHONE_DISPLAY, EMAIL, ContactCTA, WhatsAppButton, MessengerLinks } from "@/components/ContactBlock"
 
 const BG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png"
 
@@ -16,6 +16,7 @@ const GALLERY_IMAGES = [
   "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/c774ad16-b2d9-43fb-9dcc-cd526eea672d.png",
   "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/cb82a27f-e4fb-40d7-a11a-235ece41d02b.png",
   "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/7664a75e-f98d-40e6-9969-17d71178475b.png",
+  "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/380faf91-d424-439c-86db-bee54d0ccd23.jpg",
 ]
 
 export default function Index() {
@@ -165,6 +166,21 @@ export default function Index() {
               </div>
             </div>
 
+            {/* 6. F-350 Белый медведь — во всю ширину */}
+            <div className="col-span-2 lg:col-span-12 group relative overflow-hidden">
+              <img
+                src={GALLERY_IMAGES[5]}
+                alt={galleryItems[5]?.title}
+                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-5">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-sm font-black tracking-widest uppercase">{galleryItems[5]?.title}</p>
+                <p className="text-white/50 text-xs mt-0.5 tracking-wider uppercase">{galleryItems[5]?.desc}</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -270,11 +286,11 @@ export default function Index() {
               <p className="text-white font-bold tracking-wider uppercase text-sm mb-1">{t("golod.wantBeast")}</p>
               <p className="text-white/40 text-xs tracking-wide">{t("golod.wantBeastDesc")}</p>
             </div>
-            <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer" className="shrink-0">
-              <Button className="bg-red-700 hover:bg-red-600 text-white px-6 py-3 rounded-sm text-xs font-bold tracking-widest uppercase border-0 transition-all duration-300 hover:scale-[1.03]">
+            <div className="shrink-0">
+              <Button className="bg-red-700 text-white px-6 py-3 rounded-sm text-xs font-bold tracking-widest uppercase border-0 pointer-events-none">
                 {t("golod.orderButton")}
               </Button>
-            </a>
+            </div>
           </div>
         </div>
       </section>
@@ -288,7 +304,7 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-1 h-7 bg-red-600 rounded-full" />
-                <span className="text-white font-black text-xl tracking-[0.2em] uppercase">PRO<span className="text-red-500">CUSTOM</span></span>
+                <span className="text-white font-black text-xl tracking-[0.2em] uppercase">МОЙ<span className="text-red-500">КАСТОМ</span></span>
               </div>
               <p className="text-white/35 text-sm leading-relaxed max-w-xs">
                 {t("footer.brandDesc")}
@@ -298,9 +314,12 @@ export default function Index() {
             {/* Contacts */}
             <div>
               <p className="text-white/20 text-xs font-bold tracking-[0.3em] uppercase mb-5">{t("contact.ctaText")}</p>
-              <a href={`tel:${PHONE}`} className="text-white font-bold text-lg tracking-wider hover:text-red-400 transition-colors block mb-4">
+              <p className="text-white font-bold text-lg tracking-wider mb-2">
                 {PHONE_DISPLAY}
-              </a>
+              </p>
+              <p className="text-white/40 text-sm tracking-wider mb-4">
+                {EMAIL}
+              </p>
               <MessengerLinks className="flex-col" />
             </div>
 
@@ -317,7 +336,7 @@ export default function Index() {
 
           <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
             <p className="text-white/20 text-xs tracking-wider uppercase">{t("footer.copyright")}</p>
-            <p className="text-white/15 text-xs">procustom.ru</p>
+            <p className="text-white/15 text-xs">moicustom.ru</p>
           </div>
         </div>
       </footer>

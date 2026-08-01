@@ -26,7 +26,8 @@
       { "title": "Mercedes CLS — \"Mbwa mwitu\"", "desc": "" },
       { "title": "Land Cruiser — \"Sokwe\"", "desc": "" },
       { "title": "Infiniti FX — \"Kobra\"", "desc": "Meno ya kaboni · seti kamili ya mwili" },
-      { "title": "BMW M6 — \"Papa\"", "desc": "Meno ya kaboni · matundu ya hewa" }
+      { "title": "BMW M6 — \"Papa\"", "desc": "Meno ya kaboni · matundu ya hewa" },
+      { "title": "F-350 — \"Dubu Mweupe\"", "desc": "Uso wa kinyago · meno makali · muunganiko kamili na mwili" }
     ]
   },
   "services": {
@@ -78,7 +79,7 @@
     "brandDesc": "Marekebisho ya magari maalum ya kipekee. Bumpa za kipekee, seti za mwili, taa za mbele na vipengele vya mwili kwa nakala moja.",
     "servicesTitle": "Huduma",
     "servicesList": ["Bumpa maalum", "Mstari wa \"Njaa\"", "Taa maalum za mbele", "Seti za mwili kwa oda", "Ubunifu wa 3D", "Upanuzi wa matao"],
-    "copyright": "© 2024 ProCustom — urekebishaji maalum wa kipekee"
+    "copyright": "© 2024 МОЙКАСТОМ — urekebishaji maalum wa kipekee"
   },
   "about": {
     "hero": {
@@ -86,7 +87,7 @@
       "title1": "Marekebisho ya kipekee —",
       "title2": "kwa ajili yako tu",
       "p1": "Tunaunda bumpa za kipekee, seti za mwili na taa maalum za mbele ambazo haziwezi kununuliwa dukani. Kila bidhaa huzaliwa kwa nakala moja — maalum kwa gari lako na mtindo wako.",
-      "p2": "Warsha ya PROCUSTOM ni mahali ambapo suluhisho za wingi hazina maana. Kazi ya mkono tu, mbinu ya kibinafsi tu, na marekebisho ya kipekee tu."
+      "p2": "Warsha ya МОЙКАСТОМ ni mahali ambapo suluhisho za wingi hazina maana. Kazi ya mkono tu, mbinu ya kibinafsi tu, na marekebisho ya kipekee tu."
     },
     "reasons": {
       "label": "Faida zetu",
@@ -142,7 +143,7 @@
       "quote": "\"Gari lako ni turubai. Sisi ni wasanii wasiotengeneza nakala.\""
     },
     "footer": {
-      "copyright": "© 2024 ProCustom — urekebishaji maalum wa kipekee"
+      "copyright": "© 2024 МОЙКАСТОМ — urekebishaji maalum wa kipekee"
     },
     "meta": {
       "title": "Marekebisho ya kipekee ya magari Urusi | Bumpa na seti za mwili za kipekee kwa oda — MY CUSTOM",

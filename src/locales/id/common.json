@@ -26,7 +26,8 @@
       { "title": "Mercedes CLS — \"Serigala\"", "desc": "" },
       { "title": "Land Cruiser — \"Gorila\"", "desc": "" },
       { "title": "Infiniti FX — \"Kobra\"", "desc": "Taring karbon · body kit lengkap" },
-      { "title": "BMW M6 — \"Hiu\"", "desc": "Gigi karbon · saluran udara" }
+      { "title": "BMW M6 — \"Hiu\"", "desc": "Gigi karbon · saluran udara" },
+      { "title": "F-350 — \"Beruang Kutub\"", "desc": "Wajah pahatan · taring · integrasi penuh ke bodi" }
     ]
   },
   "services": {
@@ -78,7 +79,7 @@
     "brandDesc": "Tuning mobil kustom eksklusif. Bumper unik, body kit, lampu depan, dan elemen bodi dalam satu eksemplar.",
     "servicesTitle": "Layanan",
     "servicesList": ["Bumper kustom", "Lini \"Lapar\"", "Lampu depan kustom", "Body kit sesuai pesanan", "Desain 3D", "Perluasan spakbor"],
-    "copyright": "© 2024 ProCustom — tuning kustom eksklusif"
+    "copyright": "© 2024 МОЙКАСТОМ — tuning kustom eksklusif"
   },
   "about": {
     "hero": {
@@ -86,7 +87,7 @@
       "title1": "Kustomisasi unik —",
       "title2": "hanya untuk Anda",
       "p1": "Kami menciptakan bumper eksklusif, body kit, dan lampu depan kustom yang tidak bisa dibeli di toko. Setiap produk lahir dalam satu eksemplar — khusus untuk mobil dan gaya Anda.",
-      "p2": "Bengkel PROCUSTOM adalah tempat di mana solusi massal tidak berarti apa-apa. Hanya kerja tangan, hanya pendekatan personal, dan hanya kustomisasi unik."
+      "p2": "Bengkel МОЙКАСТОМ adalah tempat di mana solusi massal tidak berarti apa-apa. Hanya kerja tangan, hanya pendekatan personal, dan hanya kustomisasi unik."
     },
     "reasons": {
       "label": "Keunggulan kami",
@@ -142,7 +143,7 @@
       "quote": "\"Mobil Anda adalah kanvas. Kami adalah seniman yang tidak membuat salinan.\""
     },
     "footer": {
-      "copyright": "© 2024 ProCustom — tuning kustom eksklusif"
+      "copyright": "© 2024 МОЙКАСТОМ — tuning kustom eksklusif"
     },
     "meta": {
       "title": "Kustomisasi mobil unik di Rusia | Bumper dan body kit eksklusif sesuai pesanan — MY CUSTOM",

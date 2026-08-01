@@ -26,7 +26,8 @@
       { "title": "Mercedes CLS — «Lobo»", "desc": "" },
       { "title": "Land Cruiser — «Gorila»", "desc": "" },
       { "title": "Infiniti FX — «Cobra»", "desc": "Presas de carbono · kit de carroceria completo" },
-      { "title": "BMW M6 — «Tubarão»", "desc": "Dentes de carbono · tomadas de ar" }
+      { "title": "BMW M6 — «Tubarão»", "desc": "Dentes de carbono · tomadas de ar" },
+      { "title": "F-350 — «Urso Branco»", "desc": "Focinho escultural · presas · integração total na carroceria" }
     ]
   },
   "services": {
@@ -78,7 +79,7 @@
     "brandDesc": "Tuning automotivo personalizado exclusivo. Para-choques, kits de carroceria, faróis e elementos de carroceria únicos.",
     "servicesTitle": "Serviços",
     "servicesList": ["Para-choques personalizados", "Linha «Fome»", "Faróis personalizados", "Kits de carroceria sob encomenda", "Design 3D", "Alargamento de para-lamas"],
-    "copyright": "© 2024 ProCustom — tuning personalizado exclusivo"
+    "copyright": "© 2024 МОЙКАСТОМ — tuning personalizado exclusivo"
   },
   "about": {
     "hero": {
@@ -86,7 +87,7 @@
       "title1": "Um custom único —",
       "title2": "só para você",
       "p1": "Criamos para-choques exclusivos, kits de carroceria e faróis personalizados que não podem ser comprados em loja. Cada peça nasce em exemplar único — feita especialmente para o seu carro e seu estilo.",
-      "p2": "A oficina PROCUSTOM é um lugar onde soluções em série não importam. Apenas trabalho manual, apenas abordagem pessoal e apenas custom único."
+      "p2": "A oficina МОЙКАСТОМ é um lugar onde soluções em série não importam. Apenas trabalho manual, apenas abordagem pessoal e apenas custom único."
     },
     "reasons": {
       "label": "Nossas vantagens",
@@ -142,7 +143,7 @@
       "quote": "«Seu carro é uma tela. Nós somos os artistas que não fazem cópias»."
     },
     "footer": {
-      "copyright": "© 2024 ProCustom — tuning personalizado exclusivo"
+      "copyright": "© 2024 МОЙКАСТОМ — tuning personalizado exclusivo"
     },
     "meta": {
       "title": "Custom automotivo único na Rússia | Para-choques e kits de carroceria exclusivos sob encomenda — MY CUSTOM",

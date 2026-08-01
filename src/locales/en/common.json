@@ -26,7 +26,8 @@
       { "title": "Mercedes CLS — \"Wolf\"", "desc": "" },
       { "title": "Land Cruiser — \"Gorilla\"", "desc": "" },
       { "title": "Infiniti FX — \"Cobra\"", "desc": "Carbon fangs · full body kit" },
-      { "title": "BMW M6 — \"Shark\"", "desc": "Carbon teeth · air intakes" }
+      { "title": "BMW M6 — \"Shark\"", "desc": "Carbon teeth · air intakes" },
+      { "title": "F-350 — \"Polar Bear\"", "desc": "Sculpted face · fangs · full body integration" }
     ]
   },
   "services": {
@@ -78,7 +79,7 @@
     "brandDesc": "Exclusive custom auto tuning. Unique bumpers, body kits, headlights and body elements made in a single copy.",
     "servicesTitle": "Services",
     "servicesList": ["Custom bumpers", "\"Hunger\" line", "Custom headlights", "Body kits to order", "3D design", "Arch extension"],
-    "copyright": "© 2024 ProCustom — exclusive custom tuning"
+    "copyright": "© 2024 МОЙКАСТОМ — exclusive custom tuning"
   },
   "about": {
     "hero": {
@@ -86,7 +87,7 @@
       "title1": "Unique custom —",
       "title2": "only for you",
       "p1": "We create exclusive bumpers, body kits and custom headlights that can't be bought in a store. Every piece is born in a single copy — made specifically for your car and your style.",
-      "p2": "PROCUSTOM workshop is a place where mass-production solutions don't matter. Only handmade work, only a personal approach, and only unique custom."
+      "p2": "МОЙКАСТОМ workshop is a place where mass-production solutions don't matter. Only handmade work, only a personal approach, and only unique custom."
     },
     "reasons": {
       "label": "Our advantages",
@@ -142,7 +143,7 @@
       "quote": "\"Your car is a canvas. We are the artists who don't make copies.\""
     },
     "footer": {
-      "copyright": "© 2024 ProCustom — exclusive custom tuning"
+      "copyright": "© 2024 МОЙКАСТОМ — exclusive custom tuning"
     },
     "meta": {
       "title": "Unique custom car tuning in Russia | Exclusive bumpers and body kits to order — MY CUSTOM",

@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 import { LocalizedPage } from "@/i18n/langRouting";
 import { LANGUAGES } from "@/i18n/config";
 import AutoLangRedirect from "@/components/AutoLangRedirect";
+import CookieBanner from "@/components/CookieBanner";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +45,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <CookieBanner />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

@@ -26,7 +26,8 @@
       { "title": "Mercedes CLS — \"Sói\"", "desc": "" },
       { "title": "Land Cruiser — \"Khỉ đột\"", "desc": "" },
       { "title": "Infiniti FX — \"Hổ mang\"", "desc": "Nanh carbon · bodykit đầy đủ" },
-      { "title": "BMW M6 — \"Cá mập\"", "desc": "Răng carbon · cửa hút gió" }
+      { "title": "BMW M6 — \"Cá mập\"", "desc": "Răng carbon · cửa hút gió" },
+      { "title": "F-350 — \"Gấu Bắc Cực\"", "desc": "Mặt nạ điêu khắc · nanh · tích hợp hoàn toàn vào thân xe" }
     ]
   },
   "services": {
@@ -78,7 +79,7 @@
     "brandDesc": "Độ xe theo yêu cầu độc quyền. Cản trước, bodykit, đèn pha và các bộ phận thân xe độc đáo chỉ có một bản duy nhất.",
     "servicesTitle": "Dịch vụ",
     "servicesList": ["Cản trước tùy chỉnh", "Dòng \"Cơn Đói\"", "Đèn pha tùy chỉnh", "Bodykit theo yêu cầu", "Thiết kế 3D", "Mở rộng vòm bánh xe"],
-    "copyright": "© 2024 ProCustom — độ xe độc quyền theo yêu cầu"
+    "copyright": "© 2024 МОЙКАСТОМ — độ xe độc quyền theo yêu cầu"
   },
   "about": {
     "hero": {
@@ -86,7 +87,7 @@
       "title1": "Độ xe độc đáo —",
       "title2": "chỉ dành riêng cho bạn",
       "p1": "Chúng tôi tạo ra những cản trước độc quyền, bodykit và đèn pha tùy chỉnh không thể mua được ở cửa hàng. Mỗi sản phẩm ra đời với số lượng duy nhất — dành riêng cho chiếc xe và phong cách của bạn.",
-      "p2": "Xưởng PROCUSTOM là nơi mà các giải pháp hàng loạt không có ý nghĩa. Chỉ có công việc thủ công, chỉ có phương pháp cá nhân hóa và chỉ có độ xe độc đáo."
+      "p2": "Xưởng МОЙКАСТОМ là nơi mà các giải pháp hàng loạt không có ý nghĩa. Chỉ có công việc thủ công, chỉ có phương pháp cá nhân hóa và chỉ có độ xe độc đáo."
     },
     "reasons": {
       "label": "Ưu điểm của chúng tôi",
@@ -142,7 +143,7 @@
       "quote": "\"Chiếc xe của bạn là một tấm vải. Chúng tôi là những nghệ sĩ không làm bản sao.\""
     },
     "footer": {
-      "copyright": "© 2024 ProCustom — độ xe độc quyền theo yêu cầu"
+      "copyright": "© 2024 МОЙКАСТОМ — độ xe độc quyền theo yêu cầu"
     },
     "meta": {
       "title": "Độ xe độc đáo tại Nga | Cản trước và bodykit độc quyền theo yêu cầu — MY CUSTOM",

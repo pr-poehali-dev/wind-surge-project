@@ -26,7 +26,8 @@
       { "title": "Mercedes CLS — \"Kurt\"", "desc": "" },
       { "title": "Land Cruiser — \"Gorilla\"", "desc": "" },
       { "title": "Infiniti FX — \"Kobra\"", "desc": "Karbon dişler · tam body kit" },
-      { "title": "BMW M6 — \"Köpekbalığı\"", "desc": "Karbon dişler · hava girişleri" }
+      { "title": "BMW M6 — \"Köpekbalığı\"", "desc": "Karbon dişler · hava girişleri" },
+      { "title": "F-350 — \"Kutup Ayısı\"", "desc": "Heykelsi yüz · dişler · gövdeye tam entegrasyon" }
     ]
   },
   "services": {
@@ -78,7 +79,7 @@
     "brandDesc": "Özel araç modifikasyonu. Tek bir kopya olarak benzersiz tamponlar, body kit'ler, farlar ve gövde elemanları.",
     "servicesTitle": "Hizmetler",
     "servicesList": ["Özel tamponlar", "\"Açlık\" koleksiyonu", "Özel farlar", "Sipariş üzerine body kit", "3D tasarım", "Çamurluk genişletme"],
-    "copyright": "© 2024 ProCustom — özel benzersiz modifikasyon"
+    "copyright": "© 2024 МОЙКАСТОМ — özel benzersiz modifikasyon"
   },
   "about": {
     "hero": {
@@ -86,7 +87,7 @@
       "title1": "Eşsiz özel tasarım —",
       "title2": "sadece sizin için",
       "p1": "Mağazadan satın alınamayacak özel tamponlar, body kit'ler ve özel farlar üretiyoruz. Her ürün tek bir kopya olarak, özellikle aracınız ve tarzınız için doğar.",
-      "p2": "PROCUSTOM atölyesi, seri çözümlerin bir anlam ifade etmediği bir yerdir. Sadece el işçiliği, sadece kişisel yaklaşım ve sadece benzersiz özel tasarım."
+      "p2": "МОЙКАСТОМ atölyesi, seri çözümlerin bir anlam ifade etmediği bir yerdir. Sadece el işçiliği, sadece kişisel yaklaşım ve sadece benzersiz özel tasarım."
     },
     "reasons": {
       "label": "Avantajlarımız",
@@ -142,7 +143,7 @@
       "quote": "\"Arabanız bir tuval. Biz kopya yapmayan sanatçılarız.\""
     },
     "footer": {
-      "copyright": "© 2024 ProCustom — özel benzersiz modifikasyon"
+      "copyright": "© 2024 МОЙКАСТОМ — özel benzersiz modifikasyon"
     },
     "meta": {
       "title": "Rusya'da eşsiz araç özel modifikasyonu | Sipariş üzerine özel tampon ve body kit'ler — MY CUSTOM",

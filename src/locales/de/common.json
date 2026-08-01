@@ -26,7 +26,8 @@
       { "title": "Mercedes CLS — „Wolf“", "desc": "" },
       { "title": "Land Cruiser — „Gorilla“", "desc": "" },
       { "title": "Infiniti FX — „Kobra“", "desc": "Carbon-Reißzähne · komplettes Body Kit" },
-      { "title": "BMW M6 — „Hai“", "desc": "Carbon-Zähne · Lufteinlässe" }
+      { "title": "BMW M6 — „Hai“", "desc": "Carbon-Zähne · Lufteinlässe" },
+      { "title": "F-350 — „Eisbär“", "desc": "Skulpturale Schnauze · Reißzähne · vollständige Integration in die Karosserie" }
     ]
   },
   "services": {
@@ -78,7 +79,7 @@
     "brandDesc": "Exklusives individuelles Auto-Tuning. Einzigartige Stoßstangen, Bodykits, Scheinwerfer und Karosserieelemente als Unikat.",
     "servicesTitle": "Leistungen",
     "servicesList": ["Individuelle Stoßstangen", "„Hunger“-Linie", "Individuelle Scheinwerfer", "Bodykits nach Maß", "3D-Konstruktion", "Radlaufverbreiterung"],
-    "copyright": "© 2024 ProCustom — exklusives individuelles Tuning"
+    "copyright": "© 2024 МОЙКАСТОМ — exklusives individuelles Tuning"
   },
   "about": {
     "hero": {
@@ -86,7 +87,7 @@
       "title1": "Einzigartiges Custom —",
       "title2": "nur für Sie",
       "p1": "Wir schaffen exklusive Stoßstangen, Bodykits und individuelle Scheinwerfer, die man nicht im Laden kaufen kann. Jedes Stück entsteht als Unikat — speziell für Ihr Auto und Ihren Stil.",
-      "p2": "Die Werkstatt PROCUSTOM ist ein Ort, an dem Serienlösungen keine Rolle spielen. Nur Handarbeit, nur ein persönlicher Ansatz und nur einzigartiges Custom."
+      "p2": "Die Werkstatt МОЙКАСТОМ ist ein Ort, an dem Serienlösungen keine Rolle spielen. Nur Handarbeit, nur ein persönlicher Ansatz und nur einzigartiges Custom."
     },
     "reasons": {
       "label": "Unsere Vorteile",
@@ -142,7 +143,7 @@
       "quote": "„Ihr Auto ist eine Leinwand. Wir sind die Künstler, die keine Kopien anfertigen.“"
     },
     "footer": {
-      "copyright": "© 2024 ProCustom — exklusives individuelles Tuning"
+      "copyright": "© 2024 МОЙКАСТОМ — exklusives individuelles Tuning"
     },
     "meta": {
       "title": "Einzigartiges Auto-Custom-Tuning in Russland | Exklusive Stoßstangen und Bodykits nach Maß — MY CUSTOM",

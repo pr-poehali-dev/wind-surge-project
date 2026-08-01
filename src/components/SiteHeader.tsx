@@ -8,7 +8,6 @@ import Icon from "@/components/ui/icon"
 import LanguageSwitcher from "@/components/LanguageSwitcher"
 import { getLangFromPath, getBasePath, localizedPath } from "@/i18n/langRouting"
 
-const PHONE = "+79022557753"
 const PHONE_DISPLAY = "+7 (902) 255-77-53"
 
 export default function SiteHeader() {
@@ -65,14 +64,16 @@ export default function SiteHeader() {
           <div className="hidden md:block">
             <LanguageSwitcher />
           </div>
-          <ShimmerButton
-            className="hidden md:flex text-white px-6 py-2 rounded-none text-sm font-bold tracking-widest uppercase"
-            background="rgba(185,28,28,1)"
-            shimmerColor="rgba(255,255,255,0.3)"
-            borderRadius="4px"
-          >
-            {t("nav.order")}
-          </ShimmerButton>
+          <div className="hidden md:flex">
+            <ShimmerButton
+              className="text-white px-6 py-2 rounded-none text-sm font-bold tracking-widest uppercase pointer-events-none"
+              background="rgba(185,28,28,1)"
+              shimmerColor="rgba(255,255,255,0.3)"
+              borderRadius="4px"
+            >
+              {t("nav.order")}
+            </ShimmerButton>
+          </div>
           <button
             className="md:hidden text-white p-2"
             onClick={() => setOpen(!open)}
@@ -129,15 +130,13 @@ export default function SiteHeader() {
           </div>
 
           <div className="px-6 pt-8 pb-8">
-            <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer">
-              <Button className="w-full bg-red-700 hover:bg-red-600 text-white py-4 rounded-sm text-sm font-bold tracking-widest uppercase border-0">
-                {t("messengers.whatsappButton")}
-              </Button>
-            </a>
-            <a href={`tel:${PHONE}`} className="flex items-center justify-center gap-2 mt-4 text-white/40 hover:text-white transition-colors">
+            <Button className="w-full bg-red-700 text-white py-4 rounded-sm text-sm font-bold tracking-widest uppercase border-0 pointer-events-none">
+              {t("messengers.whatsappButton")}
+            </Button>
+            <div className="flex items-center justify-center gap-2 mt-4 text-white/40">
               <Icon name="Phone" size={14} className="text-red-600" />
               <span className="text-sm tracking-wider">{PHONE_DISPLAY}</span>
-            </a>
+            </div>
           </div>
         </div>
       )}

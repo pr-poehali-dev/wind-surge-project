@@ -26,7 +26,8 @@
       { "title": "Mercedes CLS — « Loup »", "desc": "" },
       { "title": "Land Cruiser — « Gorille »", "desc": "" },
       { "title": "Infiniti FX — « Cobra »", "desc": "Crocs en carbone · kit carrosserie complet" },
-      { "title": "BMW M6 — « Requin »", "desc": "Dents en carbone · prises d'air" }
+      { "title": "BMW M6 — « Requin »", "desc": "Dents en carbone · prises d'air" },
+      { "title": "Ford F-350 — « Ours polaire »", "desc": "Museau sculptural · crocs · intégration totale à la carrosserie" }
     ]
   },
   "services": {
@@ -78,7 +79,7 @@
     "brandDesc": "Tuning automobile sur mesure exclusif. Pare-chocs, kits carrosserie, phares et éléments de carrosserie uniques.",
     "servicesTitle": "Services",
     "servicesList": ["Pare-chocs sur mesure", "Ligne « Faim »", "Phares sur mesure", "Kits carrosserie sur commande", "Conception 3D", "Élargissement des ailes"],
-    "copyright": "© 2024 ProCustom — tuning sur mesure exclusif"
+    "copyright": "© 2024 МОЙКАСТОМ — tuning sur mesure exclusif"
   },
   "about": {
     "hero": {
@@ -86,7 +87,7 @@
       "title1": "Un custom unique —",
       "title2": "rien que pour vous",
       "p1": "Nous créons des pare-chocs exclusifs, des kits carrosserie et des phares sur mesure qu'on ne peut pas acheter en magasin. Chaque pièce naît en exemplaire unique — spécialement pour votre voiture et votre style.",
-      "p2": "L'atelier PROCUSTOM est un lieu où les solutions de série n'ont pas leur place. Uniquement du travail manuel, une approche personnelle et un custom unique."
+      "p2": "L'atelier МОЙКАСТОМ est un lieu où les solutions de série n'ont pas leur place. Uniquement du travail manuel, une approche personnelle et un custom unique."
     },
     "reasons": {
       "label": "Nos avantages",
@@ -142,7 +143,7 @@
       "quote": "« Votre voiture est une toile. Nous sommes les artistes qui ne font pas de copies. »"
     },
     "footer": {
-      "copyright": "© 2024 ProCustom — tuning sur mesure exclusif"
+      "copyright": "© 2024 МОЙКАСТОМ — tuning sur mesure exclusif"
     },
     "meta": {
       "title": "Tuning automobile unique en Russie | Pare-chocs et kits carrosserie exclusifs sur commande — MY CUSTOM",
