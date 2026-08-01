@@ -17,6 +17,7 @@ const GALLERY_IMAGES = [
   "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/cb82a27f-e4fb-40d7-a11a-235ece41d02b.png",
   "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/7664a75e-f98d-40e6-9969-17d71178475b.png",
   "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/380faf91-d424-439c-86db-bee54d0ccd23.jpg",
+  "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/21e6351c-4ed8-4604-b02c-d2cb03451603.jpg",
 ]
 
 export default function Index() {
@@ -166,18 +167,33 @@ export default function Index() {
               </div>
             </div>
 
-            {/* 6. F-350 Белый медведь — во всю ширину */}
-            <div className="col-span-2 lg:col-span-12 group relative overflow-hidden">
+            {/* 6. F-350 Белый медведь */}
+            <div className="col-span-1 lg:col-span-6 group relative overflow-hidden">
               <img
                 src={GALLERY_IMAGES[5]}
                 alt={galleryItems[5]?.title}
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 p-5">
+              <div className="absolute bottom-0 left-0 p-4">
                 <div className="w-5 h-0.5 bg-red-600 mb-2" />
-                <p className="text-white text-sm font-black tracking-widest uppercase">{galleryItems[5]?.title}</p>
+                <p className="text-white text-xs font-black tracking-widest uppercase">{galleryItems[5]?.title}</p>
                 <p className="text-white/50 text-xs mt-0.5 tracking-wider uppercase">{galleryItems[5]?.desc}</p>
+              </div>
+            </div>
+
+            {/* 7. BMW X5 Лиса */}
+            <div className="col-span-1 lg:col-span-6 group relative overflow-hidden">
+              <img
+                src={GALLERY_IMAGES[6]}
+                alt={galleryItems[6]?.title}
+                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
+                <div className="w-5 h-0.5 bg-red-600 mb-2" />
+                <p className="text-white text-xs font-black tracking-widest uppercase">{galleryItems[6]?.title}</p>
+                <p className="text-white/50 text-xs mt-0.5 tracking-wider uppercase">{galleryItems[6]?.desc}</p>
               </div>
             </div>
 
@@ -336,7 +352,10 @@ export default function Index() {
 
           <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
             <p className="text-white/20 text-xs tracking-wider uppercase">{t("footer.copyright")}</p>
-            <p className="text-white/15 text-xs">moicustom.ru</p>
+            <div className="flex items-center gap-4">
+              <a href="/privacy" className="text-white/20 hover:text-white/50 text-xs tracking-wider uppercase transition-colors">Политика конфиденциальности</a>
+              <p className="text-white/15 text-xs">moicustom.ru</p>
+            </div>
           </div>
         </div>
       </footer>

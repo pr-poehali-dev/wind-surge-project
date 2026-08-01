@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
 
 const STORAGE_KEY = "cookie_consent"
 
@@ -21,7 +22,10 @@ export default function CookieBanner() {
     <div className="fixed bottom-0 left-0 right-0 z-[100] border-t border-white/10 bg-[#0a0a0a]/98 backdrop-blur-sm px-4 sm:px-6 py-4 sm:py-5">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
         <p className="text-white/60 text-xs sm:text-sm leading-relaxed flex-1">
-          Мы используем файлы cookie и обрабатываем обезличенные данные (в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных») исключительно для статистики посещаемости через сервисы Яндекс.Метрика (Вебмастер Яндекс) и Google Search Console. Продолжая пользоваться сайтом, вы соглашаетесь с обработкой таких данных.
+          Мы используем файлы cookie и обрабатываем обезличенные данные (в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных») исключительно для статистики посещаемости через сервисы Яндекс.Метрика (Вебмастер Яндекс) и Google Search Console. Продолжая пользоваться сайтом, вы соглашаетесь с обработкой таких данных согласно{" "}
+          <Link to="/privacy" className="text-white/80 hover:text-white underline underline-offset-2 transition-colors">
+            Политике обработки персональных данных
+          </Link>.
         </p>
         <div className="flex gap-3 shrink-0 w-full sm:w-auto">
           <button
