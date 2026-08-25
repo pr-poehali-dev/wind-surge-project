@@ -151,6 +151,10 @@
       "description": "Phares, kits carrosserie et pare-chocs sur mesure en exemplaire unique. Nous ne nous répétons jamais — nous créons de l'art pour votre voiture. Projet clé en main. Tél : +7 (902) 255-77-53"
     }
   },
+  "meta": {
+    "title": "MY CUSTOM — Tuning automobile sur mesure : pare-chocs, kits carrosserie et phares uniques sur commande",
+    "description": "MY CUSTOM — tuning automobile sur mesure exclusif. Pare-chocs, capots, kits carrosserie et phares uniques en forme de gueules d'animaux. La ligne « Faim ». Fabrication en exemplaire unique. Appelez : +7 (902) 255-77-53"
+  },
   "notFound": {
     "title": "404",
     "message": "Oups ! Page introuvable",

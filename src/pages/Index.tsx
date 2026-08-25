@@ -1,10 +1,14 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import { useEffect } from "react"
 import { useTranslation } from "react-i18next"
 import { LineShadowText } from "@/components/line-shadow-text"
 import Icon from "@/components/ui/icon"
 import SiteHeader from "@/components/SiteHeader"
 import { PHONE_DISPLAY, EMAIL, ContactCTA, WhatsAppButton, MessengerLinks } from "@/components/ContactBlock"
+
+const DEFAULT_TITLE = "МОЙ КАСТОМ — Кастомный тюнинг автомобилей: уникальные бампера, обвесы, фары на заказ"
+const DEFAULT_DESCRIPTION = "МОЙ КАСТОМ — эксклюзивный кастомный тюнинг авто. Уникальные бампера, капоты, обвесы, фары в виде морд животных. Линейка «Голод». Изготовление в единственном экземпляре. Звоните: +7 (902) 255-77-53"
 
 const BG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png"
 
@@ -26,6 +30,16 @@ export default function Index() {
   const services = t("services.items", { returnObjects: true }) as { title: string; description: string }[]
   const golodItems = t("golod.items", { returnObjects: true }) as { animal: string; desc: string; tag: string }[]
   const footerServices = t("footer.servicesList", { returnObjects: true }) as string[]
+
+  useEffect(() => {
+    document.title = t("meta.title")
+    const desc = document.querySelector('meta[name="description"]')
+    if (desc) desc.setAttribute("content", t("meta.description"))
+    return () => {
+      document.title = DEFAULT_TITLE
+      if (desc) desc.setAttribute("content", DEFAULT_DESCRIPTION)
+    }
+  }, [t])
 
   return (
     <div className="min-h-screen relative overflow-hidden" style={{ background: "#080808", fontFamily: "'Inter', sans-serif" }}>
