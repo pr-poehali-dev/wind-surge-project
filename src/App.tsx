@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import PartyBus from "./pages/PartyBus";
 import NotFound from "./pages/NotFound";
 import { LocalizedPage } from "@/i18n/langRouting";
 import { LANGUAGES } from "@/i18n/config";
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/" element={<LocalizedPage code="ru"><Index /></LocalizedPage>} />
           <Route path="/about" element={<LocalizedPage code="ru"><About /></LocalizedPage>} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/tusobas" element={<PartyBus />} />
 
           {NON_RU_LANGUAGES.map((lang) => (
             <Route

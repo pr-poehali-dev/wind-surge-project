@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { useEffect } from "react"
+import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { LineShadowText } from "@/components/line-shadow-text"
 import Icon from "@/components/ui/icon"
@@ -245,6 +246,27 @@ export default function Index() {
               </div>
             ))}
           </div>
+
+          <Link
+            to="/tusobas"
+            className="group mt-px flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-[#0c0c0c] hover:bg-[#111] border border-white/5 p-6 sm:p-8 transition-all duration-300 relative overflow-hidden"
+          >
+            <div className="absolute top-0 left-0 w-0 h-0.5 bg-red-600 group-hover:w-full transition-all duration-500" />
+            <div className="flex items-center gap-5">
+              <div className="w-12 h-12 rounded-sm bg-red-700/20 flex items-center justify-center shrink-0">
+                <Icon name="Bus" size={24} className="text-red-500" />
+              </div>
+              <div>
+                <p className="text-red-500 text-xs font-bold tracking-widest uppercase mb-1">Новое направление</p>
+                <h3 className="text-white font-black text-base sm:text-lg uppercase tracking-wide">Кастомные автобусы в бары на колёсах</h3>
+                <p className="text-white/35 text-xs sm:text-sm mt-1">Переоборудование под ключ — Тусобас, Бухобас, Бухбас</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2 text-white/40 group-hover:text-white text-xs font-bold tracking-widest uppercase transition-colors shrink-0 self-end sm:self-center">
+              Подробнее
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </Link>
         </div>
       </section>
 
