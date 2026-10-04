@@ -8,6 +8,8 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import PartyBus from "./pages/PartyBus";
+import RvConversion from "./pages/RvConversion";
+import FoodTruck from "./pages/FoodTruck";
 import NotFound from "./pages/NotFound";
 import { LocalizedPage } from "@/i18n/langRouting";
 import { LANGUAGES } from "@/i18n/config";
@@ -30,6 +32,8 @@ const App = () => (
           <Route path="/about" element={<LocalizedPage code="ru"><About /></LocalizedPage>} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/tusobas" element={<PartyBus />} />
+          <Route path="/dom-na-kolesah" element={<RvConversion />} />
+          <Route path="/food-truck" element={<FoodTruck />} />
 
           {NON_RU_LANGUAGES.map((lang) => (
             <Route
