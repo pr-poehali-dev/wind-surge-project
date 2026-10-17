@@ -7,9 +7,9 @@ import Icon from "@/components/ui/icon"
 import SiteHeader from "@/components/SiteHeader"
 import { ContactCTA } from "@/components/ContactBlock"
 
-const HERO_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/147b56cc-9e50-4499-b807-b51acf4e3b8b.jpg"
+const HERO_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/2d42ab40-5864-4967-99d2-e1018081248a.jpg"
 const ORIGINAL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/8a240937-cda8-4bab-af3d-7aac607f2588.jpg"
-const DETAIL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/147b56cc-9e50-4499-b807-b51acf4e3b8b.jpg"
+const DETAIL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/2d42ab40-5864-4967-99d2-e1018081248a.jpg"
 
 const BASE_GROUPS = [
   {
@@ -188,7 +188,7 @@ export default function TruckOffroad() {
               </div>
               <div className="p-6">
                 <p className="text-red-500 text-xs font-bold tracking-widest uppercase mb-2">После</p>
-                <p className="text-white/50 text-sm leading-relaxed">Родная кабина без изменений, задний кузов сформован как единое целое с ней в том же белом цвете, огромные внедорожные колёса, лифт подвески — монолитный силуэт гиганта.</p>
+                <p className="text-white/50 text-sm leading-relaxed">Родная передняя часть без изменений, вместо отдельной кабины и кузова — цельнометаллический фургон с задними дверями, по силуэту как настоящий внедорожник. Огромные колёса, лифт подвески.</p>
               </div>
             </div>
           </div>
@@ -220,7 +220,7 @@ export default function TruckOffroad() {
 
           <div className="border border-white/5 bg-[#0c0c0c] p-6">
             <p className="text-white/40 text-sm leading-relaxed">
-              <span className="text-red-500 font-bold">Наш принцип:</span> задняя часть кузова никогда не остаётся отдельным элементом — мы формуем её как продолжение кабины, в идентичном цвете, чтобы получился единый, бескомпромиссный силуэт внедорожника.
+              <span className="text-red-500 font-bold">Наш принцип:</span> передняя часть остаётся без изменений, а вместо отдельной кабины и кузова мы делаем цельнометаллический фургон с задними дверями — по силуэту он выглядит как настоящий внедорожник, без единого шва и разделения.
             </p>
           </div>
         </div>
