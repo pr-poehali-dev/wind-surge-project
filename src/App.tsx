@@ -10,6 +10,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import PartyBus from "./pages/PartyBus";
 import RvConversion from "./pages/RvConversion";
 import FoodTruck from "./pages/FoodTruck";
+import TruckOffroad from "./pages/TruckOffroad";
 import NotFound from "./pages/NotFound";
 import { LocalizedPage } from "@/i18n/langRouting";
 import { LANGUAGES } from "@/i18n/config";
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/tusobas" element={<PartyBus />} />
           <Route path="/dom-na-kolesah" element={<RvConversion />} />
           <Route path="/food-truck" element={<FoodTruck />} />
+          <Route path="/truck-offroad" element={<TruckOffroad />} />
 
           {NON_RU_LANGUAGES.map((lang) => (
             <Route
