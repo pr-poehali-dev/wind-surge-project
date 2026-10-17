@@ -7,9 +7,9 @@ import Icon from "@/components/ui/icon"
 import SiteHeader from "@/components/SiteHeader"
 import { ContactCTA } from "@/components/ContactBlock"
 
-const HERO_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/7ee51452-28e9-4398-beae-1611ce9f5a26.jpg"
+const HERO_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/147b56cc-9e50-4499-b807-b51acf4e3b8b.jpg"
 const ORIGINAL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/8a240937-cda8-4bab-af3d-7aac607f2588.jpg"
-const DETAIL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/4ac567af-09e0-43c3-bbae-efafc197e6f6.jpg"
+const DETAIL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/147b56cc-9e50-4499-b807-b51acf4e3b8b.jpg"
 
 const BASE_GROUPS = [
   {
@@ -188,7 +188,7 @@ export default function TruckOffroad() {
               </div>
               <div className="p-6">
                 <p className="text-red-500 text-xs font-bold tracking-widest uppercase mb-2">После</p>
-                <p className="text-white/50 text-sm leading-relaxed">Цельный белый корпус в цвет кабины, огромные внедорожные колёса, лифт подвески — монолитный силуэт гиганта.</p>
+                <p className="text-white/50 text-sm leading-relaxed">Родная кабина без изменений, задний кузов сформован как единое целое с ней в том же белом цвете, огромные внедорожные колёса, лифт подвески — монолитный силуэт гиганта.</p>
               </div>
             </div>
           </div>
