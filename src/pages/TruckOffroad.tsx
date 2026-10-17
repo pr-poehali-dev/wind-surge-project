@@ -7,9 +7,9 @@ import Icon from "@/components/ui/icon"
 import SiteHeader from "@/components/SiteHeader"
 import { ContactCTA } from "@/components/ContactBlock"
 
-const HERO_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/2d42ab40-5864-4967-99d2-e1018081248a.jpg"
+const HERO_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/71ad0dea-8737-4680-8d05-98bcc1b4f9b3.jpg"
 const ORIGINAL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/8a240937-cda8-4bab-af3d-7aac607f2588.jpg"
-const DETAIL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/2d42ab40-5864-4967-99d2-e1018081248a.jpg"
+const DETAIL_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/71ad0dea-8737-4680-8d05-98bcc1b4f9b3.jpg"
 
 const BASE_GROUPS = [
   {
