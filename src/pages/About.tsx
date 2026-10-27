@@ -1,7 +1,6 @@
 import { ArrowLeft } from "lucide-react"
 import Icon from "@/components/ui/icon"
-import { Link, useLocation } from "react-router-dom"
-import { useEffect } from "react"
+import { Link, useLocation } from "@/lib/router-compat"
 import { useTranslation } from "react-i18next"
 import SiteHeader from "@/components/SiteHeader"
 import { ContactCTA } from "@/components/ContactBlock"
@@ -27,15 +26,6 @@ export default function About() {
   const whyItems = t("about.forWho.whyItems", { returnObjects: true }) as string[]
   const works = t("about.works.items", { returnObjects: true }) as { title: string; desc: string }[]
   const howToOrderList = t("about.howToOrder.list", { returnObjects: true }) as string[]
-
-  useEffect(() => {
-    document.title = t("about.meta.title")
-    const desc = document.querySelector('meta[name="description"]')
-    if (desc) desc.setAttribute("content", t("about.meta.description"))
-    return () => {
-      document.title = "МОЙ КАСТОМ — Кастомный тюнинг автомобилей: уникальные бампера, обвесы, фары на заказ"
-    }
-  }, [t])
 
   return (
     <div className="min-h-screen" style={{ background: "#080808", fontFamily: "'Inter', sans-serif" }}>

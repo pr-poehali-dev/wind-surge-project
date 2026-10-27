@@ -14,7 +14,7 @@ export function LineShadowText({
   as: Component = "span",
   ...props
 }: LineShadowTextProps) {
-  const MotionComponent = motion(Component as keyof JSX.IntrinsicElements)
+  const MotionComponent = motion.create(Component as React.ElementType<React.HTMLAttributes<HTMLElement>>)
   const content = typeof children === "string" ? children : null
 
   if (!content) {

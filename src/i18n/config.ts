@@ -72,6 +72,8 @@ i18n
       vi: { common: vi },
       ko: { common: ko },
     },
+    lng: "ru",
+    initAsync: false,
     fallbackLng: "ru",
     defaultNS: "common",
     interpolation: { escapeValue: false },
@@ -80,5 +82,18 @@ i18n
       caches: ["localStorage"],
     },
   })
+
+const instances = new Map<string, typeof i18n>()
+
+/** Экземпляр i18n под язык страницы — одинаковый на сервере и в браузере.
+ *  Кэш по коду языка детерминирован, поэтому безопасен для SSR. */
+export function getI18nFor(code: string) {
+  let inst = instances.get(code)
+  if (!inst) {
+    inst = i18n.cloneInstance({ lng: code })
+    instances.set(code, inst)
+  }
+  return inst
+}
 
 export default i18n

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react"
-import { useNavigate, useLocation } from "react-router-dom"
+import { useNavigate, useLocation } from "@/lib/router-compat"
 import { LANGUAGES } from "@/i18n/config"
 import { getLangFromPath, getBasePath, localizedPath } from "@/i18n/langRouting"
 import Icon from "@/components/ui/icon"

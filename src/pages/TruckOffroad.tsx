@@ -1,6 +1,5 @@
 import { ArrowLeft, ArrowRight } from "lucide-react"
-import { Link } from "react-router-dom"
-import { useEffect } from "react"
+import { Link } from "@/lib/router-compat"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import Icon from "@/components/ui/icon"
@@ -91,14 +90,6 @@ const WHY_US = [
 ]
 
 export default function TruckOffroad() {
-  useEffect(() => {
-    document.title = "Переоборудование грузовиков в кастомные внедорожники — под ключ | МОЙ КАСТОМ"
-    const desc = document.querySelector('meta[name="description"]')
-    if (desc) desc.setAttribute("content", "Переделываем любые грузовики в гигантские кастомные внедорожники: цельный кузов в цвет кабины, лифт подвески, огромные колёса. Полный цикл под ключ. Звоните: +7 (902) 255-77-53")
-    return () => {
-      document.title = "МОЙ КАСТОМ — Кастомный тюнинг автомобилей: уникальные бампера, обвесы, фары на заказ"
-    }
-  }, [])
 
   return (
     <div className="min-h-screen" style={{ background: "#080808", fontFamily: "'Inter', sans-serif" }}>

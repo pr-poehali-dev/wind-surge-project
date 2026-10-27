@@ -1,12 +1,8 @@
-import { Link } from "react-router-dom"
+import { Link } from "@/lib/router-compat"
 import { ArrowLeft } from "lucide-react"
-import { useEffect } from "react"
 import SiteHeader from "@/components/SiteHeader"
 
 export default function PrivacyPolicy() {
-  useEffect(() => {
-    document.title = "Политика обработки персональных данных — МОЙ КАСТОМ"
-  }, [])
 
   return (
     <div className="min-h-screen" style={{ background: "#080808", fontFamily: "'Inter', sans-serif" }}>

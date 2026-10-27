@@ -1,7 +1,6 @@
 import { useEffect, ReactNode } from "react"
-import { useTranslation } from "react-i18next"
-import { useLocation } from "react-router-dom"
-import { LANGUAGES } from "./config"
+import { I18nextProvider } from "react-i18next"
+import { LANGUAGES, getI18nFor } from "./config"
 
 const SITE_URL = "https://moicustom.ru"
 
@@ -27,49 +26,36 @@ export function getBasePath(pathname: string): string {
   return pathname || "/"
 }
 
-/** Синхронизирует i18n-язык с URL и добавляет hreflang/canonical теги в head */
+/** Мета-теги и hreflang/canonical для локализованной страницы — для head() маршрута */
+export function localizedHead(basePath: string, code: string, metaKey: "meta" | "about.meta") {
+  const t = getI18nFor(code).t
+  const title = t(`${metaKey}.title`)
+  const description = t(`${metaKey}.description`)
+  return {
+    meta: [
+      { title },
+      { name: "description", content: description },
+    ],
+    links: [
+      ...LANGUAGES.map((l) => ({
+        rel: "alternate",
+        hrefLang: l.code,
+        href: `${SITE_URL}${localizedPath(basePath, l.code)}`,
+      })),
+      { rel: "alternate", hrefLang: "x-default", href: `${SITE_URL}${basePath}` },
+      { rel: "canonical", href: `${SITE_URL}${localizedPath(basePath, code)}` },
+    ],
+  }
+}
+
+/** Синхронизирует язык документа с URL */
 export function useLocalizedRoute(code: string) {
-  const { i18n } = useTranslation()
-  const location = useLocation()
-  const basePath = getBasePath(location.pathname)
-
   useEffect(() => {
-    if (i18n.language !== code) i18n.changeLanguage(code)
     document.documentElement.lang = code
-  }, [code, i18n])
-
-  useEffect(() => {
-    const created: HTMLLinkElement[] = []
-
-    LANGUAGES.forEach((l) => {
-      const link = document.createElement("link")
-      link.rel = "alternate"
-      link.hreflang = l.code
-      link.href = `${SITE_URL}${localizedPath(basePath, l.code)}`
-      document.head.appendChild(link)
-      created.push(link)
-    })
-
-    const xDefault = document.createElement("link")
-    xDefault.rel = "alternate"
-    xDefault.hreflang = "x-default"
-    xDefault.href = `${SITE_URL}${basePath}`
-    document.head.appendChild(xDefault)
-    created.push(xDefault)
-
-    const canonical = document.createElement("link")
-    canonical.rel = "canonical"
-    canonical.href = `${SITE_URL}${localizedPath(basePath, code)}`
-    document.head.appendChild(canonical)
-    created.push(canonical)
-
-    return () => {
-      created.forEach((l) => l.remove())
-    }
-  }, [basePath, code])
+  }, [code])
 }
 
 export function LocalizedPage({ code, children }: { code: string; children: ReactNode }) {
   useLocalizedRoute(code)
-  return <>{children}</>
+  return <I18nextProvider i18n={getI18nFor(code)}>{children}</I18nextProvider>
 }

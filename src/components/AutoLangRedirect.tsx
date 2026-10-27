@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useNavigate, useLocation } from "react-router-dom"
+import { useNavigate, useLocation } from "@/lib/router-compat"
 import { LANGUAGES } from "@/i18n/config"
 import { detectLangByIp } from "@/i18n/detectCountry"
 import { localizedPath, getLangFromPath } from "@/i18n/langRouting"
