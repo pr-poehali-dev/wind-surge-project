@@ -18,8 +18,8 @@ const DESCRIPTION =
 const OG_TITLE = "МОЙ КАСТОМ — Кастомный тюнинг: уникальные бампера и обвесы на заказ";
 const OG_DESCRIPTION =
     "Эксклюзивные кастомные бампера, капоты и обвесы в виде морд животных. Линейка «Голод». Каждое изделие — в единственном экземпляре.";
-const OG_IMAGE = "https://cdn.poehali.dev/projects/***/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png";
-const FAVICON = "https://cdn.poehali.dev/projects/***/files/d01ccc81-6447-4706-bd2f-7dcd0e006fcc.jpg";
+const OG_IMAGE = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/bucket/1b2659b9-995d-4c2f-bec2-f7aecfdbbc77.png";
+const FAVICON = "https://cdn.poehali.dev/projects/a7a9b322-91c5-4a07-a1ed-edf5a69cbdde/files/d01ccc81-6447-4706-bd2f-7dcd0e006fcc.jpg";
 
 const queryClient = new QueryClient();
 
